@@ -2,8 +2,8 @@ Done
 1. added the competion
 2. added the scoring program
 3. added a practice folder that shows how the files are organized
-
+4. wrote a makefile
 Next:
 1.adapt the evaluation script to adapt the metrics and also compute an overall score
-2. write a makefile
+
 
