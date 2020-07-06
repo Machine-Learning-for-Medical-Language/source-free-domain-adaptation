@@ -1,0 +1,71 @@
+title: SemEval 2021 - Source-Free Domain Adaptation for Semantic Processing
+description: Given a trained model, distill and transfer the knowledge to a new domain.
+image: logo.png
+has_registration: True
+html:
+    overview: overview.html
+    evaluation: evaluation.html
+    terms: terms_and_conditions.html
+    data: data.html
+phases:
+    1:
+        phasenumber: 1
+        color: orange
+        label: "Practice"
+        start_date: 2020-06-09
+        max_submissions: 999
+        scoring_program: scoring_program.zip
+        reference_data: practice_data.zip
+    2:
+        phasenumber: 2
+        color: green
+        label: "Evaluation"
+        start_date: 2021-01-10
+        max_submissions: 2
+        scoring_program: scoring_program.zip
+        reference_data: evaluation_data.zip
+    3:
+        phasenumber: 3
+        color: blue
+        label: "Post-Evaluation"
+        start_date: 2021-01-31
+        max_submissions: 999
+        scoring_program: scoring_program.zip
+        reference_data: post_evaluation_data.zip
+
+leaderboard:
+    leaderboards:
+        RESULTS1: &NEG
+            label: Negation Detection
+            rank: 1
+        RESULTS2: &TEMP
+            label: Temporal Expression
+            rank: 2
+    columns:
+        neg_prec:
+            leaderboard: *NEG
+            label: Precision
+            numeric_format: 3
+        neg_recall:
+            leaderboard: *NEG
+            label: Recall
+            numeric_format: 3
+        neg_f1:
+            leaderboard: *NEG
+            label: F1
+            numeric_format: 3
+        time_prec:
+            leaderboard: *TEMP
+            label: Precision
+            numeric_format: 3
+        time_recall:
+            leaderboard: *TEMP
+            label: Recall
+            numeric_format: 3
+        time_f1:
+            leaderboard: *TEMP
+            label: F1
+            numeric_format: 3
+
+
+
