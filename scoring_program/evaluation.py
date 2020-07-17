@@ -121,11 +121,14 @@ def read_tsv(file):
             output.append(int(record))
     return output
 
-def main(argv):
+
+if __name__ == "__main__":
+    _, input_dir, output_dir = sys.argv
+
     # set out the path
-    ref = os.path.join(sys.argv[1],"ref")
-    res = os.path.join(sys.argv[1],"res")
-    output = os.path.join(sys.argv[2],"scores.txt")
+    ref = os.path.join(input_dir, "ref")
+    res = os.path.join(input_dir, "res")
+    output = os.path.join(output_dir, "scores.txt")
 
     # file system and checking
     ref_struct = dir_struct(ref)
@@ -146,9 +149,3 @@ def main(argv):
     output_file=open(output,"w")
     write_metrics(metrics,output_file)
     output_file.close()
-
-
-if __name__ == "__main__":
-    main(sys.argv[1:]) 
-
-
