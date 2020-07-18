@@ -1,3 +1,5 @@
+import difflib
+import glob
 import sys
 import os
 import fnmatch
@@ -5,73 +7,19 @@ import collections
 from sklearn.metrics import f1_score,precision_score,recall_score
 from anafora import evaluate, timeml
 
-def dir_struct(path):
-    struct = dict()
-    for root, dirs, files in os.walk(path):
-        root = root.replace(path,'').split('/')[-1]
-        struct[root] = list()
-        if len(dirs) > 0:
-            struct[root].extend(dirs)
-        if len(files) > 0:
-            struct[root].extend(files)    
-    return struct
 
-def check_task(sub_struct, ref_struct):
-    participated_tasks = []
-    #path_struct = dir_struct(path)
-    
-    # check whether the dire contain at least one sub task
-    for task in sub_struct['']:
-        if task in ref_struct['']:
-            participated_tasks.append(task)
-    if not participated_tasks:
-        sys.exit('Error: not task submission was found in the submission, please include ({})'.format(','.join(ref_struct[''])))
-        #if task not in struct['']: sys.exit("Error: Wrong domain directory %s" % domain)
+def path_lines(root, subdir, pattern, replace=None):
+    result = []
+    prefix = os.path.join(root, subdir)
+    for name in glob.glob(os.path.join(prefix, pattern), recursive=True):
+        if os.path.isfile(name):
+            name = name[len(prefix) + 1:]
+            if replace is not None:
+                for old, new in replace.items():
+                    name = name.replace(old, new)
+            result.append(name + '\n')
+    return result
 
-    return participated_tasks
-
-def check_dir(sub_struct,ref_struct,task):
-    datasets_ref = ref_struct[task]
-    datasets_sub = sub_struct[task]
-    
-    if task == 'time':
-        # check whether the two datasets are there
-        if not (set(datasets_sub) == set(datasets_ref)):
-            sys.exit('Error: expected two datasets ({}) but found ({})'.format(','.join(datasets_ref), ','.join(datasets_sub)))
-
-        # check whether all the subdirs in each dataset and all the files within each subdir
-        for dataset in datasets_ref:
-        
-            dirs_ref = ref_struct[dataset]
-            dirs_sub = sub_struct[dataset]
-        
-            for folder in dirs_ref:
-                if folder not in dirs_sub:
-                    sys.exit('Error: the subdirectory ({}) is missing in dataset ({}) in task ({}) in the submission'.format(folder,dataset,task))
-                else:
-                    expected_sub_file = ref_struct[folder][0].replace('gold','system')
-                    if expected_sub_file not in sub_struct[folder]:
-                        sys.exit('Error: the file ({}) is missing in the folder ({}) in the dataset({}) in the task ({}) in the submission'.format(expected_sub_file,folder,dataset,task))
-        
-            # if the above sucessfully implemented it means that all the ref are there
-            if len(dirs_sub) != len(dirs_ref):
-                unexpected = list(set(dirs_sub) - set(dirs_ref))
-                sys.exit('Error: unexpected subdirectory(ies): {} in the dataset({}) in task ({})'.format(','.join(unexpected),dataset,task))
-    
-    if task == 'negation':
-        expected_files = []
-        for dataset in datasets_ref:
-            expected =  dataset.replace('gold','system')
-            expected_files.append(expected)
-            if expected not in datasets_sub:
-                sys.exit('Error, the file({}) is missing in the task({})'.format(expected,task))
-
-        # if the above sucessfully implemented it means that all the ref are there
-            if len(expected_files) != len(datasets_sub):
-                unexpected = list(set(expected_files) - set(datasets_sub))
-                sys.exit('Error: unexpected subdirectory(ies): {} in task ({})'.format(','.join(unexpected),task))
-    
-    return True
 
 def score_time(ref_domain, res_domain, results):
     scores_type=evaluate.Scores
@@ -125,27 +73,39 @@ def read_tsv(file):
 if __name__ == "__main__":
     _, input_dir, output_dir = sys.argv
 
-    # set out the path
-    ref = os.path.join(input_dir, "ref")
-    res = os.path.join(input_dir, "res")
-    output = os.path.join(output_dir, "scores.txt")
+    # check which tasks have been submitted
+    has_time = os.path.exists(os.path.join(input_dir, 'res', 'time'))
+    has_negation = os.path.exists(os.path.join(input_dir, 'res', 'negation'))
+    to_system = {'gold': 'system'}
 
-    # file system and checking
-    ref_struct = dir_struct(ref)
-    res_struct = dir_struct(res)
-    tasks = check_task(res_struct,ref_struct)
-    for task in tasks: check_dir(res_struct,ref_struct,task)
+    # exit with an error if any of the expected files were not submitted
+    if has_time == has_negation:  # has both or has neither
+        expected = path_lines(input_dir, 'ref', "**", to_system)
+        uploaded = path_lines(input_dir, 'res', "**")
+    elif has_time:
+        expected = path_lines(input_dir, 'ref', "time/**", to_system)
+        uploaded = path_lines(input_dir, 'res', "time/**")
+    else:  # has_negation
+        expected = path_lines(input_dir, 'ref', "negation/**", to_system)
+        uploaded = path_lines(input_dir, 'res', "negation/**")
+    diff = list(difflib.unified_diff(a=expected, b=uploaded, n=0,
+                                     fromfile="expected", tofile="uploaded"))
+    if diff:
+        sys.stderr.write("Incorrect files:\n")
+        sys.stderr.writelines(diff)
+        sys.exit(1)
 
     # scoring
     metrics = init_metrics()
-    if 'time' in tasks:
-        ref_domain = os.path.join(ref,'time')
-        res_domain = os.path.join(res,'time')
+    if has_time:
+        ref_domain = os.path.join(input_dir, 'ref', 'time')
+        res_domain = os.path.join(input_dir, 'res', 'time')
         score_time(ref_domain, res_domain, metrics)
-    if 'negation' in tasks:
-        ref_domain = os.path.join(ref,'negation/gold.tsv')
-        res_domain = os.path.join(res,'negation/system.tsv')
+    if has_negation:
+        ref_domain = os.path.join(input_dir, 'ref', 'negation/gold.tsv')
+        res_domain = os.path.join(input_dir, 'res', 'negation/system.tsv')
         score_negation(ref_domain, res_domain, metrics)
-    output_file=open(output,"w")
-    write_metrics(metrics,output_file)
-    output_file.close()
+
+    # write scores file
+    with open(os.path.join(output_dir, "scores.txt"), "w") as output_file:
+        write_metrics(metrics, output_file)
