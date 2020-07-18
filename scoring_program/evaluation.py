@@ -35,16 +35,16 @@ def score_time(ref_domain, res_domain, results):
             all_named_scores[name].update(scores)
 
     results['time_f1']= all_named_scores["*"].f1()
-    results['time_prec'] = all_named_scores["*"].precision()
+    results['time_precision'] = all_named_scores["*"].precision()
     results['time_recall'] = all_named_scores["*"].recall()
 
 def score_negation(ref_domain,res_domain,results):
     ref = read_tsv(ref_domain)
     res = read_tsv(res_domain)
     assert len(ref) == len(res)
-    results['neg_f1']=  f1_score(ref,res,average='micro')
-    results['neg_prec'] = precision_score(ref,res,average='micro')
-    results['neg_recall'] = recall_score(ref,res,average='micro')
+    results['negation_f1']=  f1_score(ref,res,average='micro')
+    results['negation_precision'] = precision_score(ref,res,average='micro')
+    results['negation_recall'] = recall_score(ref,res,average='micro')
 
 
 def read_tsv(file):
@@ -66,13 +66,11 @@ if __name__ == "__main__":
     # exit with an error if any of the expected files were not submitted
     if has_time == has_negation:  # has both or has neither
         expected = path_lines(input_dir, 'ref', "**", to_system)
-        uploaded = path_lines(input_dir, 'res', "**")
     elif has_time:
         expected = path_lines(input_dir, 'ref', "time/**", to_system)
-        uploaded = path_lines(input_dir, 'res', "time/**")
     else:  # has_negation
         expected = path_lines(input_dir, 'ref', "negation/**", to_system)
-        uploaded = path_lines(input_dir, 'res', "negation/**")
+    uploaded = path_lines(input_dir, 'res', "**")
     diff = list(difflib.unified_diff(a=expected, b=uploaded, n=0,
                                      fromfile="expected", tofile="uploaded"))
     if diff:
@@ -81,9 +79,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # scoring
-    metrics = {f"{task}_{score}": -999.999
-               for task in ['neg', 'time']
-               for score in ['prec', 'recall', 'f1']}
+    metrics = {}
     if has_time:
         ref_domain = os.path.join(input_dir, 'ref', 'time')
         res_domain = os.path.join(input_dir, 'res', 'time')
