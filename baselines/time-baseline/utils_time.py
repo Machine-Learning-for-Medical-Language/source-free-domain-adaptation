@@ -64,7 +64,7 @@ def create_datasets(model, nlp, dataset_path, train=False):
                 raise Exception("Wrong number of anafora files in %s" % anafora_subdir_path)
             text_file_path = os.path.join(dataset_path, text_subdir_path, text_file_names[0])
             anafora_file_path = os.path.join(anafora_path, anafora_subdir_path, anafora_file_names[0])
-            doc_features = from_doc_to_features(model, nlp, text_file_path, anafora_path=anafora_file_path, train=True)
+            doc_features = from_doc_to_features(model, nlp, text_file_path, anafora_file_path, train=True)
             features.extend(doc_features)
     else:
         for text_files in text_directory_files:
@@ -79,20 +79,20 @@ def create_datasets(model, nlp, dataset_path, train=False):
     return TimeDataset(features, doc_indices)
 
 
-def bio_annotation(model, annotation, previous_label_id):
+def bio_annotation(model, annotation, prefix):
     if not model.bio_mode:
         return model.labels.index(annotation)
-    if previous_label_id <= 0:
-        annotation = "B-" + annotation
-        return model.labels.index(annotation)
     else:
-        previous_label = model.labels[previous_label_id]
-        if previous_label == "B-" + annotation or previous_label == "I-" + annotation:
-            annotation = "I-" + annotation
-            return model.labels.index(annotation)
-        else:
-            annotation = "B-" + annotation
-            return model.labels.index(annotation)
+        return model.labels.index(prefix + annotation)
+
+
+def inner_subword(input_data, sent_idx, token_idx):
+    if token_idx <= 0:
+        return False
+    else:
+        previous_word = input_data.token_to_word(sent_idx, token_idx - 1)
+        current_word = input_data.token_to_word(sent_idx, token_idx)
+        return previous_word == current_word
 
 
 def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
@@ -114,7 +114,7 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
     input_data = model.tokenizer(input_raw, return_tensors="pt", padding="max_length",
                                  truncation="longest_first", return_offsets_mapping=True)
     if train:
-        input_data["labels"] = (~input_data["attention_mask"].byte()).div(255).long().mul(model.label_pad_id)
+        input_data["labels"] = (~input_data["attention_mask"].byte()).true_divide(255).long().mul(model.label_pad_id)
         # Assign label_pad to </s> token
         sent_indices = torch.arange(input_data["labels"].shape[0])
         last_non_padded = [sent_indices, input_data["labels"].argmax(dim=1)]
@@ -133,16 +133,15 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
 
         prev_offset = 0
         start_open = None
-        tokens = model.tokenizer.convert_ids_to_tokens(input_ids)
-        for token_idx, token in enumerate(tokens):
-            offset = offset_mapping[token_idx]
+        for token_idx, offset in enumerate(offset_mapping):
             start, end = offset.numpy()
             if start == 0 and end == 0:
                 continue
             prev_offset = end
-            start = start + sent_offset
-            end = end + sent_offset
-            offset_mapping[token_idx] = torch.LongTensor([start, end])
+            start += sent_offset
+            end += sent_offset
+            offset_mapping[token_idx][0] = start
+            offset_mapping[token_idx][1] = end
             if train:
                 # The annotation my have trailing spaces. Check if the current token is included in the span.
                 if start_open is not None and annotations[start_open][0] <= start:
@@ -150,17 +149,17 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
                 # If nothing goes wrong, add the token to the opened annotation or open a new one
                 if start_open is not None and start in annotations:
                     raise Exception("Offsets don't match in %s (%s, %s)" % (text_path, start, end))
-                elif start_open is not None:
+                elif start_open is not None and inner_subword(input_data, sent_idx, token_idx):
                     labels[token_idx] = model.label_pad_id
+                elif start_open is not None:
+                    labels[token_idx] = bio_annotation(model, annotations[start_open][1], "I-")
                 elif start in annotations:
-                    previous_label = labels[token_idx - 1] if token_idx > 0 else model.label_pad_id
-                    labels[token_idx] = bio_annotation(model, annotations[start][1], previous_label)
+                    labels[token_idx] = bio_annotation(model, annotations[start][1], "B-")
                     start_open = start
                 # Check if the annotation ends in this token and close it
                 if start_open is not None and end == annotations[start_open][0]:
                     start_open = None
         sent_offset += prev_offset
-
         features.append(
             TimeInputFeatures(
                 input_ids,
@@ -176,7 +175,6 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
 def write_predictions(model, dataset, out_path):
     for doc_index in dataset.doc_indices:
         doc_name, doc_start, doc_end = doc_index
-        doc_name = "ID001_clinic_001"
         doc_predictions = dataset.prediction[doc_start:doc_end]
         doc_features = dataset.features[doc_start:doc_end]
         data = anafora.AnaforaData()
