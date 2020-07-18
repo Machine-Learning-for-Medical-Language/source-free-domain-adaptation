@@ -2,6 +2,7 @@ title: SemEval 2021 - Source-Free Domain Adaptation for Semantic Processing
 description: Given a trained model, distill and transfer the knowledge to a new domain.
 image: logo.png
 has_registration: True
+competition_docker_image: "codalab/codalab-legacy:py37"
 html:
     overview: overview.html
     evaluation: evaluation.html
