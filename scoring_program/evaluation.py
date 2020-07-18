@@ -81,9 +81,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # scoring
-    metrics = {f"{task}_{score}": -999.999
-               for task in ['negation', 'time']
-               for score in ['precision', 'recall', 'f1']}
+    metrics = {}
     if has_time:
         ref_domain = os.path.join(input_dir, 'ref', 'time')
         res_domain = os.path.join(input_dir, 'res', 'time')
