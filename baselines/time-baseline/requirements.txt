@@ -1,0 +1,6 @@
+numpy==1.17.0
+sklearn==0.0
+spacy==2.3.2
+torch==1.5.1
+transformers==3.0.2
+git+git://github.com/bethard/anaforatools@62d5c8535835e04e065dfabe8ef0c9255b0cc48b
