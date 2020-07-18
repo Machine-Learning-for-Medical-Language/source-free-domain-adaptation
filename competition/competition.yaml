@@ -40,22 +40,22 @@ leaderboard:
             label: Negation Detection
             rank: 1
         RESULTS2: &TEMP
-            label: Temporal Expression
+            label: Time Expression
             rank: 2
     columns:
-        neg_prec:
+        negation_precision:
             leaderboard: *NEG
             label: Precision
             numeric_format: 3
-        neg_recall:
+        negation_recall:
             leaderboard: *NEG
             label: Recall
             numeric_format: 3
-        neg_f1:
+        negation_f1:
             leaderboard: *NEG
             label: F1
             numeric_format: 3
-        time_prec:
+        time_precision:
             leaderboard: *TEMP
             label: Precision
             numeric_format: 3

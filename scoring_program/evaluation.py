@@ -35,16 +35,16 @@ def score_time(ref_domain, res_domain, results):
             all_named_scores[name].update(scores)
 
     results['time_f1']= all_named_scores["*"].f1()
-    results['time_prec'] = all_named_scores["*"].precision()
+    results['time_precision'] = all_named_scores["*"].precision()
     results['time_recall'] = all_named_scores["*"].recall()
 
 def score_negation(ref_domain,res_domain,results):
     ref = read_tsv(ref_domain)
     res = read_tsv(res_domain)
     assert len(ref) == len(res)
-    results['neg_f1']=  f1_score(ref,res,average='micro')
-    results['neg_prec'] = precision_score(ref,res,average='micro')
-    results['neg_recall'] = recall_score(ref,res,average='micro')
+    results['negation_f1']=  f1_score(ref,res,average='micro')
+    results['negation_precision'] = precision_score(ref,res,average='micro')
+    results['negation_recall'] = recall_score(ref,res,average='micro')
 
 
 def read_tsv(file):
@@ -82,8 +82,8 @@ if __name__ == "__main__":
 
     # scoring
     metrics = {f"{task}_{score}": -999.999
-               for task in ['neg', 'time']
-               for score in ['prec', 'recall', 'f1']}
+               for task in ['negation', 'time']
+               for score in ['precision', 'recall', 'f1']}
     if has_time:
         ref_domain = os.path.join(input_dir, 'ref', 'time')
         res_domain = os.path.join(input_dir, 'res', 'time')
