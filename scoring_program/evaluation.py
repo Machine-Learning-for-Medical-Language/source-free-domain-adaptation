@@ -46,21 +46,6 @@ def score_negation(ref_domain,res_domain,results):
     results['neg_prec'] = precision_score(ref,res,average='micro')
     results['neg_recall'] = recall_score(ref,res,average='micro')
 
-def init_metrics():
-    """ initiliazes a dictionary with all the metrics """
-    metrics={}
-    metrics['neg_prec']=-999.999
-    metrics['neg_recall']=-999.999
-    metrics['neg_f1']=-999.999
-    metrics['time_prec']=-999.999
-    metrics['time_recall']=-999.999
-    metrics['time_f1']=-999.999
-    return metrics
-
-def write_metrics(metrics,output_file):
-    """ writes output for Codalab """
-    for keys in metrics.iterkeys():
-        output_file.write(keys+":{0}\n".format(metrics[keys]))
 
 def read_tsv(file):
     output = []
@@ -96,7 +81,9 @@ if __name__ == "__main__":
         sys.exit(1)
 
     # scoring
-    metrics = init_metrics()
+    metrics = {f"{task}_{score}": -999.999
+               for task in ['neg', 'time']
+               for score in ['prec', 'recall', 'f1']}
     if has_time:
         ref_domain = os.path.join(input_dir, 'ref', 'time')
         res_domain = os.path.join(input_dir, 'res', 'time')
@@ -108,4 +95,5 @@ if __name__ == "__main__":
 
     # write scores file
     with open(os.path.join(output_dir, "scores.txt"), "w") as output_file:
-        write_metrics(metrics, output_file)
+        for key, value in metrics.items():
+            output_file.write(f"{key}:{value}\n")
