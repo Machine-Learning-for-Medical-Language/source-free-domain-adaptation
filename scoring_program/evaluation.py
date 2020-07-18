@@ -66,13 +66,11 @@ if __name__ == "__main__":
     # exit with an error if any of the expected files were not submitted
     if has_time == has_negation:  # has both or has neither
         expected = path_lines(input_dir, 'ref', "**", to_system)
-        uploaded = path_lines(input_dir, 'res', "**")
     elif has_time:
         expected = path_lines(input_dir, 'ref', "time/**", to_system)
-        uploaded = path_lines(input_dir, 'res', "time/**")
     else:  # has_negation
         expected = path_lines(input_dir, 'ref', "negation/**", to_system)
-        uploaded = path_lines(input_dir, 'res', "negation/**")
+    uploaded = path_lines(input_dir, 'res', "**")
     diff = list(difflib.unified_diff(a=expected, b=uploaded, n=0,
                                      fromfile="expected", tofile="uploaded"))
     if diff:
