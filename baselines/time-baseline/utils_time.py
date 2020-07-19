@@ -1,5 +1,7 @@
 import os
+from collections import defaultdict
 import anafora
+from anafora import evaluate
 import numpy as np
 import torch
 from torch.utils.data import Dataset
@@ -51,6 +53,7 @@ def create_datasets(model, nlp, dataset_path, train=False):
     doc_indices = []
     if train:
         for text_files in text_directory_files:
+            doc_index = len(features)
             text_subdir_path, text_doc_name, text_file_names = text_files
             if len(text_file_names) != 1:
                 raise Exception("Wrong number of text files in %s" % text_subdir_path)
@@ -66,6 +69,7 @@ def create_datasets(model, nlp, dataset_path, train=False):
             anafora_file_path = os.path.join(anafora_path, anafora_subdir_path, anafora_file_names[0])
             doc_features = from_doc_to_features(model, nlp, text_file_path, anafora_file_path, train=True)
             features.extend(doc_features)
+            doc_indices.append((text_doc_name, doc_index, len(features)))
     else:
         for text_files in text_directory_files:
             doc_index = len(features)
@@ -114,7 +118,8 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
     input_data = model.tokenizer(input_raw, return_tensors="pt", padding="max_length",
                                  truncation="longest_first", return_offsets_mapping=True)
     if train:
-        input_data["labels"] = (~input_data["attention_mask"].byte()).true_divide(255).long().mul(model.label_pad_id)
+        negative_attention_mask = (~input_data["attention_mask"].byte()).true_divide(255).long()
+        input_data["labels"] = negative_attention_mask.mul(model.label_pad_id)
         # Assign label_pad to </s> token
         sent_indices = torch.arange(input_data["labels"].shape[0])
         last_non_padded = [sent_indices, input_data["labels"].argmax(dim=1)]
@@ -172,32 +177,57 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
     return features
 
 
+def to_anafora(model, labels, features, doc_name="dummy"):
+    data = anafora.AnaforaData()
+    for sent_labels, sent_features in zip(labels, features):
+        special_mask = model.tokenizer.get_special_tokens_mask(sent_features.input_ids,
+                                                               already_has_special_tokens=True)
+        non_specials = np.count_nonzero(np.array(special_mask) == 0)
+        sent_labels = sent_labels[1: non_specials + 1]  # skip <s> and </s>
+        label_shifts = np.flatnonzero(np.diff(sent_labels)) + 1
+        # Padding labels will be equalize to the previous label.
+        # This is used with reference labels.
+        non_padded_shifts = sent_labels[label_shifts] != -100
+        label_shifts = label_shifts[non_padded_shifts]
+        label_shifts = np.insert(label_shifts, 0, 0)
+        label_shifts = np.append(label_shifts, non_specials)
+        for i in range(label_shifts.size - 1):
+            label_start = label_shifts[i]
+            label_end = label_shifts[i + 1]
+            label_id = sent_labels[label_start]
+            if label_id != 0:
+                anafora.AnaforaEntity()
+                entity = anafora.AnaforaEntity()
+                num_entities = len(data.xml.findall("annotations/entity"))
+                entity.id = "%s@%s" % (num_entities, doc_name)
+                entity.spans = ((label_start, label_end),)
+                entity.type = model.labels[label_id].replace("B-", "")
+                data.annotations.append(entity)
+    return data
+
+
+def score_predictions(model, dataset, prediction):
+    scores_type = evaluate.Scores
+    all_scores = defaultdict(lambda: scores_type())
+    for doc_index in dataset.doc_indices:
+        doc_name, doc_start, doc_end = doc_index
+        doc_features = dataset.features[doc_start:doc_end]
+        doc_labels = prediction.label_ids[doc_start:doc_end]
+        doc_predictions = prediction.predictions.argmax(-1)
+        reference_data = to_anafora(model, doc_labels, doc_features)
+        predicted_data = to_anafora(model, doc_predictions, doc_features)
+        doc_scores = evaluate.score_data(reference_data, predicted_data)
+        for name, scores in doc_scores.items():
+            all_scores[name].update(scores)
+    return all_scores["*"]
+
+
 def write_predictions(model, dataset, out_path):
     for doc_index in dataset.doc_indices:
         doc_name, doc_start, doc_end = doc_index
         doc_predictions = dataset.prediction[doc_start:doc_end]
         doc_features = dataset.features[doc_start:doc_end]
-        data = anafora.AnaforaData()
-        for sent_predictions, sent_features in zip(doc_predictions, doc_features):
-            pad_indices = (sent_features.input_ids == model.tokenizer.pad_token_id).nonzero().numpy()
-            first_pad_index = next(iter(pad_indices), sent_predictions.size)
-            top_index = min(sent_predictions.size, first_pad_index)
-            label_shifts = np.flatnonzero(np.diff(sent_predictions)) + 1
-            label_shifts = label_shifts[np.nonzero(label_shifts < top_index)]
-            label_shifts = np.insert(label_shifts, 0, 0)
-            label_shifts = np.append(label_shifts, top_index)
-            for i in range(label_shifts.size - 1):
-                label_start = label_shifts[i]
-                labal_end = label_shifts[i + 1]
-                label_id = sent_predictions[label_start]
-                if label_id != 0:
-                    anafora.AnaforaEntity()
-                    entity = anafora.AnaforaEntity()
-                    num_entities = len(data.xml.findall("annotations/entity"))
-                    entity.id = "%s@%s" % (num_entities, doc_name)
-                    entity.spans = ((label_start, labal_end),)
-                    entity.type = model.labels[label_id].replace("B-", "")
-                    data.annotations.append(entity)
+        data = to_anafora(model, doc_predictions, doc_features, doc_name)
         doc_path = os.path.join(out_path, doc_name)
         os.makedirs(doc_path, exist_ok=True)
         doc_path = os.path.join(doc_path, "%s.TimeNorm.system.xml" % doc_name)

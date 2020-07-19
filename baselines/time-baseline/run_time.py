@@ -9,9 +9,8 @@ from transformers import (
     TrainingArguments,
     Trainer
 )
-from sklearn.metrics import precision_recall_fscore_support
 
-from utils_time import read_labels, init_nlp_pipeline, create_datasets, write_predictions
+from utils_time import *
 
 
 class Model:
@@ -69,15 +68,15 @@ class Model:
         return batch
 
     @staticmethod
-    def compute_metrics(prediction):
-        labels = prediction.label_ids.flatten()
-        predictions = prediction.predictions.argmax(-1).flatten()
-        precision, recall, f1, _ = precision_recall_fscore_support(labels, predictions, average="micro")
-        return {
-            "precision": precision,
-            "recall": recall,
-            "f1": f1,
-        }
+    def compute_metrics(dataset):
+        def anafora_evaluation(prediction):
+            scores = score_predictions(model, dataset, prediction)
+            return {
+                "precision": scores.precision(),
+                "recall": scores.recall(),
+                "f1": scores.f1()
+            }
+        return anafora_evaluation
 
     def train(self, train_dataset, eval_dataset=None):
         trainer = Trainer(
@@ -85,7 +84,7 @@ class Model:
             args=self.args,
             train_dataset=train_dataset,
             eval_dataset=eval_dataset,
-            compute_metrics=self.compute_metrics,
+            compute_metrics=self.compute_metrics(eval_dataset),
             data_collator=self.train_data_collator
         )
         trainer.train()
