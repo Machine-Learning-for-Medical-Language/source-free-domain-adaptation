@@ -22,6 +22,7 @@ class Model:
         config.num_labels = len(self.labels)
         config.id2label = dict((idx, label) for idx, label in enumerate(self.labels))
         config.label2id = dict((label, idx) for idx, label in enumerate(self.labels))
+        self.pad_labels = not args.keep_all
         self.label_pad_id = torch.nn.CrossEntropyLoss().ignore_index
         self.tokenizer = AutoTokenizer.from_pretrained("roberta-base", config=config,
                                                        vocab_file="resources/roberta-base-vocab-modified.json",
@@ -122,6 +123,8 @@ if __name__ == "__main__":
                         help="Name or path ot a trained model.")
     parser.add_argument("-i", "--io", dest="io_mode", action="store_true",
                         help="Use IO labelling instead of BIO.")
+    parser.add_argument("-k", "--keep", dest="keep_all", action="store_true",
+                        help="Not use ignore index, all outputs contribute to the loss.")
 
     hyper = parser.add_argument_group("hyper_parameters")
     hyper.add_argument("--no_cuda", action="store_true", help=" ")

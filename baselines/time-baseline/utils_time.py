@@ -154,7 +154,7 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
                 # If nothing goes wrong, add the token to the opened annotation or open a new one
                 if start_open is not None and start in annotations:
                     raise Exception("Offsets don't match in %s (%s, %s)" % (text_path, start, end))
-                elif start_open is not None and inner_subword(input_data, sent_idx, token_idx):
+                elif start_open is not None and model.pad_labels and inner_subword(input_data, sent_idx, token_idx):
                     labels[token_idx] = model.label_pad_id
                 elif start_open is not None:
                     labels[token_idx] = bio_annotation(model, annotations[start_open][1], "I-")
