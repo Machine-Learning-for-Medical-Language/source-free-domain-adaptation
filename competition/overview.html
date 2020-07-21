@@ -1,30 +1,30 @@
-<h1 style="color:grey"> Overview</h1>
-<p>Data sharing restrictions are common in NLP datasets, particularly in the clinical domain.
-   Here, we propose a new shared task framework that asks participants to develop semantic annotation systems in face of data sharing constraints.
-</p>
-<p style="font-size: 20; color: black">1. Goal of this SemEval Task:</p>
-<p>To develop a system for a target domain when annotations exist for a related domain but cannot be distributed:
-<li>Participants will be given a model trained on the annotations of one domain.</li>
-<li>Then, participants will be asked to make predictions of unlabeled target domain data</li>
-
-We propose two different semantic tasks to which this framework will be applied: negation detection and time expression recognition.
-</p>
-
-<p style="font-size: 20; color: black">2. Subtask Explanation and Datasets :</p>
-<p style="font-size: 18; color: blue">2.1 Negation Detection</p>
-<p><b>EXAMPLE</b>: The sentence <i>'Has no diarrhea and no new lumps or masses'</i> has two negation words (both <i>no</i>) and all three entities <i>(diarrhea, lumps, masses)</i> are negated. Participants were expected to treat it as "span-in-context" classification problem. The following example is a typical transformer-based encoding of this problem for the <i>diarrhea</i> event and the corresponding label is negated.</p>
-<p style="background-color:Linen"> INPUT SENTENCE: Has no &lte&gt diarrhea &lt/e&gt and no new lumps or masses</p>
-<p><b>DATASET:</b>
-<li>1. Pre-trained model:  Participants will be provided with a "span-in-context" classification models (XXX) trained on the 10259 instances (902 negated) clinical notes from Mayo Clinic.</li>
-<li>2. Development Data for Practice Phase: i2b2 2010 Challenge Dataset containing 7038 entites. We simplify the classification label space to {negated, notnegated}.</li>
-<li>3. Test Data for Evaluation Phase: Participants will be provided with raw text drawn from MIMIC corpus with entities of interest identified and asked to predict negation status of each entity</li>
-</p>
-
-<p style="font-size: 18; color: blue">2.2 Time Expressions</p>
-<p><b>EXAMPLE</b></p>
-<img src="time_expression.png" alt="Trulli" width="350" height="150">
-<p><b>DATASET:</b>
-<li>1. Pre-trained model:  Participants will be provided with a sequence tagging model (character-based FLAIR) trained on the 25,000+ time expressions in clinical portion of the SemEval 2018 Task 6.</li>
-<li>2. Development Data for Practice Phase: the annotated news portion of the SemEval 2018 Task 6.</li>
-<li>3. Test Data for Evaluation Phase: Participants will be provided with raw text drawn from MIMIC corpus and asked to predict time expression</li>
-</p>
+<h1 style="color: grey;">Overview</h1>
+<h2>Welcome</h2>
+<p>This is the CodaLab Competition for SemEval-2021 Task 10: Source-Free Domain Adaptation for Semantic Processing.</p>
+<p><span>Please join our <a href="https://groups.google.com/forum/#!forum/source-free-domain-adaptation-participants/" target="_blank">Google Group</a>&nbsp;to ask questions and get the most up-to-date information on the task.</span></p>
+<table style="background-color: #eaeaea; height: 170px; width: 300px;" border="0" align="center">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>
+<p><strong>Important Dates:</strong></p>
+<p style="padding-left: 30px;"><strong>31 Jul 2020</strong><span>: Trial data release</span><br /><strong>4 Sep 2020</strong><span>: Training data release</span><br /><strong>3 Dec 2020</strong><span>: &nbsp; Test data release </span><br /><strong>10 Jan 2021</strong><span>: Evaluation start</span><span><br /><strong>31 Jan 2021</strong><span>: Evaluation end</span></span></p>
+</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h2>Summary</h2>
+<p>Data sharing restrictions are common in NLP datasets. For example, Twitter policies do not allow sharing of tweet text, though tweet IDs may be shared. The situtation is even more common in clinical NLP, where patient health information must be protected, and annotations over health text, when released at all, often require the signing of complex data use agreements. SemEval-2021 Task 10 framework asks participants to develop semantic annotation systems in the face of data sharing constraints. A participant's goal is to develop an accurate system for a target domain when annotations exist for a related domain but cannot be distributed. Instead of annotated training data, participants are given a model trained on the annotations. Then, given unlabeled target domain data, they are asked to make predictions.</p>
+<h2>Subtracks</h2>
+<p>We propose two different semantic tasks to which this framework will be applied: negation detection and time expression recognition.</p>
+<ul>
+<li><strong>Track 1: Negation detection</strong>. This track asks participants to classify clinical event mentions (e.g., diseases, symptoms, procedures, etc.) for whether they are being negated by their context. For example, the sentence: <em>Has no diarrhea and no new lumps or masses</em> has three relevant events (diarrhea, lumps, masses), two cue words (both <em>no</em>), and all three entities are negated. This task is important in the clinical domain because it is common for physicians to document negated information encountered during the clinical course, for example, when ruling out certain elements of a differential diagnosis. We expect most participants will treat this as a "span-in-context"' classification problem, where the model will jointly consider both the event to be classified and its surrounding context. For example, a typical transformer-based encoding of this problem for the <em>diarrhea</em> event in the example above looks like: <em>Has no &lt;e&gt;diarrhea&lt;/e&gt; and no new lumps or masses</em>.</li>
+<li><strong>Track 2: Time expression recognition</strong>: This track, which represents a sequence-tagging task, will use the fine-grained time expression annotations that were a component of SemEval 2018 Task 6 (Laparra et al. 2018). For example:<br /><br /><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/tbmjZkh/time-example.png" alt="" /><br /><br />We expect most participants will treat this as a sequence classification problem, as in other named-entity tagging tasks.</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Organizers</h2>
+<p>Tim Miller(Harvard University)</p>
+<p>Yiyun Zhao, Egoitz Laparra, Steven Bethard (University of Arizona)</p>
+<h2>References</h2>
+<p>Laparra E., Xu D., Elsayed A., Bethard S., and Palmer M. <a href="https://www.aclweb.org/anthology/S18-1011.pdf" target="_blank">SemEval 2018 task 6: Parsing time normalizations.</a> In Proceedings of The 12th International Workshop on Semantic Evaluation, New Orleans, Louisiana. 2018.</p>
