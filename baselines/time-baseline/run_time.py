@@ -24,11 +24,12 @@ class Model:
         config.label2id = dict((label, idx) for idx, label in enumerate(self.labels))
         self.pad_labels = not args.keep_all
         self.label_pad_id = torch.nn.CrossEntropyLoss().ignore_index
+        self.max_seq_length = args.max_seq_length
         self.tokenizer = AutoTokenizer.from_pretrained("roberta-base", config=config,
                                                        vocab_file="resources/roberta-base-vocab-modified.json",
                                                        merges_file="resources/roberta-base-merges-modified.txt",
                                                        use_fast=True)
-        self.model = AutoModelForTokenClassification.from_pretrained("roberta-base", config=config)
+        self.model = AutoModelForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
         results_path = os.path.join(args.save_dir, "results")
         logs_path = os.path.join(args.save_dir, "logs")
         self.args = TrainingArguments(

@@ -115,8 +115,8 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
                 annotations[start] = (end, label)
 
     input_raw = [sent.text_with_ws for sent in doc.sents]
-    input_data = model.tokenizer(input_raw, return_tensors="pt", padding="max_length",
-                                 truncation="longest_first", return_offsets_mapping=True)
+    input_data = model.tokenizer(input_raw, return_tensors="pt", max_length=model.max_seq_length,
+                                 padding="max_length", truncation="longest_first", return_offsets_mapping=True)
     if train:
         negative_attention_mask = (~input_data["attention_mask"].byte()).true_divide(255).long()
         input_data["labels"] = negative_attention_mask.mul(model.label_pad_id)
@@ -136,13 +136,11 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
         if train:
             labels = input_data["labels"][sent_idx]
 
-        prev_offset = 0
         start_open = None
         for token_idx, offset in enumerate(offset_mapping):
             start, end = offset.numpy()
             if start == 0 and end == 0:
                 continue
-            prev_offset = end
             start += sent_offset
             end += sent_offset
             offset_mapping[token_idx][0] = start
@@ -164,7 +162,7 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
                 # Check if the annotation ends in this token and close it
                 if start_open is not None and end == annotations[start_open][0]:
                     start_open = None
-        sent_offset += prev_offset
+        sent_offset += len(input_raw[sent_idx])
         features.append(
             TimeInputFeatures(
                 input_ids,
@@ -193,14 +191,18 @@ def to_anafora(model, labels, features, doc_name="dummy"):
         label_shifts = np.append(label_shifts, non_specials)
         for i in range(label_shifts.size - 1):
             label_start = label_shifts[i]
-            label_end = label_shifts[i + 1]
+            label_end = label_shifts[i + 1] - 1
             label_id = sent_labels[label_start]
             if label_id != 0:
                 anafora.AnaforaEntity()
                 entity = anafora.AnaforaEntity()
                 num_entities = len(data.xml.findall("annotations/entity"))
                 entity.id = "%s@%s" % (num_entities, doc_name)
-                entity.spans = ((label_start, label_end),)
+                # To retrieve the offset_mapping, we need to add one to label_start
+                # and label_end because we have removed <s>
+                span_start = sent_features.offset_mapping[label_start + 1][0]
+                span_end = sent_features.offset_mapping[label_end + 1][1]
+                entity.spans = ((span_start, span_end),)
                 entity.type = model.labels[label_id].replace("B-", "")
                 data.annotations.append(entity)
     return data
