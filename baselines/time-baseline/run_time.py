@@ -1,7 +1,6 @@
 import os
 import argparse
 import torch
-import numpy as np
 from transformers import (
     AutoConfig,
     AutoTokenizer,
@@ -22,7 +21,7 @@ class Model:
         config.num_labels = len(self.labels)
         config.id2label = dict((idx, label) for idx, label in enumerate(self.labels))
         config.label2id = dict((label, idx) for idx, label in enumerate(self.labels))
-        self.pad_labels = not args.keep_all
+        self.pad_labels = args.ignore_index
         self.label_pad_id = torch.nn.CrossEntropyLoss().ignore_index
         self.max_seq_length = args.max_seq_length
         self.tokenizer = AutoTokenizer.from_pretrained("roberta-base", config=config,
@@ -92,6 +91,16 @@ class Model:
         trainer.train()
         trainer.save_model()
 
+    def evaluate(self, dataset):
+        trainer = Trainer(
+            model=self.model,
+            args=self.args,
+            eval_dataset=dataset,
+            compute_metrics=self.compute_metrics(dataset),
+            data_collator=self.train_data_collator
+        )
+        trainer.evaluate()
+
     def predict(self, dataset):
         trainer = Trainer(
             model=self.model,
@@ -99,9 +108,7 @@ class Model:
             data_collator=self.test_data_collator
         )
         prediction, _, _ = trainer.predict(dataset)
-        dataset.prediction = np.argmax(prediction, axis=2)
-        if self.bio_mode:
-            dataset.prediction += dataset.prediction % 2
+        dataset.prediction = prepare_prediction(prediction)
 
 
 if __name__ == "__main__":
@@ -124,8 +131,8 @@ if __name__ == "__main__":
                         help="Name or path ot a trained model.")
     parser.add_argument("-i", "--io", dest="io_mode", action="store_true",
                         help="Use IO labelling instead of BIO.")
-    parser.add_argument("-k", "--keep", dest="keep_all", action="store_true",
-                        help="Not use ignore index, all outputs contribute to the loss.")
+    parser.add_argument("-g", "--ignore", dest="ignore_index", action="store_true",
+                        help="Use ignore index, padded labels do not contribute to the loss.")
 
     hyper = parser.add_argument_group("hyper_parameters")
     hyper.add_argument("--no_cuda", action="store_true", help=" ")
@@ -166,6 +173,10 @@ if __name__ == "__main__":
     elif train_path is not None:
         train_dataset = create_datasets(model, nlp, train_path, train=True)
         model.train(train_dataset)
+
+    elif valid_path is not None:
+        valid_dataset = create_datasets(model, nlp, valid_path, train=True)
+        model.evaluate(valid_dataset)
 
     elif predict_path is not None:
         test_dataset = create_datasets(model, nlp, predict_path)

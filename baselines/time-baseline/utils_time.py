@@ -34,7 +34,7 @@ def read_labels(path, bio_mode=True):
     labels = ["O"]
     with open(path) as labels_file:
         if bio_mode:
-            labels.extend([BI + label for label in labels_file.read().split("\n") for BI in ["I-", "B-"]])
+            labels.extend([BI + label for label in labels_file.read().split("\n") for BI in ["B-", "I-"]])
         else:
             labels.extend(labels_file.read().split("\n"))
     return labels
@@ -175,37 +175,57 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
     return features
 
 
+def is_b_label(label_id, bio_mode=True):
+    if bio_mode:
+        return label_id % 2 != 0
+    else:
+        return label_id > 0
+
+
 def to_anafora(model, labels, features, doc_name="dummy"):
     data = anafora.AnaforaData()
     for sent_labels, sent_features in zip(labels, features):
+        # Remove padding and <s> </s>
         special_mask = model.tokenizer.get_special_tokens_mask(sent_features.input_ids,
                                                                already_has_special_tokens=True)
         non_specials = np.count_nonzero(np.array(special_mask) == 0)
-        sent_labels = sent_labels[1: non_specials + 1]  # skip <s> and </s>
-        label_shifts = np.flatnonzero(np.diff(sent_labels)) + 1
-        # Padding labels will be equalize to the previous label.
-        # This is used with reference labels.
-        non_padded_shifts = sent_labels[label_shifts] != -100
+        sent_labels = sent_labels[1: non_specials + 1]
+        sent_offsets = sent_features.offset_mapping[1: non_specials + 1]
+
+        # Get the positions where the label changes. Keep all B- in BIO mode.
+        label_shifts = np.flatnonzero(np.diff(sent_labels, prepend=0))
+        b_starts = np.argwhere(is_b_label(sent_labels)).flatten() if model.bio_mode else []
+        label_shifts = np.unique(np.concatenate((label_shifts, b_starts)))
+        non_padded_shifts = sent_labels[label_shifts] != model.label_pad_id
         label_shifts = label_shifts[non_padded_shifts]
-        label_shifts = np.insert(label_shifts, 0, 0)
-        label_shifts = np.append(label_shifts, non_specials)
+        label_shifts = np.append(label_shifts, sent_labels.size - 1)
+
         for i in range(label_shifts.size - 1):
             label_start = label_shifts[i]
-            label_end = label_shifts[i + 1] - 1
             label_id = sent_labels[label_start]
-            if label_id != 0:
+            if is_b_label(label_id, model.bio_mode):
+                label_next = label_shifts[i + 1]
+                label_next_id = sent_labels[label_next]
+                # I- is always 1 position after B- in label vocabulary
+                is_i_label = label_next_id - label_id == 1 and not is_b_label(label_next_id, model.bio_mode)
+                label_end = label_shifts[i + 2] if is_i_label else label_next
+                label_end -= 1  # end must be the token previous to the next shift
                 anafora.AnaforaEntity()
                 entity = anafora.AnaforaEntity()
                 num_entities = len(data.xml.findall("annotations/entity"))
                 entity.id = "%s@%s" % (num_entities, doc_name)
-                # To retrieve the offset_mapping, we need to add one to label_start
-                # and label_end because we have removed <s>
-                span_start = sent_features.offset_mapping[label_start + 1][0]
-                span_end = sent_features.offset_mapping[label_end + 1][1]
+                span_start = sent_offsets[label_start][0]
+                span_end = sent_offsets[label_end][1]
                 entity.spans = ((span_start, span_end),)
                 entity.type = model.labels[label_id].replace("B-", "")
                 data.annotations.append(entity)
+
     return data
+
+
+def prepare_prediction(prediction):
+    prediction = np.argmax(prediction, axis=2)
+    return prediction
 
 
 def score_predictions(model, dataset, prediction):
@@ -215,7 +235,8 @@ def score_predictions(model, dataset, prediction):
         doc_name, doc_start, doc_end = doc_index
         doc_features = dataset.features[doc_start:doc_end]
         doc_labels = prediction.label_ids[doc_start:doc_end]
-        doc_predictions = prediction.predictions.argmax(-1)
+        doc_predictions = prediction.predictions[doc_start:doc_end]
+        doc_predictions = prepare_prediction(doc_predictions)
         reference_data = to_anafora(model, doc_labels, doc_features)
         predicted_data = to_anafora(model, doc_predictions, doc_features)
         doc_scores = evaluate.score_data(reference_data, predicted_data)
