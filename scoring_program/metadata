@@ -1,2 +1,2 @@
 command: python $program/evaluation.py $input $output
-description: Evaluation program for SemEval 2021 Task 10: Source-Free Domain Adaptation for Semantic Processing
+description: Evaluation program for SemEval 2021 Task 10 - Source-Free Domain Adaptation for Semantic Processing
