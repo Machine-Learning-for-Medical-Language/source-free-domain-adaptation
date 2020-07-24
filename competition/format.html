@@ -1,0 +1,58 @@
+<h1 style="color: grey;">System Output Format</h1>
+<p>For the <strong>negation detection</strong> track, the output format is one classifier output per line, where the lines correspond to the lines in the input. A prediction of "Negated" should be output as 1, while a prediction of "Not negated" should be output as -1.</p>
+<p>For <strong>time expression recognition</strong>, your system must produce <a href="https://github.com/weitechen/anafora" target="_blank">Anafora XML format</a> files in Anafora's standard directory organization.</p>
+<p style="text-align: left;">Make sure that you comply with following rules when you create &nbsp;your output directory:</p>
+<ul>
+<li>The root must contain only the track directories, <code>negation</code> and <code>time</code>. If you are not participating in one of the tracks, do not include its directory.</li>
+<li>In the <code>negation</code> directory, include a single tsv file with the name <code>system.tsv</code>.</li>
+<li>The <code>time</code> directory, follow the same structure and names as in the dataset:</li>
+<ul>
+<li>Each top-level directory must contain only document directories, named exactly as in the input dataset.</li>
+<li>Each document directory must contain only the corresponding annotation file.</li>
+<li>The name of each annotation file must match the document name and have a <code>.TimeNorm.system.completed.xml</code> extension.</li>
+</ul>
+</ul>
+<p>For example, for the development data, your directory structure should look like:</p>
+<table style="border-color: #e6ecff; background-color: #eaeaea; border-width: 0px; height: 200px; width: 500px;" border="0" align="center">
+<tbody>
+  <tr>
+    <td>
+      <ul>
+        <li>negation</li>
+        <ul>
+          <li>system.tsv</li>
+        </ul>
+        <li>time</li>
+        <ul>
+          <li>AQUAINT</li>
+          <ul>
+            <li>APW19980807.0261</li>
+            <ul>
+              <li>APW19980807.0261.TimeNorm.system.completed.xml</li>
+            </ul>
+            <li>APW19980808.0022</li>
+            <ul>
+              <li>APW19980808.0022.TimeNorm.system.completed.xml</li>
+            </ul>
+            <li>...</li>
+          </ul>
+        </ul>
+        <ul>
+          <li>TimeBank</li>
+          <ul>
+            <li>ABC19980108.1830.0711</li>
+            <ul>
+              <li>ABC19980108.1830.0711.TimeNorm.system.completed.xml</li>
+            </ul>
+            <li>ABC19980114.1830.0611</li>
+            <ul>
+              <li>ABC19980114.1830.0611.TimeNorm.system.completed.xml</li>
+            </ul>
+            <li>...</li>
+          </ul>
+        </ul>
+      </ul>
+    </td>
+  </tr>
+</tbody>
+</table>
