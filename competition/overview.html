@@ -22,9 +22,9 @@
 <li><strong>Negation detection</strong> asks participants to classify clinical event mentions (e.g., diseases, symptoms, procedures, etc.) for whether they are being negated by their context. For example, the sentence: <em>Has no diarrhea and no new lumps or masses</em> has three relevant events (diarrhea, lumps, masses), two cue words (both <em>no</em>), and all three entities are negated. This task is important in the clinical domain because it is common for physicians to document negated information encountered during the clinical course, for example, when ruling out certain elements of a differential diagnosis. We expect most participants will treat this as a "span-in-context"' classification problem, where the model will jointly consider both the event to be classified and its surrounding context. For example, a typical transformer-based encoding of this problem for the <em>diarrhea</em> event in the example above looks like: <em>Has no &lt;e&gt;diarrhea&lt;/e&gt; and no new lumps or masses</em>.</li>
 <li><strong>Time expression recognition</strong> asks participants to find time expressions in text. This is a sequence-tagging task that will use the fine-grained time expression annotations that were a component of SemEval 2018 Task 6 (Laparra et al. 2018). For example:<br /><br /><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/tbmjZkh/time-example.png" alt="" /><br /><br />We expect most participants will treat this as a sequence classification problem, as in other named-entity tagging tasks.</li>
 </ul>
-<p>&nbsp;</p>
 <h2>Organizers</h2>
-<p>Tim Miller(Boston Children's Hospital and Harvard Medical School)</p>
-<p>Yiyun Zhao, Egoitz Laparra, Steven Bethard (University of Arizona)</p>
+<p>Egoitz Laparra, Yiyun Zhao, Steven Bethard (University of Arizona)</p>
+<p>Tim Miller (Boston Children's Hospital and Harvard Medical School)</p>
+<p>Özlem Uzuner (George Mason University)</p>
 <h2>References</h2>
 <p>Laparra E., Xu D., Elsayed A., Bethard S., and Palmer M. <a href="https://www.aclweb.org/anthology/S18-1011.pdf" target="_blank">SemEval 2018 task 6: Parsing time normalizations.</a> In Proceedings of The 12th International Workshop on Semantic Evaluation, New Orleans, Louisiana. 2018.</p>
