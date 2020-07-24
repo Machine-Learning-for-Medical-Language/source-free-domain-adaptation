@@ -40,7 +40,7 @@ leaderboard:
             label: Negation Detection
             rank: 1
         RESULTS2: &TEMP
-            label: Time Expression
+            label: Time Expression Recognition
             rank: 2
     columns:
         negation_precision:
