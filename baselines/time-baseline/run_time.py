@@ -1,6 +1,4 @@
-import os
 import argparse
-import torch
 from transformers import (
     AutoConfig,
     AutoTokenizer,
@@ -33,6 +31,7 @@ class Model:
         logs_path = os.path.join(args.save_dir, "logs")
         self.args = TrainingArguments(
             output_dir=results_path,
+            overwrite_output_dir=args.overwrite_output_dir,
             logging_dir=logs_path,
             no_cuda=args.no_cuda,
             seed=args.seed,
@@ -136,9 +135,9 @@ if __name__ == "__main__":
 
     hyper = parser.add_argument_group("hyper_parameters")
     hyper.add_argument("--no_cuda", action="store_true", help=" ")
-    hyper.add_argument("--max_seq_length", default=128, type=int, help=" ")
-    hyper.add_argument("--train_batch_size", default=32, type=int, help=" ")
-    hyper.add_argument("--eval_batch_size", default=8, type=int, help=" ")
+    hyper.add_argument("--max_seq_length", default=512, type=int, help=" ")
+    hyper.add_argument("--train_batch_size", default=2, type=int, help=" ")
+    hyper.add_argument("--eval_batch_size", default=2, type=int, help=" ")
     hyper.add_argument("--learning_rate", default=5e-5, type=float, help=" ")
     hyper.add_argument("--num_train_epochs", default=3.0, type=float, help=" ")
     hyper.add_argument("--warmup_steps", default=500, type=int, help=" ")
@@ -147,6 +146,7 @@ if __name__ == "__main__":
     hyper.add_argument("--save_steps", default=500, type=int, help=" ")
     hyper.add_argument("--eval_steps", default=500, type=int, help=" ")
     hyper.add_argument("--validate", action="store_true", help=" ")
+    hyper.add_argument("--overwrite_output_dir", action="store_true", help=" ")
     hyper.add_argument("--max_grad_norm", default=1.0, type=float, help=" ")
     hyper.add_argument("--local_rank", default=-1, type=int, help=" ")
     hyper.add_argument("--seed", default=42, type=int, help=" ")
@@ -165,20 +165,21 @@ if __name__ == "__main__":
 
     if train_path is not None and valid_path is not None:
         train_dataset = create_datasets(model, nlp, train_path, train=True)
-        valid_dataset = create_datasets(model, nlp, valid_path, train=True)
+        valid_dataset = create_datasets(model, nlp, valid_path, valid=True)
         model.train(train_dataset, eval_dataset=valid_dataset)
-        model.predict(valid_dataset)
-        write_predictions(model, valid_dataset, output_path)
+        if output_path is not None:
+            model.predict(valid_dataset)
+            write_predictions(model, valid_dataset, output_path)
 
     elif train_path is not None:
         train_dataset = create_datasets(model, nlp, train_path, train=True)
         model.train(train_dataset)
 
     elif valid_path is not None:
-        valid_dataset = create_datasets(model, nlp, valid_path, train=True)
+        valid_dataset = create_datasets(model, nlp, valid_path, valid=True)
         model.evaluate(valid_dataset)
 
-    elif predict_path is not None:
+    elif predict_path is not None and output_path is not None:
         test_dataset = create_datasets(model, nlp, predict_path)
         model.predict(test_dataset)
         write_predictions(model, test_dataset, output_path)

@@ -11,9 +11,10 @@ from spacy.lang.en import English
 
 class TimeDataset(Dataset):
 
-    def __init__(self, features, doc_indices=None):
-        self.features = features
+    def __init__(self, doc_indices, features, annotations):
         self.doc_indices = doc_indices
+        self.features = features
+        self.annotations = annotations
         self.prediction = None
 
     def __len__(self):
@@ -47,11 +48,12 @@ def init_nlp_pipeline():
     return nlp
 
 
-def create_datasets(model, nlp, dataset_path, train=False):
+def create_datasets(model, nlp, dataset_path, train=False, valid=False):
     text_directory_files = anafora.walk(dataset_path, xml_name_regex=".*((?<![.].{3})|[.]txt)$")
     features = []
+    annotations = {}
     doc_indices = []
-    if train:
+    if train or valid:
         for text_files in text_directory_files:
             doc_index = len(features)
             text_subdir_path, text_doc_name, text_file_names = text_files
@@ -67,8 +69,10 @@ def create_datasets(model, nlp, dataset_path, train=False):
                 raise Exception("Wrong number of anafora files in %s" % anafora_subdir_path)
             text_file_path = os.path.join(dataset_path, text_subdir_path, text_file_names[0])
             anafora_file_path = os.path.join(anafora_path, anafora_subdir_path, anafora_file_names[0])
-            doc_features = from_doc_to_features(model, nlp, text_file_path, anafora_file_path, train=True)
+            doc_features, doc_annotations = from_doc_to_features(model, nlp, text_file_path, anafora_file_path, True)
             features.extend(doc_features)
+            if valid:
+                annotations[text_doc_name] = doc_annotations
             doc_indices.append((text_doc_name, doc_index, len(features)))
     else:
         for text_files in text_directory_files:
@@ -77,10 +81,10 @@ def create_datasets(model, nlp, dataset_path, train=False):
             if len(text_file_names) != 1:
                 raise Exception("Wrong number of text files in %s" % text_subdir_path)
             text_file_path = os.path.join(dataset_path, text_subdir_path, text_file_names[0])
-            doc_features = from_doc_to_features(model, nlp, text_file_path)
+            doc_features, _ = from_doc_to_features(model, nlp, text_file_path)
             features.extend(doc_features)
             doc_indices.append((text_doc_name, doc_index, len(features)))
-    return TimeDataset(features, doc_indices)
+    return TimeDataset(doc_indices, features, annotations)
 
 
 def bio_annotation(model, annotation, prefix):
@@ -139,7 +143,7 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
         start_open = None
         for token_idx, offset in enumerate(offset_mapping):
             start, end = offset.numpy()
-            if start == 0 and end == 0:
+            if start == end:
                 continue
             start += sent_offset
             end += sent_offset
@@ -151,7 +155,8 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
                     start_open = None
                 # If nothing goes wrong, add the token to the opened annotation or open a new one
                 if start_open is not None and start in annotations:
-                    raise Exception("Offsets don't match in %s (%s, %s)" % (text_path, start, end))
+                    print("WARNING: Offsets don't match in %s (%s, %s)" % (text_path, start, end))
+                    start_open = None
                 elif start_open is not None and model.pad_labels and inner_subword(input_data, sent_idx, token_idx):
                     labels[token_idx] = model.label_pad_id
                 elif start_open is not None:
@@ -172,17 +177,45 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
             )
         )
 
-    return features
+    return features, annotations
 
 
-def is_b_label(label_id, bio_mode=True):
+def is_b_label(label_id, label_diff, bio_mode=True):
     if bio_mode:
         return label_id % 2 != 0
     else:
-        return label_id > 0
+        return label_id > 0 and label_diff != 0
 
 
-def to_anafora(model, labels, features, doc_name="dummy"):
+def is_i_label(label_id, label_diff, new_word, bio_mode=True):
+    if not new_word and label_diff < 0:
+        return True
+    elif bio_mode:
+        return label_diff == 1
+    else:
+        return label_id > 0 and label_diff == 0
+
+
+def add_entity(data, doc_name, label, offset):
+    if label is not None:
+        anafora.AnaforaEntity()
+        entity = anafora.AnaforaEntity()
+        num_entities = len(data.xml.findall("annotations/entity"))
+        entity.id = "%s@%s" % (num_entities, doc_name)
+        entity.spans = ((offset[0], offset[1]),)
+        entity.type = label.replace("B-", "")
+        data.annotations.append(entity)
+
+
+def annotation_to_anafora(annotations, doc_name="dummy"):
+    data = anafora.AnaforaData()
+    for start in annotations:
+        (end, label) = annotations[start]
+        add_entity(data, doc_name, label, (start, end))
+    return data
+
+
+def prediction_to_anafora(model, labels, features, doc_name="dummy"):
     data = anafora.AnaforaData()
     for sent_labels, sent_features in zip(labels, features):
         # Remove padding and <s> </s>
@@ -192,33 +225,25 @@ def to_anafora(model, labels, features, doc_name="dummy"):
         sent_labels = sent_labels[1: non_specials + 1]
         sent_offsets = sent_features.offset_mapping[1: non_specials + 1]
 
-        # Get the positions where the label changes. Keep all B- in BIO mode.
-        label_shifts = np.flatnonzero(np.diff(sent_labels, prepend=0))
-        b_starts = np.argwhere(is_b_label(sent_labels)).flatten() if model.bio_mode else []
-        label_shifts = np.unique(np.concatenate((label_shifts, b_starts)))
-        non_padded_shifts = sent_labels[label_shifts] != model.label_pad_id
-        label_shifts = label_shifts[non_padded_shifts]
-        label_shifts = np.append(label_shifts, sent_labels.size - 1)
-
-        for i in range(label_shifts.size - 1):
-            label_start = label_shifts[i]
-            label_id = sent_labels[label_start]
-            if is_b_label(label_id, model.bio_mode):
-                label_next = label_shifts[i + 1]
-                label_next_id = sent_labels[label_next]
-                # I- is always 1 position after B- in label vocabulary
-                is_i_label = label_next_id - label_id == 1 and not is_b_label(label_next_id, model.bio_mode)
-                label_end = label_shifts[i + 2] if is_i_label else label_next
-                label_end -= 1  # end must be the token previous to the next shift
-                anafora.AnaforaEntity()
-                entity = anafora.AnaforaEntity()
-                num_entities = len(data.xml.findall("annotations/entity"))
-                entity.id = "%s@%s" % (num_entities, doc_name)
-                span_start = sent_offsets[label_start][0]
-                span_end = sent_offsets[label_end][1]
-                entity.spans = ((span_start, span_end),)
-                entity.type = model.labels[label_id].replace("B-", "")
-                data.annotations.append(entity)
+        previous_label = 0
+        previous_offset = [None, None]
+        for token_label, token_offset in zip(sent_labels, sent_offsets):
+            entity_label = model.labels[previous_label] if previous_label > 0 else None
+            new_word = token_offset[0] != previous_offset[1] if model.pad_labels else True
+            label_diff = token_label - previous_label
+            if is_b_label(token_label, label_diff, model.bio_mode):
+                add_entity(data, doc_name, entity_label, previous_offset)
+                previous_label = token_label
+                previous_offset = token_offset
+            elif is_i_label(token_label, label_diff, new_word, model.bio_mode):
+                previous_offset[1] = token_offset[1]
+            elif previous_label > 0:
+                add_entity(data, doc_name, entity_label, previous_offset)
+                previous_label = 0
+                previous_offset = [None, None]
+        if previous_label > 0:
+            entity_label = model.labels[previous_label]
+            add_entity(data, doc_name, entity_label, previous_offset)
 
     return data
 
@@ -233,12 +258,12 @@ def score_predictions(model, dataset, prediction):
     all_scores = defaultdict(lambda: scores_type())
     for doc_index in dataset.doc_indices:
         doc_name, doc_start, doc_end = doc_index
+        doc_annotations = dataset.annotations[doc_name]
+        reference_data = annotation_to_anafora(doc_annotations)
         doc_features = dataset.features[doc_start:doc_end]
-        doc_labels = prediction.label_ids[doc_start:doc_end]
         doc_predictions = prediction.predictions[doc_start:doc_end]
         doc_predictions = prepare_prediction(doc_predictions)
-        reference_data = to_anafora(model, doc_labels, doc_features)
-        predicted_data = to_anafora(model, doc_predictions, doc_features)
+        predicted_data = prediction_to_anafora(model, doc_predictions, doc_features)
         doc_scores = evaluate.score_data(reference_data, predicted_data)
         for name, scores in doc_scores.items():
             all_scores[name].update(scores)
@@ -250,7 +275,7 @@ def write_predictions(model, dataset, out_path):
         doc_name, doc_start, doc_end = doc_index
         doc_predictions = dataset.prediction[doc_start:doc_end]
         doc_features = dataset.features[doc_start:doc_end]
-        data = to_anafora(model, doc_predictions, doc_features, doc_name)
+        data = prediction_to_anafora(model, doc_predictions, doc_features, doc_name)
         doc_path = os.path.join(out_path, doc_name)
         os.makedirs(doc_path, exist_ok=True)
         doc_path = os.path.join(doc_path, "%s.TimeNorm.system.xml" % doc_name)
