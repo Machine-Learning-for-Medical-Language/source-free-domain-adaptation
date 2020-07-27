@@ -42,9 +42,9 @@ def score_negation(ref_domain,res_domain,results):
     ref = read_tsv(ref_domain)
     res = read_tsv(res_domain)
     assert len(ref) == len(res)
-    results['negation_f1']=  f1_score(ref,res,average='micro')
-    results['negation_precision'] = precision_score(ref,res,average='micro')
-    results['negation_recall'] = recall_score(ref,res,average='micro')
+    results['negation_f1']=  f1_score(ref,res)
+    results['negation_precision'] = precision_score(ref,res)
+    results['negation_recall'] = recall_score(ref,res)
 
 
 def read_tsv(file):
