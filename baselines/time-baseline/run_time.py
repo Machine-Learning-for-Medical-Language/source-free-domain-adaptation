@@ -14,23 +14,30 @@ class Model:
 
     def __init__(self, args):
         self.bio_mode = not args.io_mode
+        self.pad_labels = args.ignore_index
+        self.max_seq_length = args.max_seq_length
         self.labels = read_labels("resources/labels.txt", bio_mode=self.bio_mode)
+        self.label_pad_id = torch.nn.CrossEntropyLoss().ignore_index
         config = AutoConfig.from_pretrained(args.model_name_or_path)
         config.num_labels = len(self.labels)
         config.id2label = dict((idx, label) for idx, label in enumerate(self.labels))
         config.label2id = dict((label, idx) for idx, label in enumerate(self.labels))
-        self.pad_labels = args.ignore_index
-        self.label_pad_id = torch.nn.CrossEntropyLoss().ignore_index
-        self.max_seq_length = args.max_seq_length
-        self.tokenizer = AutoTokenizer.from_pretrained("roberta-base", config=config,
-                                                       vocab_file="resources/roberta-base-vocab-modified.json",
-                                                       merges_file="resources/roberta-base-merges-modified.txt",
-                                                       use_fast=True)
+        if args.vocab_file is not None and args.merges_file is not None:
+            self.tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, config=config,
+                                                           vocab_file=args.vocab_file,
+                                                           merges_file=args.merges_file,
+                                                           use_fast=True)
+        else:
+            self.tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, config=config, use_fast=True)
         self.model = AutoModelForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
-        results_path = os.path.join(args.save_dir, "results")
-        logs_path = os.path.join(args.save_dir, "logs")
+        output_path = "./runs"
+        if args.save_dir is not None:
+            output_path = os.path.join(args.save_dir, "results")
+        elif args.output_dir is not None:
+            output_path = args.output_dir
+        logs_path = os.path.join(args.save_dir, "logs") if args.save_dir is not None else None
         self.args = TrainingArguments(
-            output_dir=results_path,
+            output_dir=output_path,
             overwrite_output_dir=args.overwrite_output_dir,
             logging_dir=logs_path,
             no_cuda=args.no_cuda,
@@ -124,10 +131,14 @@ if __name__ == "__main__":
                         help="The root of the directory tree containing raw text for prediction.")
     parser.add_argument("-o", "--output", metavar="DIR", dest="output_dir",
                         help="The directory to store the prediction in Anafora XML.")
-    parser.add_argument("-s", "--save", metavar="DIR", dest="save_dir", default="./",
+    parser.add_argument("-s", "--save", metavar="DIR", dest="save_dir",
                         help="The directory to save the model and the log files.")
-    parser.add_argument("-m", "--model", metavar="NAME|PATH", dest="model_name_or_path", default="roberta-base",
-                        help="Name or path ot a trained model.")
+    parser.add_argument("-m", "--model", metavar="NAME|PATH", dest="model_name_or_path",
+                        default="egoitz/roberta-timex-semeval", help="Name or path to a trained model.")
+    parser.add_argument("-b", "--vocab", metavar="NAME|PATH", dest="vocab_file", default=None,
+                        help="Name or path to a vocabulary file.")
+    parser.add_argument("-r", "--merges", metavar="NAME|PATH", dest="merges_file", default=None,
+                        help="Name or path to a merges file.")
     parser.add_argument("-i", "--io", dest="io_mode", action="store_true",
                         help="Use IO labelling instead of BIO.")
     parser.add_argument("-g", "--ignore", dest="ignore_index", action="store_true",
