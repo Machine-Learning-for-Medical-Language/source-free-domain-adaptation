@@ -15,9 +15,9 @@ We apply this framework to two tasks: **negation detection** and **time expressi
 
 ### Participate
 
-Details of the competition, including data sets, models, evaluation, important dates, and how to participate are on the [SemEval-2021 Task 10 CodaLab site]({{ site.codalab_url }}).
+Please join our [Google Group]({{ site.group_url }}) to ask questions and get the most up-to-date information on the task.
 
-And please join our [Google Group]({{ site.group_url }}) to ask questions and get the most up-to-date information on the task.
+Details of the competition, including data sets, models, evaluation, important dates, and how to participate will soon appear on the [SemEval-2021 Task 10 CodaLab site]({{ site.codalab_url }}). We will post to the the Google Group when this is available.
 
 ### Organizers
 Egoitz Laparra, Yiyun Zhao, [Steven Bethard](https://bethard.faculty.arizona.edu/) (University of Arizona)
