@@ -134,7 +134,7 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--save", metavar="DIR", dest="save_dir",
                         help="The directory to save the model and the log files.")
     parser.add_argument("-m", "--model", metavar="NAME|PATH", dest="model_name_or_path",
-                        default="egoitz/roberta-timex-semeval", help="Name or path to a trained model.")
+                        default="clulab/roberta-timex-semeval", help="Name or path to a trained model.")
     parser.add_argument("-b", "--vocab", metavar="NAME|PATH", dest="vocab_file", default=None,
                         help="Name or path to a vocabulary file.")
     parser.add_argument("-r", "--merges", metavar="NAME|PATH", dest="merges_file", default=None,
