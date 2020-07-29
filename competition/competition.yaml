@@ -48,6 +48,10 @@ leaderboard:
             label: Time Expression Recognition
             rank: 2
     columns:
+        negation_f1:
+            leaderboard: *NEG
+            label: F1
+            numeric_format: 3
         negation_precision:
             leaderboard: *NEG
             label: Precision
@@ -56,8 +60,8 @@ leaderboard:
             leaderboard: *NEG
             label: Recall
             numeric_format: 3
-        negation_f1:
-            leaderboard: *NEG
+        time_f1:
+            leaderboard: *TEMP
             label: F1
             numeric_format: 3
         time_precision:
@@ -67,10 +71,6 @@ leaderboard:
         time_recall:
             leaderboard: *TEMP
             label: Recall
-            numeric_format: 3
-        time_f1:
-            leaderboard: *TEMP
-            label: F1
             numeric_format: 3
 
 
