@@ -23,7 +23,7 @@ To get the plain text corresponding to the annotations you need to install [**an
 
 The following command will copy the plain text file in each document directory:
 
-    python -m anafora.copy_text --format=timeml /path/to/TBAQ-cleaned/ /paht/to/anafora-annotation/TempEval-2013/
+    python -m anafora.copy_text --format=timeml /path/to/TBAQ-cleaned/ /path/to/anafora-annotation/TempEval-2013/
 
 Where:
 
@@ -37,13 +37,13 @@ To make a submission for this phase, you must include the output for the 14 docu
 
 The first time you run the baseline, the pre-trained model, `clulab/roberta-timex-semeval`, will be automatically downloaded in your computer. If you want to produce some predictions with this model, you need to pass as arguments the directory containing the input text and the target directory where the predictions will be stored. For example, to process the _AQUAINT_ subset from _TempEval-2013_, just run:
 
-    python run_time.py -p /paht/to/anafora-annotation/TempEval-2013/AQUAINT -o /path/to/output/AQUAINT [--no_cuda]
+    python run_time.py -p /path/to/anafora-annotation/TempEval-2013/AQUAINT -o /path/to/output/AQUAINT [--no_cuda]
 
 Recall that the `anafora-annotation` folder includes both raw text and Anafora annotation files, but it could contain only the former since the latter are not needed to make predictions. This will be the case during the evaluation phase. Use the `--no_cuda` option if you are going to run the model in the gpu.
 
 Run `python run_time.py -h` to explore additional options and arguments you can play with, like the hyperpameters of the model. 
 
-### Other commands
+#### Other commands
 
 You can train a model with the following command:
 
@@ -55,4 +55,4 @@ By default, this will finetune `clulab/roberta-timex-semeval` model. You can rep
 
 To use this new version of the model for predictions, you can run:
 
-    python run_time.py -p /paht/to/text/TempEval-2013/AQUAINT -o /path/to/output/AQUAINT -m /path/to/save-model/results/ [--no_cuda]
+    python run_time.py -p /path/to/text/TempEval-2013/AQUAINT -o /path/to/output/AQUAINT -m /path/to/save-model/results/ [--no_cuda]
