@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>20:06:48 11-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>58@e@wsj_0127@gold</id>
+		<span>608,614</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>59@e@wsj_0127@gold</id>
+		<span>12,14</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>60@e@wsj_0127@gold</id>
+		<span>1082,1086</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>62@e@wsj_0127@gold</id>
+		<span>161,163</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>63@e@wsj_0127@gold</id>
+		<span>164,166</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>64@e@wsj_0127@gold</id>
+		<span>759,763</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>65@e@wsj_0127@gold</id>
+		<span>270,273</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>66@e@wsj_0127@gold</id>
+		<span>754,758</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>67@e@wsj_0127@gold</id>
+		<span>292,293</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>68@e@wsj_0127@gold</id>
+		<span>15,17</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>69@e@wsj_0127@gold</id>
+		<span>615,621</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>70@e@wsj_0127@gold</id>
+		<span>676,682</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>71@e@wsj_0127@gold</id>
+		<span>1087,1094</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>73@e@wsj_0127@gold</id>
+		<span>287,291</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>74@e@wsj_0127@gold</id>
+		<span>167,169</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>75@e@wsj_0127@gold</id>
+		<span>18,20</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>76@e@wsj_0127@gold</id>
+		<span>671,675</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>77@e@wsj_0127@gold</id>
+		<span>989,998</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>78@e@wsj_0127@gold</id>
+		<span>714,718</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>79@e@wsj_0127@gold</id>
+		<span>124,125</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>80@e@wsj_0127@gold</id>
+		<span>126,132</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>81@e@wsj_0127@gold</id>
+		<span>274,280</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>82@e@wsj_0127@gold</id>
+		<span>794,800</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>86@e@wsj_0127@gold</id>
+		<span>667,670</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>87@e@wsj_0127@gold</id>
+		<span>719,723</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+</annotations>
+
+</data>

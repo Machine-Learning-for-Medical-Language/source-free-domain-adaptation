@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>15:14:59 24-05-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>48@e@SJMN91-06338157@gold</id>
+		<span>722,731</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>49@e@SJMN91-06338157@gold</id>
+		<span>19,26</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>50@e@SJMN91-06338157@gold</id>
+		<span>37,38</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>51@e@SJMN91-06338157@gold</id>
+		<span>1984,1990</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>52@e@SJMN91-06338157@gold</id>
+		<span>90,97</span>
+		<type>Part-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>53@e@SJMN91-06338157@gold</id>
+		<span>323,325</span>
+		<type>AMPM-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>54@e@SJMN91-06338157@gold</id>
+		<span>698,704</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>55@e@SJMN91-06338157@gold</id>
+		<span>1624,1628</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>56@e@SJMN91-06338157@gold</id>
+		<span>1619,1623</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>57@e@SJMN91-06338157@gold</id>
+		<span>28,36</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>58@e@SJMN91-06338157@gold</id>
+		<span>1234,1240</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>59@e@SJMN91-06338157@gold</id>
+		<span>2242,2248</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>65@e@SJMN91-06338157@gold</id>
+		<span>40,44</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>66@e@SJMN91-06338157@gold</id>
+		<span>228,232</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>68@e@SJMN91-06338157@gold</id>
+		<span>200,204</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>69@e@SJMN91-06338157@gold</id>
+		<span>197,198</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>70@e@SJMN91-06338157@gold</id>
+		<span>188,196</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>71@e@SJMN91-06338157@gold</id>
+		<span>179,186</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>73@e@SJMN91-06338157@gold</id>
+		<span>156,160</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>74@e@SJMN91-06338157@gold</id>
+		<span>144,152</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>75@e@SJMN91-06338157@gold</id>
+		<span>136,143</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	</annotations>
+
+</data>

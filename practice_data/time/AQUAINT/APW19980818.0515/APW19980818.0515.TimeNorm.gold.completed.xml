@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>14:10:27 09-07-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>90@e@APW19980818.0515@gold</id>
+		<span>25,27</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>91@e@APW19980818.0515@gold</id>
+		<span>5140,5143</span>
+		<type>Time-Zone</type>
+		</entity>
+
+	<entity>
+		<id>92@e@APW19980818.0515@gold</id>
+		<span>4755,4760</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>94@e@APW19980818.0515@gold</id>
+		<span>4593,4597</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>95@e@APW19980818.0515@gold</id>
+		<span>142,144</span>
+		<type>Minute-Of-Hour</type>
+		</entity>
+
+	<entity>
+		<id>96@e@APW19980818.0515@gold</id>
+		<span>145,147</span>
+		<type>Second-Of-Minute</type>
+		</entity>
+
+	<entity>
+		<id>97@e@APW19980818.0515@gold</id>
+		<span>224,226</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>98@e@APW19980818.0515@gold</id>
+		<span>227,229</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>100@e@APW19980818.0515@gold</id>
+		<span>729,736</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>101@e@APW19980818.0515@gold</id>
+		<span>4588,4592</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>102@e@APW19980818.0515@gold</id>
+		<span>1158,1162</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>103@e@APW19980818.0515@gold</id>
+		<span>1163,1164</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>104@e@APW19980818.0515@gold</id>
+		<span>1377,1383</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>106@e@APW19980818.0515@gold</id>
+		<span>5138,5140</span>
+		<type>Minute-Of-Hour</type>
+		</entity>
+
+	<entity>
+		<id>107@e@APW19980818.0515@gold</id>
+		<span>1502,1507</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>108@e@APW19980818.0515@gold</id>
+		<span>1508,1512</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>109@e@APW19980818.0515@gold</id>
+		<span>28,30</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>110@e@APW19980818.0515@gold</id>
+		<span>1557,1559</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>111@e@APW19980818.0515@gold</id>
+		<span>1560,1564</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>112@e@APW19980818.0515@gold</id>
+		<span>1579,1584</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>113@e@APW19980818.0515@gold</id>
+		<span>1585,1589</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>114@e@APW19980818.0515@gold</id>
+		<span>1590,1595</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>115@e@APW19980818.0515@gold</id>
+		<span>1895,1899</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>116@e@APW19980818.0515@gold</id>
+		<span>1900,1904</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>117@e@APW19980818.0515@gold</id>
+		<span>5136,5138</span>
+		<type>Hour-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>118@e@APW19980818.0515@gold</id>
+		<span>2214,2218</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>119@e@APW19980818.0515@gold</id>
+		<span>4266,4269</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>120@e@APW19980818.0515@gold</id>
+		<span>4445,4455</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>121@e@APW19980818.0515@gold</id>
+		<span>139,141</span>
+		<type>Hour-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>123@e@APW19980818.0515@gold</id>
+		<span>131,133</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>124@e@APW19980818.0515@gold</id>
+		<span>128,130</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>125@e@APW19980818.0515@gold</id>
+		<span>5127,5129</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>126@e@APW19980818.0515@gold</id>
+		<span>5130,5132</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>127@e@APW19980818.0515@gold</id>
+		<span>5133,5135</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>128@e@APW19980818.0515@gold</id>
+		<span>20,24</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>129@e@APW19980818.0515@gold</id>
+		<span>134,138</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>130@e@APW19980818.0515@gold</id>
+		<span>2208,2213</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>131@e@APW19980818.0515@gold</id>
+		<span>1496,1501</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>132@e@APW19980818.0515@gold</id>
+		<span>1549,1554</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>133@e@APW19980818.0515@gold</id>
+		<span>2219,2224</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>138@e@APW19980818.0515@gold</id>
+		<span>1911,1917</span>
+		<type>Before</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>140@e@APW19980818.0515@gold</id>
+		<span>1608,1614</span>
+		<type>Before</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+</annotations>
+
+</data>

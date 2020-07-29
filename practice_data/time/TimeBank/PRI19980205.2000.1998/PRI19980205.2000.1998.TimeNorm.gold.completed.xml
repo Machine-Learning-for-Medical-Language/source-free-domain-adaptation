@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>14:53:58 24-05-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>30@e@PRI19980205.2000.1998@gold</id>
+		<span>31,33</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>32@e@PRI19980205.2000.1998@gold</id>
+		<span>127,132</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>33@e@PRI19980205.2000.1998@gold</id>
+		<span>29,31</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>34@e@PRI19980205.2000.1998@gold</id>
+		<span>442,445</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>35@e@PRI19980205.2000.1998@gold</id>
+		<span>536,540</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>36@e@PRI19980205.2000.1998@gold</id>
+		<span>541,550</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>37@e@PRI19980205.2000.1998@gold</id>
+		<span>597,601</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>38@e@PRI19980205.2000.1998@gold</id>
+		<span>188,194</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>39@e@PRI19980205.2000.1998@gold</id>
+		<span>685,688</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>40@e@PRI19980205.2000.1998@gold</id>
+		<span>25,29</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>41@e@PRI19980205.2000.1998@gold</id>
+		<span>668,680</span>
+		<type>Year</type>
+		</entity>
+
+</annotations>
+
+</data>

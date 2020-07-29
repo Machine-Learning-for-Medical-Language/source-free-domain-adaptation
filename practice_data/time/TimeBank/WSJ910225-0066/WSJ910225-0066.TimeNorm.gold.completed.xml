@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>12:32:06 19-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>161@e@WSJ910225-0066@gold</id>
+		<span>7340,7348</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>162@e@WSJ910225-0066@gold</id>
+		<span>18,20</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>163@e@WSJ910225-0066@gold</id>
+		<span>11435,11438</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>164@e@WSJ910225-0066@gold</id>
+		<span>311,313</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>165@e@WSJ910225-0066@gold</id>
+		<span>314,316</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>166@e@WSJ910225-0066@gold</id>
+		<span>9936,9940</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>167@e@WSJ910225-0066@gold</id>
+		<span>641,645</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>169@e@WSJ910225-0066@gold</id>
+		<span>9930,9935</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>170@e@WSJ910225-0066@gold</id>
+		<span>9829,9832</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>171@e@WSJ910225-0066@gold</id>
+		<span>1786,1789</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>172@e@WSJ910225-0066@gold</id>
+		<span>2141,2144</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>174@e@WSJ910225-0066@gold</id>
+		<span>3219,3228</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>175@e@WSJ910225-0066@gold</id>
+		<span>8973,8978</span>
+		<type>Part-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>176@e@WSJ910225-0066@gold</id>
+		<span>8964,8972</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>177@e@WSJ910225-0066@gold</id>
+		<span>6602,6605</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>178@e@WSJ910225-0066@gold</id>
+		<span>8537,8541</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>180@e@WSJ910225-0066@gold</id>
+		<span>7023,7027</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>181@e@WSJ910225-0066@gold</id>
+		<span>7028,7030</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>182@e@WSJ910225-0066@gold</id>
+		<span>8532,8536</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>183@e@WSJ910225-0066@gold</id>
+		<span>8446,8450</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>184@e@WSJ910225-0066@gold</id>
+		<span>21,23</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>185@e@WSJ910225-0066@gold</id>
+		<span>7349,7354</span>
+		<type>Part-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>186@e@WSJ910225-0066@gold</id>
+		<span>7370,7374</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>187@e@WSJ910225-0066@gold</id>
+		<span>7525,7528</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>188@e@WSJ910225-0066@gold</id>
+		<span>8441,8445</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>190@e@WSJ910225-0066@gold</id>
+		<span>8273,8279</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>191@e@WSJ910225-0066@gold</id>
+		<span>8268,8272</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>196@e@WSJ910225-0066@gold</id>
+		<span>7302,7305</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>197@e@WSJ910225-0066@gold</id>
+		<span>6897,6903</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>198@e@WSJ910225-0066@gold</id>
+		<span>7899,7907</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>199@e@WSJ910225-0066@gold</id>
+		<span>8281,8286</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>200@e@WSJ910225-0066@gold</id>
+		<span>317,319</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>201@e@WSJ910225-0066@gold</id>
+		<span>24,26</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>202@e@WSJ910225-0066@gold</id>
+		<span>7894,7898</span>
+		<type>Part-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>203@e@WSJ910225-0066@gold</id>
+		<span>1213,1222</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>204@e@WSJ910225-0066@gold</id>
+		<span>9824,9828</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>205@e@WSJ910225-0066@gold</id>
+		<span>11755,11758</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>206@e@WSJ910225-0066@gold</id>
+		<span>6346,6351</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>207@e@WSJ910225-0066@gold</id>
+		<span>8654,8660</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>208@e@WSJ910225-0066@gold</id>
+		<span>736,738</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>209@e@WSJ910225-0066@gold</id>
+		<span>739,744</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>210@e@WSJ910225-0066@gold</id>
+		<span>730,735</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>217@e@WSJ910225-0066@gold</id>
+		<span>9455,9460</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>218@e@WSJ910225-0066@gold</id>
+		<span>7296,7301</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>219@e@WSJ910225-0066@gold</id>
+		<span>7291,7295</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>220@e@WSJ910225-0066@gold</id>
+		<span>9449,9454</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>221@e@WSJ910225-0066@gold</id>
+		<span>1208,1212</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>222@e@WSJ910225-0066@gold</id>
+		<span>1425,1429</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>223@e@WSJ910225-0066@gold</id>
+		<span>3499,3506</span>
+		<type>Part-Of-Week</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>224@e@WSJ910225-0066@gold</id>
+		<span>3679,3682</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>230@e@WSJ910225-0066@gold</id>
+		<span>7091,7096</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>231@e@WSJ910225-0066@gold</id>
+		<span>7403,7407</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>232@e@WSJ910225-0066@gold</id>
+		<span>7399,7402</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>233@e@WSJ910225-0066@gold</id>
+		<span>7876,7880</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>235@e@WSJ910225-0066@gold</id>
+		<span>8249,8254</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>236@e@WSJ910225-0066@gold</id>
+		<span>8402,8406</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>237@e@WSJ910225-0066@gold</id>
+		<span>8664,8668</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>239@e@WSJ910225-0066@gold</id>
+		<span>8945,8955</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>242@e@WSJ910225-0066@gold</id>
+		<span>9511,9516</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>243@e@WSJ910225-0066@gold</id>
+		<span>9833,9837</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>245@e@WSJ910225-0066@gold</id>
+		<span>10247,10252</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>247@e@WSJ910225-0066@gold</id>
+		<span>11046,11052</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>249@e@WSJ910225-0066@gold</id>
+		<span>3490,3494</span>
+		<type>Last</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+</annotations>
+
+</data>

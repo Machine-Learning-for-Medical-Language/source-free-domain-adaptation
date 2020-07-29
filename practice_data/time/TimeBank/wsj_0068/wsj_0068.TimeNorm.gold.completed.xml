@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>14:25:27 09-07-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>10@e@wsj_0068@isma5916</id>
+		<span>15,17</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>11@e@wsj_0068@isma5916</id>
+		<span>12,14</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>12@e@wsj_0068@isma5916</id>
+		<span>18,20</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>13@e@wsj_0068@isma5916</id>
+		<span>100,102</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>14@e@wsj_0068@isma5916</id>
+		<span>97,99</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>15@e@wsj_0068@isma5916</id>
+		<span>103,105</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>16@e@wsj_0068@isma5916</id>
+		<span>182,191</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>17@e@wsj_0068@isma5916</id>
+		<span>311,313</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>18@e@wsj_0068@isma5916</id>
+		<span>306,310</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>20@e@wsj_0068@isma5916</id>
+		<span>285,286</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>21@e@wsj_0068@isma5916</id>
+		<span>280,284</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>23@e@wsj_0068@isma5916</id>
+		<span>434,441</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>24@e@wsj_0068@isma5916</id>
+		<span>428,433</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>25@e@wsj_0068@isma5916</id>
+		<span>488,492</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>26@e@wsj_0068@isma5916</id>
+		<span>493,496</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>27@e@wsj_0068@isma5916</id>
+		<span>497,504</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+</annotations>
+
+</data>

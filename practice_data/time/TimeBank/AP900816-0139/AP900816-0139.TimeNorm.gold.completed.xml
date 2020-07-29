@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>08:18:55 20-05-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>89@e@AP900816-0139@gold</id>
+		<span>7926,7934</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>90@e@AP900816-0139@gold</id>
+		<span>30,33</span>
+		<type>Time-Zone</type>
+		</entity>
+
+	<entity>
+		<id>91@e@AP900816-0139@gold</id>
+		<span>7858,7867</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>92@e@AP900816-0139@gold</id>
+		<span>7443,7451</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>93@e@AP900816-0139@gold</id>
+		<span>69,72</span>
+		<type>Time-Zone</type>
+		</entity>
+
+	<entity>
+		<id>94@e@AP900816-0139@gold</id>
+		<span>7385,7394</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>95@e@AP900816-0139@gold</id>
+		<span>526,534</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>96@e@AP900816-0139@gold</id>
+		<span>701,704</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>97@e@AP900816-0139@gold</id>
+		<span>705,709</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>98@e@AP900816-0139@gold</id>
+		<span>963,966</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>99@e@AP900816-0139@gold</id>
+		<span>967,971</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>101@e@AP900816-0139@gold</id>
+		<span>1157,1165</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>102@e@AP900816-0139@gold</id>
+		<span>2993,2996</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>104@e@AP900816-0139@gold</id>
+		<span>6658,6661</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>105@e@AP900816-0139@gold</id>
+		<span>3196,3204</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>106@e@AP900816-0139@gold</id>
+		<span>5575,5578</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>112@e@AP900816-0139@gold</id>
+		<span>6828,6832</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>113@e@AP900816-0139@gold</id>
+		<span>6232,6235</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>114@e@AP900816-0139@gold</id>
+		<span>20,22</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>115@e@AP900816-0139@gold</id>
+		<span>17,19</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>116@e@AP900816-0139@gold</id>
+		<span>59,61</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>117@e@AP900816-0139@gold</id>
+		<span>56,58</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>118@e@AP900816-0139@gold</id>
+		<span>6662,6669</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>119@e@AP900816-0139@gold</id>
+		<span>4346,4367</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>120@e@AP900816-0139@gold</id>
+		<span>23,25</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>121@e@AP900816-0139@gold</id>
+		<span>26,28</span>
+		<type>Hour-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>122@e@AP900816-0139@gold</id>
+		<span>28,30</span>
+		<type>Minute-Of-Hour</type>
+		</entity>
+
+	<entity>
+		<id>123@e@AP900816-0139@gold</id>
+		<span>6833,6837</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>125@e@AP900816-0139@gold</id>
+		<span>62,64</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>126@e@AP900816-0139@gold</id>
+		<span>65,67</span>
+		<type>Hour-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>127@e@AP900816-0139@gold</id>
+		<span>67,69</span>
+		<type>Minute-Of-Hour</type>
+		</entity>
+
+	<entity>
+		<id>128@e@AP900816-0139@gold</id>
+		<span>113,115</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>129@e@AP900816-0139@gold</id>
+		<span>110,112</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>130@e@AP900816-0139@gold</id>
+		<span>3081,3082</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>131@e@AP900816-0139@gold</id>
+		<span>3076,3080</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>132@e@AP900816-0139@gold</id>
+		<span>3066,3071</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>134@e@AP900816-0139@gold</id>
+		<span>6646,6652</span>
+		<type>Period</type>
+		</entity>
+
+	</annotations>
+
+</data>

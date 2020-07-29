@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>14:47:28 24-05-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>14@e@PRI19980205.2000.1890@gold</id>
+		<span>29,31</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>15@e@PRI19980205.2000.1890@gold</id>
+		<span>31,33</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>16@e@PRI19980205.2000.1890@gold</id>
+		<span>730,733</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>17@e@PRI19980205.2000.1890@gold</id>
+		<span>25,29</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>18@e@PRI19980205.2000.1890@gold</id>
+		<span>314,321</span>
+		<type>This</type>
+		</entity>
+
+</annotations>
+
+</data>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>12:17:04 10-07-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>22@e@wsj_0073@gold</id>
+		<span>12,14</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>23@e@wsj_0073@gold</id>
+		<span>610,612</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>24@e@wsj_0073@gold</id>
+		<span>15,17</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>25@e@wsj_0073@gold</id>
+		<span>86,88</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>26@e@wsj_0073@gold</id>
+		<span>89,91</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>27@e@wsj_0073@gold</id>
+		<span>18,20</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>28@e@wsj_0073@gold</id>
+		<span>337,341</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>29@e@wsj_0073@gold</id>
+		<span>605,609</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>30@e@wsj_0073@gold</id>
+		<span>92,94</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>31@e@wsj_0073@gold</id>
+		<span>342,346</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>32@e@wsj_0073@gold</id>
+		<span>515,519</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>33@e@wsj_0073@gold</id>
+		<span>330,333</span>
+		<type>Modifier</type>
+		</entity>
+
+	</annotations>
+
+</data>

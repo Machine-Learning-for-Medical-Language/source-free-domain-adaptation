@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>19:00:58 25-05-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>13@e@wsj_0106@gold</id>
+		<span>12,14</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>14@e@wsj_0106@gold</id>
+		<span>15,17</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>15@e@wsj_0106@gold</id>
+		<span>109,111</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>16@e@wsj_0106@gold</id>
+		<span>112,114</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>17@e@wsj_0106@gold</id>
+		<span>18,20</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>18@e@wsj_0106@gold</id>
+		<span>115,117</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>20@e@wsj_0106@gold</id>
+		<span>542,548</span>
+		<type>Before</type>
+		</entity>
+
+</annotations>
+
+</data>

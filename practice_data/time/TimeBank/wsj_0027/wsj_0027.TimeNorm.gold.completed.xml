@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>18:59:08 25-05-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>39@e@wsj_0027@gold</id>
+		<span>847,852</span>
+		<type>Number</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>40@e@wsj_0027@gold</id>
+		<span>12,14</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>41@e@wsj_0027@gold</id>
+		<span>1248,1252</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>42@e@wsj_0027@gold</id>
+		<span>144,146</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>43@e@wsj_0027@gold</id>
+		<span>147,149</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>45@e@wsj_0027@gold</id>
+		<span>584,593</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>46@e@wsj_0027@gold</id>
+		<span>1085,1094</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>47@e@wsj_0027@gold</id>
+		<span>15,17</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>48@e@wsj_0027@gold</id>
+		<span>1006,1010</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>49@e@wsj_0027@gold</id>
+		<span>913,922</span>
+		<type>Calendar-Interval</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>50@e@wsj_0027@gold</id>
+		<span>1003,1005</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>51@e@wsj_0027@gold</id>
+		<span>1253,1257</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>52@e@wsj_0027@gold</id>
+		<span>150,152</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>53@e@wsj_0027@gold</id>
+		<span>18,20</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>54@e@wsj_0027@gold</id>
+		<span>842,846</span>
+		<type>Last</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>55@e@wsj_0027@gold</id>
+		<span>896,904</span>
+		<type>Last</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>56@e@wsj_0027@gold</id>
+		<span>853,858</span>
+		<type>Calendar-Interval</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>57@e@wsj_0027@gold</id>
+		<span>481,486</span>
+		<type>Between</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	</annotations>
+
+</data>

@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>18:53:22 25-05-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>91@e@WSJ900813-0157@gold</id>
+		<span>18,20</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>92@e@WSJ900813-0157@gold</id>
+		<span>10211,10216</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>93@e@WSJ900813-0157@gold</id>
+		<span>274,276</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>94@e@WSJ900813-0157@gold</id>
+		<span>277,279</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>95@e@WSJ900813-0157@gold</id>
+		<span>9860,9864</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>97@e@WSJ900813-0157@gold</id>
+		<span>841,850</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>98@e@WSJ900813-0157@gold</id>
+		<span>1164,1166</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>99@e@WSJ900813-0157@gold</id>
+		<span>9856,9859</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>100@e@WSJ900813-0157@gold</id>
+		<span>1385,1394</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>103@e@WSJ900813-0157@gold</id>
+		<span>2553,2562</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>105@e@WSJ900813-0157@gold</id>
+		<span>4009,4015</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>107@e@WSJ900813-0157@gold</id>
+		<span>4235,4244</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>108@e@WSJ900813-0157@gold</id>
+		<span>21,23</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>110@e@WSJ900813-0157@gold</id>
+		<span>4608,4617</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>111@e@WSJ900813-0157@gold</id>
+		<span>7711,7715</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>112@e@WSJ900813-0157@gold</id>
+		<span>5002,5007</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>114@e@WSJ900813-0157@gold</id>
+		<span>9447,9451</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>115@e@WSJ900813-0157@gold</id>
+		<span>4997,5001</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>116@e@WSJ900813-0157@gold</id>
+		<span>6836,6839</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>117@e@WSJ900813-0157@gold</id>
+		<span>3903,3913</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>118@e@WSJ900813-0157@gold</id>
+		<span>9151,9154</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>119@e@WSJ900813-0157@gold</id>
+		<span>24,26</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>120@e@WSJ900813-0157@gold</id>
+		<span>10127,10137</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>121@e@WSJ900813-0157@gold</id>
+		<span>8575,8580</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>122@e@WSJ900813-0157@gold</id>
+		<span>280,282</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>123@e@WSJ900813-0157@gold</id>
+		<span>9155,9160</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>124@e@WSJ900813-0157@gold</id>
+		<span>1167,1171</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>125@e@WSJ900813-0157@gold</id>
+		<span>7702,7705</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>126@e@WSJ900813-0157@gold</id>
+		<span>10205,10210</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>127@e@WSJ900813-0157@gold</id>
+		<span>5867,5874</span>
+		<type>Part-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>129@e@WSJ900813-0157@gold</id>
+		<span>9668,9675</span>
+		<type>Part-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>131@e@WSJ900813-0157@gold</id>
+		<span>8570,8574</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>132@e@WSJ900813-0157@gold</id>
+		<span>8564,8569</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>133@e@WSJ900813-0157@gold</id>
+		<span>9144,9147</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>134@e@WSJ900813-0157@gold</id>
+		<span>9847,9853</span>
+		<type>Next</type>
+		</entity>
+
+	</annotations>
+
+</data>

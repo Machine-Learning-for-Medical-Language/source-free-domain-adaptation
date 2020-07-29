@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>15:08:45 24-05-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>18@e@PRI19980306.2000.1675@gold</id>
+		<span>29,31</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>19@e@PRI19980306.2000.1675@gold</id>
+		<span>31,33</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>20@e@PRI19980306.2000.1675@gold</id>
+		<span>211,214</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>21@e@PRI19980306.2000.1675@gold</id>
+		<span>559,562</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>22@e@PRI19980306.2000.1675@gold</id>
+		<span>563,572</span>
+		<type>Part-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>23@e@PRI19980306.2000.1675@gold</id>
+		<span>842,848</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>24@e@PRI19980306.2000.1675@gold</id>
+		<span>25,29</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>25@e@PRI19980306.2000.1675@gold</id>
+		<span>556,558</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>28@e@PRI19980306.2000.1675@gold</id>
+		<span>204,210</span>
+		<type>NthFromStart</type>
+		</entity>
+
+</annotations>
+
+</data>
