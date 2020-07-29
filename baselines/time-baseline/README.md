@@ -2,6 +2,15 @@
 
 This is  the baseline for the **time expression recognition** task of [SemEval-2020 Task 10: Source-Free Domain Adaptation for Semantic Processing](https://machine-learning-for-medical-language.github.io/source-free-domain-adaptation/). This software allows the participants to download the pre-trained model supplied by the organizers, and make predictions in the required Anafora `.xml`.
 
+The model provided is a sequence tagger, fine-tuned on 25,000+ time expressions in de-identified clinical notes. The following table shows the _in-domain_ and _out-of-domain_ performances, the latter (`practice_data`, `evaluation_data`) are used as the baseline values for the different evaluation phases.
+
+|                 | P     | R     | F1    |
+|-----------------|-------|-------|-------|
+| in-domain_data  | 0.969 | 0.966 | 0.968 |
+| practice_data   | 0.777 | 0.685 | 0.728 |
+| evaluation_data |       |       |       |
+
+
 ## Get and prepare data
 
 ### Practice Data
