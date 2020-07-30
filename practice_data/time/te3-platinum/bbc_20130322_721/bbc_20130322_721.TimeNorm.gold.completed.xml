@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>14:00:42 05-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>13@e@bbc_20130322_721@gold</id>
+		<span>25,27</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>14@e@bbc_20130322_721@gold</id>
+		<span>28,30</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>15@e@bbc_20130322_721@gold</id>
+		<span>603,609</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>16@e@bbc_20130322_721@gold</id>
+		<span>806,812</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>18@e@bbc_20130322_721@gold</id>
+		<span>872,880</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>20@e@bbc_20130322_721@gold</id>
+		<span>20,24</span>
+		<type>Year</type>
+		</entity>
+
+</annotations>
+
+</data>

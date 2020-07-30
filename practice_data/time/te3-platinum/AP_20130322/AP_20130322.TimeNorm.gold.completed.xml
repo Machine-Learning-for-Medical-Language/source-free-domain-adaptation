@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>15:49:16 26-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>81@e@AP_20130322@gold</id>
+		<span>1001,1005</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>82@e@AP_20130322@gold</id>
+		<span>15,20</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>84@e@AP_20130322@gold</id>
+		<span>1599,1606</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>85@e@AP_20130322@gold</id>
+		<span>1593,1598</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>87@e@AP_20130322@gold</id>
+		<span>276,282</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>88@e@AP_20130322@gold</id>
+		<span>1581,1589</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>89@e@AP_20130322@gold</id>
+		<span>561,567</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>90@e@AP_20130322@gold</id>
+		<span>665,669</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>91@e@AP_20130322@gold</id>
+		<span>670,674</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>92@e@AP_20130322@gold</id>
+		<span>743,744</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>93@e@AP_20130322@gold</id>
+		<span>1575,1580</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>94@e@AP_20130322@gold</id>
+		<span>996,1000</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>95@e@AP_20130322@gold</id>
+		<span>21,23</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>96@e@AP_20130322@gold</id>
+		<span>1131,1136</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>97@e@AP_20130322@gold</id>
+		<span>1473,1479</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>98@e@AP_20130322@gold</id>
+		<span>1465,1472</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>99@e@AP_20130322@gold</id>
+		<span>1760,1763</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>100@e@AP_20130322@gold</id>
+		<span>1650,1655</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>101@e@AP_20130322@gold</id>
+		<span>1460,1464</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>102@e@AP_20130322@gold</id>
+		<span>1532,1538</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>103@e@AP_20130322@gold</id>
+		<span>204,211</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>104@e@AP_20130322@gold</id>
+		<span>25,29</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>105@e@AP_20130322@gold</id>
+		<span>1644,1648</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>106@e@AP_20130322@gold</id>
+		<span>745,751</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>107@e@AP_20130322@gold</id>
+		<span>198,203</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>108@e@AP_20130322@gold</id>
+		<span>474,478</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>109@e@AP_20130322@gold</id>
+		<span>1637,1640</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>111@e@AP_20130322@gold</id>
+		<span>82,88</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>112@e@AP_20130322@gold</id>
+		<span>175,181</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>113@e@AP_20130322@gold</id>
+		<span>613,619</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>114@e@AP_20130322@gold</id>
+		<span>669,670</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>115@e@AP_20130322@gold</id>
+		<span>793,799</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>117@e@AP_20130322@gold</id>
+		<span>1144,1150</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>118@e@AP_20130322@gold</id>
+		<span>1539,1545</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>119@e@AP_20130322@gold</id>
+		<span>1557,1563</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>120@e@AP_20130322@gold</id>
+		<span>1771,1777</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>122@e@AP_20130322@gold</id>
+		<span>190,195</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>123@e@AP_20130322@gold</id>
+		<span>479,483</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>125@e@AP_20130322@gold</id>
+		<span>756,761</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>126@e@AP_20130322@gold</id>
+		<span>1548,1552</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>127@e@AP_20130322@gold</id>
+		<span>74,77</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>128@e@AP_20130322@gold</id>
+		<span>171,174</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>129@e@AP_20130322@gold</id>
+		<span>1140,1143</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>132@e@AP_20130322@gold</id>
+		<span>1756,1759</span>
+		<type>This</type>
+		</entity>
+
+</annotations>
+
+</data>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>13:05:25 05-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>28@e@WSJ_20130322_159@gold</id>
+		<span>20,25</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>29@e@WSJ_20130322_159@gold</id>
+		<span>2076,2080</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>30@e@WSJ_20130322_159@gold</id>
+		<span>2071,2075</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>31@e@WSJ_20130322_159@gold</id>
+		<span>149,155</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>33@e@WSJ_20130322_159@gold</id>
+		<span>904,907</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>34@e@WSJ_20130322_159@gold</id>
+		<span>908,912</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>35@e@WSJ_20130322_159@gold</id>
+		<span>26,28</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>36@e@WSJ_20130322_159@gold</id>
+		<span>1858,1862</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>37@e@WSJ_20130322_159@gold</id>
+		<span>1684,1687</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>38@e@WSJ_20130322_159@gold</id>
+		<span>1853,1857</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>39@e@WSJ_20130322_159@gold</id>
+		<span>1679,1683</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>40@e@WSJ_20130322_159@gold</id>
+		<span>1599,1604</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>41@e@WSJ_20130322_159@gold</id>
+		<span>1688,1693</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>42@e@WSJ_20130322_159@gold</id>
+		<span>30,34</span>
+		<type>Year</type>
+		</entity>
+
+	</annotations>
+
+</data>

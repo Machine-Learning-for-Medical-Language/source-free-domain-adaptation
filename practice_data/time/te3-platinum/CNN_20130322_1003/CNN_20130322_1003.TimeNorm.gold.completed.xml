@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>12:55:47 27-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>97@e@CNN_20130322_1003@gold</id>
+		<span>21,26</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>98@e@CNN_20130322_1003@gold</id>
+		<span>2593,2598</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>99@e@CNN_20130322_1003@gold</id>
+		<span>129,133</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>100@e@CNN_20130322_1003@gold</id>
+		<span>134,140</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>101@e@CNN_20130322_1003@gold</id>
+		<span>179,187</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>103@e@CNN_20130322_1003@gold</id>
+		<span>347,351</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>104@e@CNN_20130322_1003@gold</id>
+		<span>2495,2499</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>105@e@CNN_20130322_1003@gold</id>
+		<span>357,361</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>106@e@CNN_20130322_1003@gold</id>
+		<span>369,371</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>107@e@CNN_20130322_1003@gold</id>
+		<span>372,376</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>108@e@CNN_20130322_1003@gold</id>
+		<span>401,408</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>109@e@CNN_20130322_1003@gold</id>
+		<span>409,413</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>110@e@CNN_20130322_1003@gold</id>
+		<span>609,612</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>111@e@CNN_20130322_1003@gold</id>
+		<span>613,619</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>113@e@CNN_20130322_1003@gold</id>
+		<span>966,971</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>114@e@CNN_20130322_1003@gold</id>
+		<span>2386,2391</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>115@e@CNN_20130322_1003@gold</id>
+		<span>972,978</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>116@e@CNN_20130322_1003@gold</id>
+		<span>1064,1072</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>118@e@CNN_20130322_1003@gold</id>
+		<span>1151,1153</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>119@e@CNN_20130322_1003@gold</id>
+		<span>1154,1158</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>120@e@CNN_20130322_1003@gold</id>
+		<span>1171,1175</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>121@e@CNN_20130322_1003@gold</id>
+		<span>1176,1181</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>122@e@CNN_20130322_1003@gold</id>
+		<span>1397,1403</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>123@e@CNN_20130322_1003@gold</id>
+		<span>27,29</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>124@e@CNN_20130322_1003@gold</id>
+		<span>1445,1450</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>126@e@CNN_20130322_1003@gold</id>
+		<span>1480,1484</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>128@e@CNN_20130322_1003@gold</id>
+		<span>1552,1558</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>130@e@CNN_20130322_1003@gold</id>
+		<span>2265,2268</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>131@e@CNN_20130322_1003@gold</id>
+		<span>1682,1687</span>
+		<type>Part-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>132@e@CNN_20130322_1003@gold</id>
+		<span>1691,1692</span>
+		<type>Hour-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>133@e@CNN_20130322_1003@gold</id>
+		<span>1693,1695</span>
+		<type>AMPM-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>134@e@CNN_20130322_1003@gold</id>
+		<span>1759,1762</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>135@e@CNN_20130322_1003@gold</id>
+		<span>1763,1769</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>137@e@CNN_20130322_1003@gold</id>
+		<span>1922,1927</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>140@e@CNN_20130322_1003@gold</id>
+		<span>2071,2077</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>142@e@CNN_20130322_1003@gold</id>
+		<span>2237,2245</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>145@e@CNN_20130322_1003@gold</id>
+		<span>2379,2385</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>147@e@CNN_20130322_1003@gold</id>
+		<span>352,356</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>148@e@CNN_20130322_1003@gold</id>
+		<span>1675,1681</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>149@e@CNN_20130322_1003@gold</id>
+		<span>31,35</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>151@e@CNN_20130322_1003@gold</id>
+		<span>2697,2702</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>154@e@CNN_20130322_1003@gold</id>
+		<span>2692,2696</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>155@e@CNN_20130322_1003@gold</id>
+		<span>2688,2691</span>
+		<type>This</type>
+		</entity>
+
+	</annotations>
+
+</data>

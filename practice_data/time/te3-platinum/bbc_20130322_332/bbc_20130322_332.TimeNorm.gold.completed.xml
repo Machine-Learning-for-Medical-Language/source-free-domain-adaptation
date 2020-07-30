@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>14:00:11 05-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>51@e@bbc_20130322_332@gold</id>
+		<span>1737,1741</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>52@e@bbc_20130322_332@gold</id>
+		<span>28,30</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>53@e@bbc_20130322_332@gold</id>
+		<span>62,67</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>55@e@bbc_20130322_332@gold</id>
+		<span>429,436</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>57@e@bbc_20130322_332@gold</id>
+		<span>505,509</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>59@e@bbc_20130322_332@gold</id>
+		<span>25,27</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>60@e@bbc_20130322_332@gold</id>
+		<span>874,880</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>61@e@bbc_20130322_332@gold</id>
+		<span>1552,1555</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>62@e@bbc_20130322_332@gold</id>
+		<span>1248,1252</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>64@e@bbc_20130322_332@gold</id>
+		<span>899,903</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>65@e@bbc_20130322_332@gold</id>
+		<span>1024,1030</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>66@e@bbc_20130322_332@gold</id>
+		<span>20,24</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>67@e@bbc_20130322_332@gold</id>
+		<span>720,722</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>69@e@bbc_20130322_332@gold</id>
+		<span>864,873</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>70@e@bbc_20130322_332@gold</id>
+		<span>727,736</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>71@e@bbc_20130322_332@gold</id>
+		<span>597,606</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>72@e@bbc_20130322_332@gold</id>
+		<span>1014,1023</span>
+		<type>Next</type>
+		</entity>
+
+	</annotations>
+
+</data>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>12:45:09 05-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>25@e@CNN_20130322_1243@gold</id>
+		<span>146,150</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>26@e@CNN_20130322_1243@gold</id>
+		<span>21,26</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>27@e@CNN_20130322_1243@gold</id>
+		<span>1895,1899</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>28@e@CNN_20130322_1243@gold</id>
+		<span>96,102</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>30@e@CNN_20130322_1243@gold</id>
+		<span>27,29</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>31@e@CNN_20130322_1243@gold</id>
+		<span>151,155</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>32@e@CNN_20130322_1243@gold</id>
+		<span>652,658</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>33@e@CNN_20130322_1243@gold</id>
+		<span>1900,1904</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>34@e@CNN_20130322_1243@gold</id>
+		<span>31,35</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>35@e@CNN_20130322_1243@gold</id>
+		<span>648,651</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>36@e@CNN_20130322_1243@gold</id>
+		<span>1990,1993</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>37@e@CNN_20130322_1243@gold</id>
+		<span>1986,1989</span>
+		<type>This</type>
+		</entity>
+
+	</annotations>
+
+</data>

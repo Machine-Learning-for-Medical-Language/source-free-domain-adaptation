@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>13:12:46 27-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>68@e@bbc_20130322_1150@gold</id>
+		<span>879,883</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>69@e@bbc_20130322_1150@gold</id>
+		<span>2319,2323</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>70@e@bbc_20130322_1150@gold</id>
+		<span>29,31</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>71@e@bbc_20130322_1150@gold</id>
+		<span>38,42</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>72@e@bbc_20130322_1150@gold</id>
+		<span>163,167</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>73@e@bbc_20130322_1150@gold</id>
+		<span>243,252</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>75@e@bbc_20130322_1150@gold</id>
+		<span>253,258</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>77@e@bbc_20130322_1150@gold</id>
+		<span>426,430</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>79@e@bbc_20130322_1150@gold</id>
+		<span>617,621</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>80@e@bbc_20130322_1150@gold</id>
+		<span>622,624</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>81@e@bbc_20130322_1150@gold</id>
+		<span>714,719</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>82@e@bbc_20130322_1150@gold</id>
+		<span>796,800</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>83@e@bbc_20130322_1150@gold</id>
+		<span>875,878</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>84@e@bbc_20130322_1150@gold</id>
+		<span>26,28</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>85@e@bbc_20130322_1150@gold</id>
+		<span>2314,2318</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>86@e@bbc_20130322_1150@gold</id>
+		<span>1494,1498</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>88@e@bbc_20130322_1150@gold</id>
+		<span>1745,1748</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>89@e@bbc_20130322_1150@gold</id>
+		<span>1833,1835</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>90@e@bbc_20130322_1150@gold</id>
+		<span>1836,1841</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>91@e@bbc_20130322_1150@gold</id>
+		<span>2281,2285</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>93@e@bbc_20130322_1150@gold</id>
+		<span>1969,1973</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>94@e@bbc_20130322_1150@gold</id>
+		<span>1974,1981</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>95@e@bbc_20130322_1150@gold</id>
+		<span>2075,2081</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>97@e@bbc_20130322_1150@gold</id>
+		<span>2094,2098</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>98@e@bbc_20130322_1150@gold</id>
+		<span>1845,1849</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>99@e@bbc_20130322_1150@gold</id>
+		<span>21,25</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>100@e@bbc_20130322_1150@gold</id>
+		<span>910,914</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>101@e@bbc_20130322_1150@gold</id>
+		<span>261,270</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>102@e@bbc_20130322_1150@gold</id>
+		<span>621,622</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>103@e@bbc_20130322_1150@gold</id>
+		<span>915,918</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>105@e@bbc_20130322_1150@gold</id>
+		<span>2221,2229</span>
+		<type>Last</type>
+		</entity>
+
+</annotations>
+
+</data>

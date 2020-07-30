@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>13:41:19 05-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>30@e@bbc_20130322_1600@gold</id>
+		<span>497,500</span>
+		<type>Time-Zone</type>
+		</entity>
+
+	<entity>
+		<id>31@e@bbc_20130322_1600@gold</id>
+		<span>29,31</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>32@e@bbc_20130322_1600@gold</id>
+		<span>802,808</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>33@e@bbc_20130322_1600@gold</id>
+		<span>491,493</span>
+		<type>Hour-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>34@e@bbc_20130322_1600@gold</id>
+		<span>494,496</span>
+		<type>Minute-Of-Hour</type>
+		</entity>
+
+	<entity>
+		<id>35@e@bbc_20130322_1600@gold</id>
+		<span>26,28</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>39@e@bbc_20130322_1600@gold</id>
+		<span>665,671</span>
+		<type>Before</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>40@e@bbc_20130322_1600@gold</id>
+		<span>501,509</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>41@e@bbc_20130322_1600@gold</id>
+		<span>485,490</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>42@e@bbc_20130322_1600@gold</id>
+		<span>21,25</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>43@e@bbc_20130322_1600@gold</id>
+		<span>660,664</span>
+		<type>Period</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>46@e@bbc_20130322_1600@gold</id>
+		<span>685,704</span>
+		<type>Season-Of-Year</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>47@e@bbc_20130322_1600@gold</id>
+		<span>676,681</span>
+		<type>Modifier</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	</annotations>
+
+</data>

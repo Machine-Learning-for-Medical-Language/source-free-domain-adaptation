@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>15:53:47 26-06-2017</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>7@e@CNN_20130321_821@gold</id>
+		<span>20,25</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>8@e@CNN_20130321_821@gold</id>
+		<span>26,28</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>9@e@CNN_20130321_821@gold</id>
+		<span>30,34</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>10@e@CNN_20130321_821@gold</id>
+		<span>156,160</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>11@e@CNN_20130321_821@gold</id>
+		<span>477,483</span>
+		<type>Period</type>
+		</entity>
+
+</annotations>
+
+</data>
