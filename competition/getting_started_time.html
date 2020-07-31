@@ -1,9 +1,26 @@
 <h1 style="color: grey;">Getting Started: Time</h1>
-
-<h2>Get the pretrained model</h2>
-
-<h2>Get the unlabeled development data</h2>
-
-<h2>Get model predictions on the development data</h2>
-
+<h2>Get and prepare practice data</h2>
+<p>The trial data for the practice phase consists of 99 articles from the <em>AQUAINT</em>, <em>TimeBank</em> and <em>te3-platinum</em> subsets of <em>TempEval-2013</em>, i.e. <em>"Newswire"</em> domain. For each documents, there is a file ending in <em>"TimeNorm.gold.completed.xml"</em> that contains the annotated temporal expressions following the Anafora schema.</p>
+<p>You can download the annotations for this phase <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/tree/master/practice_data/time"><strong>here</strong></a>.</p>
+<p>To get the plain text corresponding to the annotations you need to install <a href="https://pypi.org/project/anaforatools/" rel="nofollow"><strong>anaforatools</strong></a>.</p>
+<p>The following commands will copy the plain text file in each document directory:</p>
+<p style="padding-left: 30px;"><code>- python -m anafora.copy_text --format=timeml /path/to/timeml_folder/ /path/to/practice_data/time/ </code></p>
+<p>Where:</p>
+<ul>
+  <li><em>practice_data/time</em> is the directory with the annotated documents</li>
+  <li><em>timeml_folder</em> is the directory that contains the <em>TBAQ-cleaned</em> and <em>t3-platinum</em> subfolders:
+    <ul>
+      <li><em>TBAQ-cleaned</em> is the directory you get when you unzip <a href="http://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/tbaq-2013-03.zip" rel="nofollow">http://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/tbaq-2013-03.zip</a></li>
+      <li><em>t3-platinum</em> is the directory you get when you decompress <a href="https://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/te3-platinumstandard.tar.gz" rel="nofollow">https://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/te3-platinumstandard.tar.gz</a></li>
+    </ul>
+    <div>&nbsp;</div>
+  </li>
+</ul>
+<h2>Get model and predictions on the development data</h2>
+<p>The baseline for time extraction is available in <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/tree/master/baselines/time-baseline" target="_blank">https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/tree/master/baselines/time-baseline</a></p>
+<p>The first time you run the baseline, the pre-trained model, <code>clulab/roberta-timex-semeval</code>, will be automatically downloaded in your computer. If you want to produce some predictions with this model, you need to pass as arguments the directory containing the input text and the target directory where the predictions will be stored. For example, to process the <em>AQUAINT</em> subset from <em>TempEval-2013</em>, just run:</p>
+<p style="padding-left: 30px;"><code>- python run_time.py -p /path/to/practice_data/time/AQUAINT -o /path/to/output/AQUAINT [--no_cuda]</code></p>
+<p>Use the <code>--no_cuda</code> option if you run the model in the gpu.</p>
+<p>&nbsp;</p>
 <h2>Upload predictions to CodaLab</h2>
+<p>To make a submission for the practice phase, you must create a directory with the output for the 99 documents following the structure explained in the <strong>Output Format</strong> section.</p>

@@ -278,5 +278,5 @@ def write_predictions(model, dataset, out_path):
         data = prediction_to_anafora(model, doc_predictions, doc_features, doc_name)
         doc_path = os.path.join(out_path, doc_name)
         os.makedirs(doc_path, exist_ok=True)
-        doc_path = os.path.join(doc_path, "%s.TimeNorm.system.xml" % doc_name)
+        doc_path = os.path.join(doc_path, "%s.TimeNorm.system.completed.xml" % doc_name)
         data.to_file(doc_path)
