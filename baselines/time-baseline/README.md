@@ -6,40 +6,43 @@ The model provided is a sequence tagger, fine-tuned on 25,000+ time expressions 
 
 |                 | P     | R     | F1    |
 |-----------------|-------|-------|-------|
-| in-domain_data  | 0.969 | 0.966 | 0.968 |
-| practice_data   | 0.777 | 0.685 | 0.728 |
+| in-domain_data  | 0.967 | 0.968 | 0.968 |
+| practice_data   | 0.775 | 0.768 | 0.771 |
 | evaluation_data |       |       |       |
+
 
 
 ## Get and prepare data
 
 ### Practice Data
 
-The trial data for the practice phase consists of 14 articles from the _AQUAINT_ and _TimeBank_ subsets of  _TempEval-2013_, i.e. _"Newswire"_ domain. For each documents, there is a file ending in _"TimeNorm.gold.completed.xml"_ that contains the annotated temporal expressions following the Anafora schema.
+The trial data for the practice phase consists of 99 articles from the _AQUAINT_, _TimeBank_ and _te3-platinum_ subsets of  _TempEval-2013_, i.e. _"Newswire"_ domain. For each documents, there is a file ending in _"TimeNorm.gold.completed.xml"_ that contains the annotated temporal expressions following the Anafora schema.
 
 You can download the annotations for this phase [**here**](https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/tree/master/practice_data/time).
 
 To get the plain text corresponding to the annotations you need to install [**anaforatools**](https://pypi.org/project/anaforatools/).
 
-The following command will copy the plain text file in each document directory:
+The following commands will copy the plain text file in each document directory:
 
-    python -m anafora.copy_text --format=timeml /path/to/TBAQ-cleaned/ /path/to/anafora-annotation/TempEval-2013/
+    python -m anafora.copy_text --format=timeml /path/to/timeml_folder/ /path/to/practice_data/time/
 
 Where:
 
--   _TempEval-2013_ is the directory with the annotated documents
--   _TBAQ-cleaned_ is the directory you get when you unzip [http://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/tbaq-2013-03.zip](http://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/tbaq-2013-03.zip)
+-   _practice_data/time_ is the directory with the annotated documents
+-   _timeml_folder_ is the directory that contains the _TBAQ-cleaned_ and _t3-platinum_ subfolders:
+    -   _TBAQ-cleaned_ is the directory you get when you unzip [http://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/tbaq-2013-03.zip](http://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/tbaq-2013-03.zip)
+    -   _t3-platinum_ is the directory you get when you decompress [https://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/te3-platinumstandard.tar.gz](https://www.cs.york.ac.uk/semeval-2013/task1/data/uploads/datasets/te3-platinumstandard.tar.gz)
 
-To make a submission for this phase, you must include the output for the 14 documents following the structure explained in the **Data and Evaluation** section.
+To make a submission for this phase, you must include the output for the 99 documents following the structure explained in the **Data and Evaluation** section.
 
 ## Usage
 
 
 The first time you run the baseline, the pre-trained model, `clulab/roberta-timex-semeval`, will be automatically downloaded in your computer. If you want to produce some predictions with this model, you need to pass as arguments the directory containing the input text and the target directory where the predictions will be stored. For example, to process the _AQUAINT_ subset from _TempEval-2013_, just run:
 
-    python run_time.py -p /path/to/anafora-annotation/TempEval-2013/AQUAINT -o /path/to/output/AQUAINT [--no_cuda]
+    python run_time.py -p /path/to/practice_data/time/AQUAINT -o /path/to/output/AQUAINT [--no_cuda]
 
-Recall that the `anafora-annotation` folder includes both raw text and Anafora annotation files, but it could contain only the former since the latter are not needed to make predictions. This will be the case during the evaluation phase. Use the `--no_cuda` option if you are going to run the model in the gpu.
+Recall that the `practice_data/time` folder includes both raw text and Anafora annotation files, but it could contain only the former since the latter are not needed to make predictions. This will be the case during the evaluation phase. Use the `--no_cuda` option if you are going to run the model in the gpu.
 
 Run `python run_time.py -h` to explore additional options and arguments you can play with, like the hyperpameters of the model. 
 
@@ -55,4 +58,4 @@ By default, this will finetune `clulab/roberta-timex-semeval` model. You can rep
 
 To use this new version of the model for predictions, you can run:
 
-    python run_time.py -p /path/to/text/TempEval-2013/AQUAINT -o /path/to/output/AQUAINT -m /path/to/save-model/results/ [--no_cuda]
+    python run_time.py -p /path/to/practice_data/time/AQUAINT -o /path/to/output/AQUAINT -m /path/to/save-model/results/ [--no_cuda]
