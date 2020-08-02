@@ -20,6 +20,7 @@ phases:
         label: "Practice"
         start_date: 2020-06-09
         max_submissions: 999
+        leaderboard_management_mode: default
         scoring_program: scoring_program.zip
         reference_data: practice_data.zip
     2:
@@ -28,6 +29,7 @@ phases:
         label: "Evaluation"
         start_date: 2021-01-10
         max_submissions: 2
+        leaderboard_management_mode: hide_results
         scoring_program: scoring_program.zip
         reference_data: practice_data.zip
     3:
@@ -36,6 +38,7 @@ phases:
         label: "Post-Evaluation"
         start_date: 2021-01-31
         max_submissions: 999
+        leaderboard_management_mode: default
         scoring_program: scoring_program.zip
         reference_data: practice_data.zip
 
