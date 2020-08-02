@@ -29,7 +29,7 @@ phases:
         start_date: 2021-01-10
         max_submissions: 2
         scoring_program: scoring_program.zip
-        reference_data: evaluation_data.zip
+        reference_data: practice_data.zip
     3:
         phasenumber: 3
         color: blue
@@ -37,7 +37,7 @@ phases:
         start_date: 2021-01-31
         max_submissions: 999
         scoring_program: scoring_program.zip
-        reference_data: post_evaluation_data.zip
+        reference_data: practice_data.zip
 
 leaderboard:
     leaderboards:
