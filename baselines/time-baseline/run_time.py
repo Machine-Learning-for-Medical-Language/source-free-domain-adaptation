@@ -10,26 +10,41 @@ from transformers import (
 from utils_time import *
 
 
+class DatasetEmptyError(Exception):
+
+    def __init__(self, dir_name):
+        self.message = dir_name
+
+    def __str__(self):
+        return "Dataset empty. Check the structure of your %s directory." % self.message
+
+
 class Model:
 
     def __init__(self, args):
-        self.bio_mode = not args.io_mode
-        self.pad_labels = args.ignore_index
-        self.max_seq_length = args.max_seq_length
-        self.labels = read_labels("resources/labels.txt", bio_mode=self.bio_mode)
-        self.label_pad_id = torch.nn.CrossEntropyLoss().ignore_index
-        config = AutoConfig.from_pretrained(args.model_name_or_path)
-        config.num_labels = len(self.labels)
-        config.id2label = dict((idx, label) for idx, label in enumerate(self.labels))
-        config.label2id = dict((label, idx) for idx, label in enumerate(self.labels))
+        bio_mode = not args.io_mode
+        labels = read_labels("resources/labels.txt", bio_mode=bio_mode)
+        self.config = AutoConfig.from_pretrained(args.model_name_or_path, cache_dir=args.cache_dir)
+        self.config.num_labels = len(labels)
+        self.config.id2label = dict((idx, label) for idx, label in enumerate(labels))
+        self.config.label2id = dict((label, idx) for idx, label in enumerate(labels))
+        self.config.bio_mode = bio_mode
+        self.config.pad_labels = args.ignore_index
+        self.config.label_pad_id = torch.nn.CrossEntropyLoss().ignore_index
         if args.vocab_file is not None and args.merges_file is not None:
-            self.tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, config=config,
+            self.tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, config=self.config,
+                                                           cache_dir = args.cache_dir,
                                                            vocab_file=args.vocab_file,
                                                            merges_file=args.merges_file,
+                                                           model_max_length=args.max_seq_length,
                                                            use_fast=True)
         else:
-            self.tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, config=config, use_fast=True)
-        self.model = AutoModelForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
+            self.tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, config=self.config,
+                                                           cache_dir=args.cache_dir,
+                                                           model_max_length=args.max_seq_length,
+                                                           use_fast=True)
+        self.model = AutoModelForTokenClassification.from_pretrained(args.model_name_or_path,config=self.config,
+                                                                     cache_dir=args.cache_dir)
         output_path = "./runs"
         if args.save_dir is not None:
             output_path = os.path.join(args.save_dir, "results")
@@ -77,7 +92,7 @@ class Model:
     @staticmethod
     def compute_metrics(dataset):
         def anafora_evaluation(prediction):
-            scores = score_predictions(model, dataset, prediction)
+            scores = score_predictions(model, dataset, prediction.predictions)
             return {
                 "precision": scores.precision(),
                 "recall": scores.recall(),
@@ -96,6 +111,7 @@ class Model:
         )
         trainer.train()
         trainer.save_model()
+        self.tokenizer.save_pretrained(self.args.output_dir)
 
     def evaluate(self, dataset):
         trainer = Trainer(
@@ -105,6 +121,8 @@ class Model:
             compute_metrics=self.compute_metrics(dataset),
             data_collator=self.train_data_collator
         )
+        trainer.save_model()
+        self.tokenizer.save_pretrained(self.args.output_dir)
         trainer.evaluate()
 
     def predict(self, dataset):
@@ -114,7 +132,7 @@ class Model:
             data_collator=self.test_data_collator
         )
         prediction, _, _ = trainer.predict(dataset)
-        dataset.prediction = prepare_prediction(prediction)
+        return prediction
 
 
 if __name__ == "__main__":
@@ -135,6 +153,8 @@ if __name__ == "__main__":
                         help="The directory to save the model and the log files.")
     parser.add_argument("-m", "--model", metavar="NAME|PATH", dest="model_name_or_path",
                         default="clulab/roberta-timex-semeval", help="Name or path to a trained model.")
+    parser.add_argument("-c", "--cache", metavar="NAME|PATH", dest="cache_dir",
+                        help="Directory in which a downloaded pre-trained model  should be cached.")
     parser.add_argument("-b", "--vocab", metavar="NAME|PATH", dest="vocab_file", default=None,
                         help="Name or path to a vocabulary file.")
     parser.add_argument("-r", "--merges", metavar="NAME|PATH", dest="merges_file", default=None,
@@ -176,7 +196,11 @@ if __name__ == "__main__":
 
     if train_path is not None and valid_path is not None:
         train_dataset = create_datasets(model, nlp, train_path, train=True)
+        if len(train_dataset) == 0:
+            raise DatasetEmptyError("train")
         valid_dataset = create_datasets(model, nlp, valid_path, valid=True)
+        if len(valid_dataset) == 0:
+            raise DatasetEmptyError("validation")
         model.train(train_dataset, eval_dataset=valid_dataset)
         if output_path is not None:
             model.predict(valid_dataset)
@@ -184,13 +208,23 @@ if __name__ == "__main__":
 
     elif train_path is not None:
         train_dataset = create_datasets(model, nlp, train_path, train=True)
+        if len(train_dataset) == 0:
+            raise DatasetEmptyError("train")
         model.train(train_dataset)
 
     elif valid_path is not None:
         valid_dataset = create_datasets(model, nlp, valid_path, valid=True)
+        if len(valid_dataset) == 0:
+            raise DatasetEmptyError("validation")
         model.evaluate(valid_dataset)
 
     elif predict_path is not None and output_path is not None:
         test_dataset = create_datasets(model, nlp, predict_path)
-        model.predict(test_dataset)
-        write_predictions(model, test_dataset, output_path)
+        if len(test_dataset) == 0:
+            raise DatasetEmptyError("text")
+        prediction = model.predict(test_dataset)
+        write_predictions(model, test_dataset, prediction, output_path)
+
+    else:
+        print("Invalid option combination.\n")
+        parser.print_help()

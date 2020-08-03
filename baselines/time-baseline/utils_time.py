@@ -15,7 +15,6 @@ class TimeDataset(Dataset):
         self.doc_indices = doc_indices
         self.features = features
         self.annotations = annotations
-        self.prediction = None
 
     def __len__(self):
         return len(self.features)
@@ -88,10 +87,10 @@ def create_datasets(model, nlp, dataset_path, train=False, valid=False):
 
 
 def bio_annotation(model, annotation, prefix):
-    if not model.bio_mode:
-        return model.labels.index(annotation)
+    if not model.config.bio_mode:
+        return model.config.label2id[annotation]
     else:
-        return model.labels.index(prefix + annotation)
+        return model.config.label2id[prefix + annotation]
 
 
 def inner_subword(input_data, sent_idx, token_idx):
@@ -119,17 +118,17 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
                 annotations[start] = (end, label)
 
     input_raw = [sent.text_with_ws for sent in doc.sents]
-    input_data = model.tokenizer(input_raw, return_tensors="pt", max_length=model.max_seq_length,
-                                 padding="max_length", truncation="longest_first", return_offsets_mapping=True)
+    input_data = model.tokenizer(input_raw, return_tensors="pt", padding="max_length",
+                                 truncation="longest_first", return_offsets_mapping=True)
     if train:
         negative_attention_mask = (~input_data["attention_mask"].byte()).true_divide(255).long()
-        input_data["labels"] = negative_attention_mask.mul(model.label_pad_id)
+        input_data["labels"] = negative_attention_mask.mul(model.config.label_pad_id)
         # Assign label_pad to </s> token
         sent_indices = torch.arange(input_data["labels"].shape[0])
         last_non_padded = [sent_indices, input_data["labels"].argmax(dim=1)]
-        input_data["labels"][last_non_padded] = model.label_pad_id
+        input_data["labels"][last_non_padded] = model.config.label_pad_id
         # Assign label_pad to <s> token
-        input_data["labels"][:, 0] = model.label_pad_id
+        input_data["labels"][:, 0] = model.config.label_pad_id
 
     features = []
     sent_offset = 0
@@ -157,8 +156,8 @@ def from_doc_to_features(model, nlp, text_path, anafora_path=None, train=False):
                 if start_open is not None and start in annotations:
                     print("WARNING: Offsets don't match in %s (%s, %s)" % (text_path, start, end))
                     start_open = None
-                elif start_open is not None and model.pad_labels and inner_subword(input_data, sent_idx, token_idx):
-                    labels[token_idx] = model.label_pad_id
+                elif start_open is not None and model.config.pad_labels and inner_subword(input_data, sent_idx, token_idx):
+                    labels[token_idx] = model.config.label_pad_id
                 elif start_open is not None:
                     labels[token_idx] = bio_annotation(model, annotations[start_open][1], "I-")
                 elif start in annotations:
@@ -228,21 +227,21 @@ def prediction_to_anafora(model, labels, features, doc_name="dummy"):
         previous_label = 0
         previous_offset = [None, None]
         for token_label, token_offset in zip(sent_labels, sent_offsets):
-            entity_label = model.labels[previous_label] if previous_label > 0 else None
-            new_word = token_offset[0] != previous_offset[1] if model.pad_labels else True
+            entity_label = model.config.id2label[previous_label] if previous_label > 0 else None
+            new_word = token_offset[0] != previous_offset[1] if model.config.pad_labels else True
             label_diff = token_label - previous_label
-            if is_b_label(token_label, label_diff, model.bio_mode):
+            if is_b_label(token_label, label_diff, model.config.bio_mode):
                 add_entity(data, doc_name, entity_label, previous_offset)
                 previous_label = token_label
                 previous_offset = token_offset
-            elif is_i_label(token_label, label_diff, new_word, model.bio_mode):
+            elif is_i_label(token_label, label_diff, new_word, model.config.bio_mode):
                 previous_offset[1] = token_offset[1]
             elif previous_label > 0:
                 add_entity(data, doc_name, entity_label, previous_offset)
                 previous_label = 0
                 previous_offset = [None, None]
         if previous_label > 0:
-            entity_label = model.labels[previous_label]
+            entity_label = model.config.id2label[previous_label]
             add_entity(data, doc_name, entity_label, previous_offset)
 
     return data
@@ -253,7 +252,7 @@ def prepare_prediction(prediction):
     return prediction
 
 
-def score_predictions(model, dataset, prediction):
+def score_predictions(model, dataset, predictions):
     scores_type = evaluate.Scores
     all_scores = defaultdict(lambda: scores_type())
     for doc_index in dataset.doc_indices:
@@ -261,7 +260,7 @@ def score_predictions(model, dataset, prediction):
         doc_annotations = dataset.annotations[doc_name]
         reference_data = annotation_to_anafora(doc_annotations)
         doc_features = dataset.features[doc_start:doc_end]
-        doc_predictions = prediction.predictions[doc_start:doc_end]
+        doc_predictions = predictions[doc_start:doc_end]
         doc_predictions = prepare_prediction(doc_predictions)
         predicted_data = prediction_to_anafora(model, doc_predictions, doc_features)
         doc_scores = evaluate.score_data(reference_data, predicted_data)
@@ -270,11 +269,12 @@ def score_predictions(model, dataset, prediction):
     return all_scores["*"]
 
 
-def write_predictions(model, dataset, out_path):
+def write_predictions(model, dataset, predictions, out_path):
     for doc_index in dataset.doc_indices:
         doc_name, doc_start, doc_end = doc_index
-        doc_predictions = dataset.prediction[doc_start:doc_end]
         doc_features = dataset.features[doc_start:doc_end]
+        doc_predictions = predictions[doc_start:doc_end]
+        doc_predictions = prepare_prediction(doc_predictions)
         data = prediction_to_anafora(model, doc_predictions, doc_features, doc_name)
         doc_path = os.path.join(out_path, doc_name)
         os.makedirs(doc_path, exist_ok=True)
