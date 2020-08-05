@@ -1,9 +1,48 @@
+<style>
+.results {border-collapse: collapse;}
+.results th, td {padding: 5px;}
+.results th {background-color: #f2f2f2;}
+.results tr:nth-child(even) {background-color: #f2f2f2;}
+.results tr:nth-child(odd) {background-color: #ffffff;}
+.codestyle {background-color: #f2f2f2; padding: 3px; color: #666666;}
+.prestyle {background-color: #f2f2f2; padding: 5px;  padding-left: 30px;}
+</style>
+
 <h1 style="color: grey;">Getting Started: Negation</h1>
 
-<h2>Get the pretrained model</h2>
-
 <h2>Get the unlabeled development data</h2>
+The practice data (development data) is a subset of the i2b2 2010 Challenge on concepts, assertions, and relations in clinical text. If you do not already have access to this data, you will need to request access at the <a href="https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/">DBMI Data Portal</a>.
 
-<h2>Get model predictions on the development data</h2>
+Once you have obtained access, download and unzip the three available files:
+<ul>
+<li>concept_assertion_relation_training_data.tar.gz</li>
+<li>reference_standard_for_test_data.tar.gz</li>
+<li>test_data.tar.gz</li>
+</ul>
+into a single directory.
 
+Then you can run this script: <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/extract_i2b2_negation.py">i2b2 extraction script</a> to extract an unlabeled training set, unlabeled evaluation set, and a label file for the evaluation set (to test submissions and see the format).
+
+<code class="codestyle">python extraction_i2b2_negation.py &lt;directory with three extracted i2b2 2010 folders&gt; &lt;Output Directory&gt;</code>
+
+This will extract the three files into the specified directory:
+<ul>
+<li>train.tsv -- the unlabeled training data</li>
+<li>dev.tsv -- the unlabeled deveopment data</li>
+<li>dev_labels.txt -- the labels for dev data</li>
+</ul>
+
+The idea during the practice time is to use train.tsv as representative target-domain data to improve the system, and then evaluate any improvements to your system on dev.tsv.
+
+
+
+<h2>Get the pretrained model and make predictions</h2>
+The baseline for negation detection is available in <a href=">https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/baselines/negation-baseline/run_negation_baseline.sh">https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/baselines/negation-baseline/run_negation_baseline.sh</a>. It calls a python script in that directory so you should have the whole repo checked out.
+
+<code class="codestyle">./baselines/negation/run_negation_baseline.sh &lt;input directory&gt; &lt;output directory&gt;</code>
+
+Where the input directory must contain a file called test.tsv and it will write a file called test_results.txt to the output directgory.
+ 
 <h2>Upload predictions to CodaLab</h2>
+If you want to evaluate one of your runs on the practice data, copy the output of your system to submissions/negation/system.tsv. Then run <code class="codestyle">make submission.zip</code>. On the competition page, go to the "Participate" tab, then the "Submit/View Results" navigation element, then make sure "Practice" button is highlighted, and click the "Submit" button. Find the submission.zip file you created with the file chooser and upload. The scoring will run in the background -- usually you can refresh the page in about a minute to see the result in the table below.
+
