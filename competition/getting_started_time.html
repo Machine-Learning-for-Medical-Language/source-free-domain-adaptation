@@ -21,7 +21,7 @@
 
 <h2>Get model and predictions on the development data</h2>
 
-<p>The baseline for the time expression recognition is based on the pytorch implementation of <a href="" target="_blank">RoBERTa</a> by <em>Hugging Face</em>. We have used the <code class="codestyle"><a href="https://huggingface.co/transformers/model_doc/roberta.html?#robertafortokenclassification" target="_blank">RobertaForTokenClassification</a></code> architecture from <em>Hugging Face/transformers</em> library to fine-tune <code class="codestyle"><a href="https://huggingface.co/roberta-base" target="_blank">roberta-base</a></code> on 25,000+ time expressions in de-identified clinical notes. The resulting model is sequence tagger that we have made available in <em>Hugging Face</em> model hub: <a href="https://huggingface.co/clulab/roberta-timex-semeval" target="_blank">clulab/roberta-timex-semeval</a>.  The following table shows the <em>in-domain</em> and <em>out-of-domain (practice_data)</em> performances:
+<p>The baseline for the time expression recognition is based on the pytorch implementation of <a href="https://huggingface.co/transformers/model_doc/roberta.html" target="_blank">RoBERTa</a> by <em>Hugging Face</em>. We have used the <code class="codestyle"><a href="https://huggingface.co/transformers/model_doc/roberta.html?#robertafortokenclassification" target="_blank">RobertaForTokenClassification</a></code> architecture from <em>Hugging Face/transformers</em> library to fine-tune <code class="codestyle"><a href="https://huggingface.co/roberta-base" target="_blank">roberta-base</a></code> on 25,000+ time expressions in de-identified clinical notes. The resulting model is a sequence tagger that we have made available in <em>Hugging Face</em> model hub: <a href="https://huggingface.co/clulab/roberta-timex-semeval" target="_blank">clulab/roberta-timex-semeval</a>.  The following table shows the <em>in-domain</em> and <em>out-of-domain (practice_data)</em> performances:
 <p style="padding-left: 30px;">
 <table class="results">
 <thead>
@@ -33,7 +33,7 @@
 </tr>
 </thead>
 <tbody>
-<tr class="">
+<tr>
 <td>in-domain_data</td>
 <td>0.967</td>
 <td>0.968</td>
