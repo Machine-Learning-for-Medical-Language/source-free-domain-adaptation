@@ -110,6 +110,8 @@ class TimexDataset(Dataset):
 
     @classmethod
     def from_texts(cls, data_dir, nlp, tokenizer, config):
+        if not os.path.exists(data_dir):
+            raise Exception("The %s directory does not exist." % data_dir)
         text_directory_files = anafora.walk(data_dir, xml_name_regex=".*((?<![.].{3})|[.]txt)$")
         features = []
         doc_indices = []
