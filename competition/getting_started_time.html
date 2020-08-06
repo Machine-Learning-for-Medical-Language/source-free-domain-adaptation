@@ -15,9 +15,15 @@
 <p>The trial data for the practice phase consists of 99 articles from the <em>AQUAINT</em>, <em>TimeBank</em> and <em>te3-platinum</em> subsets of <em>TempEval-2013</em>, i.e. <em>"Newswire"</em> domain.</p>
 <p>You can automatically download and prepare the input data for this phase running the <code class="codestyle">prepare_time_dataset.py</code> script available in the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation" target="_blank">task repository</a>:</p>
 
-<p style="padding-left: 30px;"><code class="codestyle">- python prepare_time_dataset.py /path/to/practice_data/</code></p>
+<pre class="prestyle">
 
-<p>This will create a <code class="codestyle">time</code> directory in <code class="codestyle">/path/to/practice_data/</code> containing the plain text of the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/practice_time_documents.txt" target="_blank">documents used in this task</a>.</p>
+$ git clone https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation.git && cd source-free-domain-adaptation
+
+$ python3 prepare_time_dataset.py /path/to/practice_text/
+
+</pre>
+
+<p>This will create a <code class="codestyle">time</code> directory in <code class="codestyle">/path/to/practice_text/</code> containing the plain text of the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/practice_time_documents.txt" target="_blank">documents used in this task</a>.</p>
 
 <h2>Get model and predictions on the development data</h2>
 
@@ -65,19 +71,29 @@ model = AutoModelForTokenClassification.from_pretrained("clulab/roberta-timex-se
 </pre>
 
 <p>The first time you run such code, the model will be automatically downloaded in your computer. The scripts also include the basic functionality to read the input data and produce the output <em>Anafora</em> annotations. You can use the <code class="codestyle">run_time.py</code> script to parse raw text and obtain time expressions. For example, to process the <em>AQUAINT</em> subset from <em>TempEval-2013</em>, just run:</p>
-<p style="padding-left: 30px;"><code class="codestyle">- python run_time.py -p /path/to/practice_data/time/AQUAINT -o /path/to/output/AQUAINT</code></p>
+
+<pre class="prestyle">
+
+  $ python3 baselines/time-baseline/run_time.py -p /path/to/practice_text/time/AQUAINT -o /path/to/output/AQUAINT
+
+</pre>
 
 <p>This will create one directory per document in <code class="codestyle">output/AQUAINT</code> containing one <code class="codestyle">.xml</code> file with predictions in <em>Anafora</em> format. You can also run the <code class="codestyle">runt_train.py</code> script to continue training <code class="codestyle">clulab/roberta-timex-semeval</code>:</p>
 
-<p style="padding-left: 30px;"><code class="codestyle">- python run_train.py -t /path/to/train-data -s /path/to/save-model</code></p>
+<pre class="prestyle">
 
-<p>The <code class="codestyle">train-data</code> directory must follow a similar structure to the <code class="codestyle">practice_data/time</code> folder and include, for each document, a the raw text file (with no extension) and an <em>Anafora</em> annotation file (with <code class="codestyle">.xml</code> extension). After running the training, the <code class="codestyle">save-model</code> directory will contain two sub-folders, <code class="codestyle">logs</code>, with a set of log files that can be visualized with TensorBoard, and <code class="codestyle">results</code>, that contains all the checkpoints saved during the training and three files (<code class="codestyle">pytorch_model.bin</code>, <code class="codestyle">training_args.bin</code> and <code class="codestyle">config.json</code>) with the configuration and weights of the final model.</p>
+  $ python3 baselines/time-baseline/run_train.py -t /path/to/train-data -s /path/to/save-model
+
+</pre>
+
+<p>The <code class="codestyle">train-data</code> directory must follow a similar structure to the <code class="codestyle">practice_text/time</code> folder and include, for each document, a the raw text file (with no extension) and an <em>Anafora</em> annotation file (with <code class="codestyle">.xml</code> extension). After running the training, the <code class="codestyle">save-model</code> directory will contain two sub-folders, <code class="codestyle">logs</code>, with a set of log files that can be visualized with TensorBoard, and <code class="codestyle">results</code>, that contains all the checkpoints saved during the training and three files (<code class="codestyle">pytorch_model.bin</code>, <code class="codestyle">training_args.bin</code> and <code class="codestyle">config.json</code>) with the configuration and weights of the final model.</p>
 
 
-<h2>Upload predictions to CodaLab</h2><p style="padding-left: 30px;"></p>
+<h2>Upload predictions to CodaLab</h2>
 
-
-<p>To make a submission for the practice phase, you must create a directory with the output for the 99 documents following the structure explained in the <strong>Output Format</strong> section.</p>
+    <p>
+ If you want to evaluate one of your runs on the practice data, move to <code class="codestyle">source-free-domain-adaptation</code> directory, copy your output <code class="codestyle">time</code> folder into <code class="codestyle">submissions/</code>. Then run <code class="codestyle">make submission.zip</code>. On the competition page, go to the <em>Participate</em> tab, then the <em>Submit/View Results</em> navigation element, then make sure <em>Practice</em> button is highlighted, and click the <em>Submit</em> button. Find the <code class="codestyle">submission.zip</code> file you created with the file chooser and upload. The scoring will run in the background -- usually you can refresh the page in about a minute to see the result in the table below. 
+</p>
 
 </body></html>
 

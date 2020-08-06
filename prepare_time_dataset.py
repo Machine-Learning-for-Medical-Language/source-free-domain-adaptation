@@ -5,6 +5,8 @@ import tarfile
 import shutil
 from urllib.request import urlretrieve
 from anafora import copy_text
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 
 def prepare_practice(target_path):
