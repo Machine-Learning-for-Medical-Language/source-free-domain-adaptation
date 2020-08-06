@@ -1,15 +1,3 @@
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body><h1 style="color: grey;">Getting Started: Time</h1>
-<style>
-.results {border-collapse: collapse;}
-.results th, td {padding: 5px;}
-.results th {background-color: #f2f2f2;}
-.results tr:nth-child(even) {background-color: #f2f2f2;} 
-.results tr:nth-child(odd) {background-color: #ffffff;} 
-.codestyle {background-color: #f2f2f2; padding: 3px; color: #666666;}
-.prestyle {background-color: #f2f2f2; padding: 5px;  padding-left: 30px;}
-</style>
-
 <h2>Get and prepare practice data</h2>
 
 <p>The trial data for the practice phase consists of 99 articles from the <em>AQUAINT</em>, <em>TimeBank</em> and <em>te3-platinum</em> subsets of <em>TempEval-2013</em>, i.e. <em>"Newswire"</em> domain.</p>
@@ -87,13 +75,3 @@ model = AutoModelForTokenClassification.from_pretrained("clulab/roberta-timex-se
 </pre>
 
 <p>The <code class="codestyle">train-data</code> directory must follow a similar structure to the <code class="codestyle">practice_text/time</code> folder and include, for each document, a the raw text file (with no extension) and an <em>Anafora</em> annotation file (with <code class="codestyle">.xml</code> extension). After running the training, the <code class="codestyle">save-model</code> directory will contain two sub-folders, <code class="codestyle">logs</code>, with a set of log files that can be visualized with TensorBoard, and <code class="codestyle">results</code>, that contains all the checkpoints saved during the training and three files (<code class="codestyle">pytorch_model.bin</code>, <code class="codestyle">training_args.bin</code> and <code class="codestyle">config.json</code>) with the configuration and weights of the final model.</p>
-
-
-<h2>Upload predictions to CodaLab</h2>
-
-    <p>
- If you want to evaluate one of your runs on the practice data, move to <code class="codestyle">source-free-domain-adaptation</code> directory, copy your output <code class="codestyle">time</code> folder into <code class="codestyle">submissions/</code>. Then run <code class="codestyle">make submission.zip</code>. On the competition page, go to the <em>Participate</em> tab, then the <em>Submit/View Results</em> navigation element, then make sure <em>Practice</em> button is highlighted, and click the <em>Submit</em> button. Find the <code class="codestyle">submission.zip</code> file you created with the file chooser and upload. The scoring will run in the background -- usually you can refresh the page in about a minute to see the result in the table below. 
-</p>
-
-</body></html>
-

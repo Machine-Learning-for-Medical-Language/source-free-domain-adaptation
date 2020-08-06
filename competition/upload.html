@@ -1,4 +1,7 @@
-<h1 style="color: grey;">System Output Format</h1>
+<h1 style="color: grey;">Uploading predictions to CodaLab</h1>
+To upload your predictions to CodaLab, first make sure that your predictions are formatted correctly, then create a <code>submission.zip</code> and upload it to CodaLab.
+
+<h2>Formatting system output</h2>
 <p>For <strong>negation detection</strong>, the output format is one classifier output per line, where the lines correspond to the lines in the input. A prediction of "Negated" should be output as 1, while a prediction of "Not negated" should be output as -1.</p>
 <p>For <strong>time expression recognition</strong>, your system must produce <a href="https://github.com/weitechen/anafora" target="_blank">Anafora XML format</a> files in Anafora's standard directory organization.</p>
 <p style="text-align: left;">Make sure that you comply with following rules when you create &nbsp;your output directory:</p>
@@ -56,3 +59,18 @@
   </tr>
 </tbody>
 </table>
+
+<h2>Generating and uploading submission.zip</h2>
+<p>
+  The easiest way to generate <code>submission.zip</code> is to use the <code>Makefile</code> provided in the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/">sample code repository</a>.
+  First, place your prediction files - including the entire directory structure described above - under a <code>submission</code> directory in the root of the sample code checkout.
+  Then run <code>make submission.zip</code>.
+  This will zip up all your prediction files and produce a file, <code>submission.zip</code>.
+</p>
+
+<p>
+  To upload your submission, go to the CodaLab competition page.
+  Find the "Participate" tab, then the "Submit/View Results" navigation element, then make sure "Practice" button is highlighted, and click the "Submit" button.
+  Find your <code>submission.zip</code> with the file chooser and upload.
+  The scoring will run in the background -- usually you can refresh the page in about a minute to see the result in the table below.
+</p>

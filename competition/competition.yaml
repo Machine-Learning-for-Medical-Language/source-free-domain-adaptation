@@ -10,9 +10,9 @@ html:
     data: get_data.html
     "Data": data.html
     "Models": models.html
-    "Output Format": format.html
     "Getting Started: Negation": getting_started_negation.html
     "Getting Started: Time": getting_started_time.html
+    "Uploading Output": upload.html
 phases:
     1:
         phasenumber: 1
