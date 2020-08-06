@@ -105,7 +105,6 @@ class TimexDataset(Dataset):
                                    padding="max_length",
                                    truncation="longest_first",
                                    return_offsets_mapping=True)
-            features = []
             sent_offset = 0
             for sent_idx, _ in enumerate(input_data["input_ids"]):
                 features.append(TimexInputFeatures.from_sentence(
