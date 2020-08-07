@@ -44,7 +44,7 @@ $ python3 prepare_time_dataset.py /path/to/practice_text/
 </p>
 
 
-<p>The task repository contains scripts to load and run the model: <code class="codestyle"><a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/tree/master/baselines/time-baseline" target="_blank">time-baseline</a></code>. These scripts are based on the <em>Hugging Facet/transformers</em> library that allows easily incorporating the model into the code. For example, the following snippet shows how to load the model and its tokenizer:
+<p>The task repository contains scripts to load and run the model: <code class="codestyle"><a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/tree/master/baselines/time" target="_blank">time baseline</a></code>. These scripts are based on the <em>Hugging Facet/transformers</em> library that allows easily incorporating the model into the code. For example, the following snippet shows how to load the model and its tokenizer:
 
 <pre class="prestyle">
 
@@ -62,7 +62,7 @@ model = AutoModelForTokenClassification.from_pretrained("clulab/roberta-timex-se
 
 <pre class="prestyle">
 
-  $ python3 baselines/time-baseline/run_time.py -p /path/to/practice_text/time/AQUAINT -o /path/to/output/AQUAINT
+  $ python3 baselines/time/run_time.py -p /path/to/practice_text/time/AQUAINT -o /path/to/output/AQUAINT
 
 </pre>
 
@@ -70,7 +70,7 @@ model = AutoModelForTokenClassification.from_pretrained("clulab/roberta-timex-se
 
 <pre class="prestyle">
 
-  $ python3 baselines/time-baseline/run_train.py -t /path/to/train-data -s /path/to/save-model
+  $ python3 baselines/time/run_train.py -t /path/to/train-data -s /path/to/save-model
 
 </pre>
 
