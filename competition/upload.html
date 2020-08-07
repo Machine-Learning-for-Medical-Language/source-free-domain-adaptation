@@ -74,3 +74,14 @@ To upload your predictions to CodaLab, first make sure that your predictions are
   Find your <code>submission.zip</code> with the file chooser and upload.
   The scoring will run in the background -- usually you can refresh the page in about a minute to see the result in the table below.
 </p>
+
+<h2>Troubleshooting</h2>
+You may see the error:
+<pre>
+Traceback (most recent call last):
+  File "/worker/worker.py", line 330, in run
+    if input_rel_path not in bundles:
+TypeError: argument of type 'NoneType' is not iterable
+</pre>
+This is a <a href="https://github.com/codalab/codalab-competitions/issues/2814#issuecomment-664142717">known issue with CodaLab</a>.
+The solution for now is to make a new submission with the same <code>submission.zip</code>.
