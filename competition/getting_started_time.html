@@ -1,21 +1,27 @@
-<h2>Get and prepare practice data</h2>
-
-<p>The trial data for the practice phase consists of 99 articles from the <em>AQUAINT</em>, <em>TimeBank</em> and <em>te3-platinum</em> subsets of <em>TempEval-2013</em>, i.e. <em>"Newswire"</em> domain.</p>
-<p>You can automatically download and prepare the input data for this phase running the <code class="codestyle">prepare_time_dataset.py</code> script available in the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation" target="_blank">task repository</a>:</p>
-
+<h2>Get and prepare the practice data</h2>
+<p>
+  The trial data for the practice phase consists of 99 articles from the <em>AQUAINT</em>, <em>TimeBank</em> and <em>te3-platinum</em> subsets of <em>TempEval-2013</em>, i.e. <em>"Newswire"</em> domain.
+</p>
+<p>
+  You can automatically download and prepare the input data for this phase running the <code class="codestyle">prepare_time_dataset.py</code> script available in the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation" target="_blank">task repository</a>:
+</p>
 <pre class="prestyle">
 
 $ git clone https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation.git && cd source-free-domain-adaptation
 
-$ python3 prepare_time_dataset.py /path/to/practice_text/
+$ python3 prepare_time_dataset.py practice_text/
 
 </pre>
+<p>
+  This will create a <code class="codestyle">practice_text/time</code> directory containing the plain text of the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/practice_time_documents.txt" target="_blank">documents used in this task</a>.
+</p>
 
-<p>This will create a <code class="codestyle">time</code> directory in <code class="codestyle">/path/to/practice_text/</code> containing the plain text of the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/practice_time_documents.txt" target="_blank">documents used in this task</a>.</p>
-
-<h2>Get model and predictions on the development data</h2>
-
-<p>The baseline for the time expression recognition is based on the pytorch implementation of <a href="https://huggingface.co/transformers/model_doc/roberta.html" target="_blank">RoBERTa</a> by <em>Hugging Face</em>. We have used the <code class="codestyle"><a href="https://huggingface.co/transformers/model_doc/roberta.html?#robertafortokenclassification" target="_blank">RobertaForTokenClassification</a></code> architecture from <em>Hugging Face/transformers</em> library to fine-tune <code class="codestyle"><a href="https://huggingface.co/roberta-base" target="_blank">roberta-base</a></code> on 25,000+ time expressions in de-identified clinical notes. The resulting model is a sequence tagger that we have made available in <em>Hugging Face</em> model hub: <a href="https://huggingface.co/clulab/roberta-timex-semeval" target="_blank">clulab/roberta-timex-semeval</a>.  The following table shows the <em>in-domain</em> and <em>out-of-domain (practice_data)</em> performances:
+<h2>Get the model and make predictions on the practice data</h2>
+<p>
+  The baseline for the time expression recognition is based on the pytorch implementation of <a href="https://huggingface.co/transformers/model_doc/roberta.html" target="_blank">RoBERTa</a> by <em>Hugging Face</em>.
+  We have used the <code class="codestyle"><a href="https://huggingface.co/transformers/model_doc/roberta.html?#robertafortokenclassification" target="_blank">RobertaForTokenClassification</a></code> architecture from <em>Hugging Face/transformers</em> library to fine-tune <code class="codestyle"><a href="https://huggingface.co/roberta-base" target="_blank">roberta-base</a></code> on 25,000+ time expressions in de-identified clinical notes.
+  The resulting model is a sequence tagger that we have made available in <em>Hugging Face</em> model hub: <a href="https://huggingface.co/clulab/roberta-timex-semeval" target="_blank">clulab/roberta-timex-semeval</a>.
+  The following table shows the <em>in-domain</em> and <em>out-of-domain (practice_data)</em> performances:
 <p style="padding-left: 30px;">
 <table class="results">
 <thead>
@@ -42,36 +48,38 @@ $ python3 prepare_time_dataset.py /path/to/practice_text/
 </tbody>
 </table>
 </p>
-
-
-<p>The task repository contains scripts to load and run the model: <code class="codestyle"><a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/tree/master/baselines/time" target="_blank">time baseline</a></code>. These scripts are based on the <em>Hugging Facet/transformers</em> library that allows easily incorporating the model into the code. For example, the following snippet shows how to load the model and its tokenizer:
-
+<p>
+  The task repository contains scripts to load and run the model: <code class="codestyle"><a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/tree/master/baselines/time" target="_blank">time baseline</a></code>.
+  These scripts are based on the <em>Hugging Face/transformers</em> library that allows easily incorporating the model into the code.
+  For example, here is the code from the baseline that loads the model and its tokenizer:
+  <script src="http://gist-it.appspot.com/https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/baselines/time/run_time.py?slice=20:27"></script>
+</p>
+<p>
+  The first time you run such code, the model will be automatically downloaded in your computer.
+  The scripts also include the basic functionality to read the input data and produce the output <em>Anafora</em> annotations.
+  You can use the <code class="codestyle">run_time.py</code> script to parse raw text and obtain time expressions.
+  For example, to process the practice data, run:
+</p>
 <pre class="prestyle">
 
-from transformers import AutoConfig, AutoTokenizer, AutoModelForTokenClassification
-
-config = AutoConfig.from_pretrained("clulab/roberta-timex-semeval")
-
-tokenizer = AutoTokenizer.from_pretrained("clulab/roberta-timex-semeval", config=self.config, use_fast=True)
-
-model = AutoModelForTokenClassification.from_pretrained("clulab/roberta-timex-semeval", config=self.config)
+$ python3 baselines/time/run_time.py -p practice_text/time/ -o submission/time/
 
 </pre>
+<p>
+  This will create one directory per document in <code class="codestyle">submission/time</code> containing one <code class="codestyle">.xml</code> file with predictions in <em>Anafora</em> format.
+</p>
 
-<p>The first time you run such code, the model will be automatically downloaded in your computer. The scripts also include the basic functionality to read the input data and produce the output <em>Anafora</em> annotations. You can use the <code class="codestyle">run_time.py</code> script to parse raw text and obtain time expressions. For example, to process the <em>AQUAINT</em> subset from <em>TempEval-2013</em>, just run:</p>
-
+<h2>Extend the baseline model</h2>
+<p>
+  There are many ways to try to improve the performance of this baseline on the practice text (and later, on the evaluation text).
+  Should you need to continue training the <code class="codestyle">clulab/roberta-timex-semeval</code> model on annotated data that you have somehow produced, you can run the <code class="codestyle">train_time.py</code> script:
+</p>
 <pre class="prestyle">
 
-  $ python3 baselines/time/run_time.py -p /path/to/practice_text/time/AQUAINT -o /path/to/output/AQUAINT
+  $ python3 baselines/time/train_time.py -t /path/to/train-data -s /path/to/save-model
 
 </pre>
-
-<p>This will create one directory per document in <code class="codestyle">output/AQUAINT</code> containing one <code class="codestyle">.xml</code> file with predictions in <em>Anafora</em> format. You can also run the <code class="codestyle">runt_train.py</code> script to continue training <code class="codestyle">clulab/roberta-timex-semeval</code>:</p>
-
-<pre class="prestyle">
-
-  $ python3 baselines/time/run_train.py -t /path/to/train-data -s /path/to/save-model
-
-</pre>
-
-<p>The <code class="codestyle">train-data</code> directory must follow a similar structure to the <code class="codestyle">practice_text/time</code> folder and include, for each document, a the raw text file (with no extension) and an <em>Anafora</em> annotation file (with <code class="codestyle">.xml</code> extension). After running the training, the <code class="codestyle">save-model</code> directory will contain two sub-folders, <code class="codestyle">logs</code>, with a set of log files that can be visualized with TensorBoard, and <code class="codestyle">results</code>, that contains all the checkpoints saved during the training and three files (<code class="codestyle">pytorch_model.bin</code>, <code class="codestyle">training_args.bin</code> and <code class="codestyle">config.json</code>) with the configuration and weights of the final model.</p>
+<p>
+  The <code class="codestyle">train-data</code> directory must follow a similar structure to the <code class="codestyle">practice_text/time</code> folder and include, for each document, a the raw text file (with no extension) and an <em>Anafora</em> annotation file (with <code class="codestyle">.xml</code> extension).
+  After running the training, the <code class="codestyle">save-model</code> directory will contain two sub-folders, <code class="codestyle">logs</code>, with a set of log files that can be visualized with TensorBoard, and <code class="codestyle">results</code>, that contains all the checkpoints saved during the training and three files (<code class="codestyle">pytorch_model.bin</code>, <code class="codestyle">training_args.bin</code> and <code class="codestyle">config.json</code>) with the configuration and weights of the final model.
+</p>
