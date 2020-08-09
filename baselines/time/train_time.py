@@ -171,7 +171,7 @@ class TimexDataset(Dataset):
                     config))
                 sent_offset += len(input_raw[sent_idx])
 
-            doc_indices.append((text_doc_name, doc_index, len(features)))
+            doc_indices.append((text_subdir_path, doc_index, len(features)))
         return cls(doc_indices, features)
 
 

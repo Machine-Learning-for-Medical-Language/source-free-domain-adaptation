@@ -114,7 +114,7 @@ class TimexDataset(Dataset):
                     sent_idx,
                     sent_offset))
                 sent_offset += len(input_raw[sent_idx])
-            doc_indices.append((text_doc_name, doc_index, len(features)))
+            doc_indices.append((text_subdir_path, doc_index, len(features)))
         return cls(doc_indices, features)
 
 
@@ -132,7 +132,8 @@ def write_anafora(output_dir, dataset, predictions, tokenizer, config):
             data.annotations.append(entity)
 
     for doc_index in dataset.doc_indices:
-        doc_name, doc_start, doc_end = doc_index
+        doc_subdir, doc_start, doc_end = doc_index
+        doc_name = os.path.basename(doc_subdir)
         doc_features = dataset.features[doc_start:doc_end]
         doc_predictions = predictions[doc_start:doc_end]
         doc_predictions = np.argmax(doc_predictions, axis=2)
@@ -162,7 +163,7 @@ def write_anafora(output_dir, dataset, predictions, tokenizer, config):
             if previous_label > 0:  # If remaining previous not O we must write it.
                 entity_label = config.id2label[previous_label]
                 add_entity(data, doc_name, entity_label, previous_offset)
-        doc_path = os.path.join(output_dir, doc_name)
+        doc_path = os.path.join(output_dir, doc_subdir)
         os.makedirs(doc_path, exist_ok=True)
         doc_path = os.path.join(doc_path,
                                 "%s.TimeNorm.system.completed.xml" % doc_name)
