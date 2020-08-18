@@ -1,4 +1,4 @@
-import sys
+import os, sys
 from os.path import join
 from os import path, listdir
 import re
@@ -71,6 +71,10 @@ def main(args):
     train_dir = join(args[0], 'concept_assertion_relation_training_data')
     test_note_dir = join(args[0], 'test_data')
     test_label_dir = join(args[0], 'reference_standard_for_test_data')
+    
+    if not path.exists(args[1]):
+        sys.stderr.write('Output directory %s does not exist -- creating for you.\n' % (args[1]))
+        os.makedirs(args[1])
     
     if not path.exists(train_dir) or not path.exists(test_note_dir) or not path.exists(test_label_dir):
         sys.stderr.write('''The input directory does not contain all of the required sub-directories: 

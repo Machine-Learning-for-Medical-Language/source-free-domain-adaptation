@@ -13,19 +13,54 @@
 <h2>Get the unlabeled development data</h2>
 The practice data (development data) is a subset of the i2b2 2010 Challenge on concepts, assertions, and relations in clinical text. If you do not already have access to this data, you will need to request access at the <a href="https://portal.dbmi.hms.harvard.edu/projects/n2c2-nlp/">DBMI Data Portal</a>.
 
-Once you have obtained access, download and unzip the three available files:
+If you have obtained access, follow the portal link above and download the data by expanding the "2010 Relations Challenge Downloads" tab, and downloading the three files with the following titles:
+
+<ul>
+   <li>Training Data: Concept assertion relation training data</li>
+   <li>Test Data: Reference standard for test data</li>
+   <li>Test Data: Test data</li>
+</ul>
+At the time of writing, these are the last 3 links for the 2010 data.
+
+
+This should give you the following files, which you should save to a single directory:
 <ul>
 <li>concept_assertion_relation_training_data.tar.gz</li>
 <li>reference_standard_for_test_data.tar.gz</li>
 <li>test_data.tar.gz</li>
 </ul>
-into a single directory.
 
-Then you can run this script: <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/extract_i2b2_negation.py">i2b2 extraction script</a> to extract an unlabeled training set, unlabeled evaluation set, and a label file for the evaluation set (to test submissions and see the format).
+Extract each of these with:
+<ul>
+<li><code class="codestyle">tar xzvf concept_assertion_relation_training_data.tar.gz</code></li>
+<li>
+<code class="codestyle">
+    
+    tar xzvf reference_standard_for_test_data.tar.gz
+</code>
+</li>
+<li>
+<code class="codestyle">
+    tar xzvf test_data.tar.gz
+</code>
+</li>
+</ul>
 
-<code class="codestyle">python extraction_i2b2_negation.py &lt;directory with three extracted i2b2 2010 folders&gt; &lt;Output Directory&gt;</code>
+Next we will extract an unlabeled training set, unlabeled evaluation set, and a label file for the evaluation set (to test submissions and see the format). If you don't already have the task repo checked out, do so:
 
-This will extract the three files into the specified directory:
+<p>
+    <code class="codestyle">git clone git@github.com:Machine-Learning-for-Medical-Language/source-free-domain-adaptation.git</code>
+</p>
+<p>
+    and enter the project directory:
+    <code class="codestyle">cd source-free-domain-adaptation</code>
+</p>
+Then to extract the training files, run the i2b2 extraction script with:
+<p>
+<code class="codestyle">python3 extraction_i2b2_negation.py &lt;directory with three extracted i2b2 2010 folders&gt; &lt;Output Directory&gt;</code>
+</p>
+
+This will extract the three files into the specified output directory:
 <ul>
 <li>train.tsv -- the unlabeled training data</li>
 <li>dev.tsv -- the unlabeled deveopment data</li>
@@ -37,8 +72,9 @@ The idea during the practice time is to use train.tsv as representative target-d
 
 
 <h2>Get the pretrained model and make predictions</h2>
-The baseline for negation detection is available in <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/baselines/negation/run_negation_baseline.sh">https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation/blob/master/baselines/negation/run_negation_baseline.sh</a>. It calls a python script in that directory so you should have the whole repo checked out.
+To use the trained model to make predictions you can run:
+<p>
+<code class="codestyle">python baselines/negation/run_sfda_negation.py --data_file &lt;Input file&gt; --output_dir submission/negation/ --cache_dir ./cache</code>
+</p>
 
-<code class="codestyle">./baselines/negation/run_negation_baseline.sh &lt;input directory&gt; &lt;output directory&gt;</code>
-
-Where the input directory must contain a file called test.tsv and it will write a file called test_results.txt to the output directgory.
+Where the data file should have the same format as the train.tsv and dev.tsv files created from the i2b2 data (if you want to get started before you have the i2b2 data there is a toy file with the format in practice_data/negation/test.tsv). This script will write a file called submission/negation/system.tsv with one label per line.
