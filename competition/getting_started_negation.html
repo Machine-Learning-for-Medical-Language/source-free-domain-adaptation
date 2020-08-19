@@ -46,35 +46,43 @@ Extract each of these with:
 </li>
 </ul>
 
-Next we will extract an unlabeled training set, unlabeled evaluation set, and a label file for the evaluation set (to test submissions and see the format). If you don't already have the task repo checked out, do so:
+<p>
+  Next we will extract an unlabeled training set, unlabeled evaluation set, and a label file for the evaluation set (to test submissions and see the format). If you don't already have the task repo checked out, do so and enter the project directory:
+</p>
+<pre class="prestyle">
 
+$ git clone https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation.git && cd source-free-domain-adaptation
+
+</pre>
 <p>
-    <code class="codestyle">git clone git@github.com:Machine-Learning-for-Medical-Language/source-free-domain-adaptation.git</code>
-</p>
-<p>
-    and enter the project directory:
-    <code class="codestyle">cd source-free-domain-adaptation</code>
-</p>
 Then to extract the training files, run the i2b2 extraction script with:
-<p>
-<code class="codestyle">python3 extraction_i2b2_negation.py &lt;directory with three extracted i2b2 2010 folders&gt; &lt;Output Directory&gt;</code>
 </p>
+<pre class="prestyle">
+  
+$ mkdir -p practice_text/negation && python3 extract_i2b2_negation.py &lt;directory with three extracted i2b2 2010 folders&gt; practice_text/negation</code>
 
-This will extract the three files into the specified output directory:
+</pre>
+<p>
+This will extract the three files into <code class="codestyle">practice_text/negation</code>:
 <ul>
 <li>train.tsv -- the unlabeled training data</li>
 <li>dev.tsv -- the unlabeled deveopment data</li>
 <li>dev_labels.txt -- the labels for dev data</li>
 </ul>
+</p>
 
 The idea during the practice time is to use train.tsv as representative target-domain data to improve the system, and then evaluate any improvements to your system on dev.tsv.
 
 
-
 <h2>Get the pretrained model and make predictions</h2>
-To use the trained model to make predictions you can run:
 <p>
-<code class="codestyle">python baselines/negation/run_sfda_negation.py --data_file &lt;Input file&gt; --output_dir submission/negation/ --cache_dir ./cache</code>
+To use the trained model to make predictions you can run:
 </p>
+<pre class="prestyle">
 
-Where the data file should have the same format as the train.tsv and dev.tsv files created from the i2b2 data (if you want to get started before you have the i2b2 data there is a toy file with the format in practice_data/negation/test.tsv). This script will write a file called submission/negation/system.tsv with one label per line.
+$ python3 baselines/negation/run_negation.py -f practice_text/negation/dev.tsv -o submission/negation/
+
+</pre>
+<p>
+This script will write a file called <code  class="codestyle">submission/negation/system.tsv</code> with one label per line.
+</p>
