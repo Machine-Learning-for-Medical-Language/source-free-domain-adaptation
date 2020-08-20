@@ -90,7 +90,9 @@ def main(args):
             concept_dir = join(test_label_dir, 'ast')
 #             text_dir = join(test_note_dir, subdir, 'txt')
 
-            for file in listdir(concept_dir):
+            files = listdir(concept_dir)
+            files.sort()
+            for file in files:
                 record_name = file[:-4]
                 if not file.endswith('.ast'):
                     continue
@@ -117,8 +119,10 @@ def main(args):
         for subdir in ('partners',):
             concept_dir = join(train_dir, subdir, 'ast')
             text_dir = join(train_dir, subdir, 'txt')
-            
-            for file in listdir(concept_dir):
+           
+            files = listdir(concept_dir) 
+            files.sort()
+            for file in files:
                 if not file.endswith('ast'):
                     continue
                     
