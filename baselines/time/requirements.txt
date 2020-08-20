@@ -1,5 +1,4 @@
 anaforatools==1.1.0
-numpy==1.17.0
 spacy==2.3.2
 torch==1.5.1
 transformers==3.0.2

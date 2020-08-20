@@ -57,10 +57,12 @@ $ python3 prepare_time_dataset.py practice_text/
   The first time you run such code, the model will be automatically downloaded in your computer.
   The scripts also include the basic functionality to read the input data and produce the output <em>Anafora</em> annotations.
   You can use the <code class="codestyle">run_time.py</code> script to parse raw text and obtain time expressions.
-  For example, to process the practice data, run:
+  For example, to install the requirements and process the practice data, run:
 </p>
 <pre class="prestyle">
 
+$ pip3 install -r baselines/time/requirements.txt
+  
 $ python3 baselines/time/run_time.py -p practice_text/time/ -o submission/time/
 
 </pre>
