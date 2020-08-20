@@ -76,10 +76,11 @@ The idea during the practice time is to use train.tsv as representative target-d
 
 <h2>Get the pretrained model and make predictions</h2>
 <p>
-To use the trained model to make predictions you can run:
+To use the trained model to make predictions, install the requirements and run the <code class="codestyle">run_negation.py</code> script to process the practice data as follows:
 </p>
 <pre class="prestyle">
 
+$ pip3 install -r baselines/negation/requirements.txt
 $ python3 baselines/negation/run_negation.py -f practice_text/negation/dev.tsv -o submission/negation/
 
 </pre>
