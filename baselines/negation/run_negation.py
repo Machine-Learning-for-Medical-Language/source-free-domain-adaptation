@@ -71,8 +71,6 @@ class NegationDataset(Dataset):
         lines = DataProcessor._read_tsv(tsv_file)
         examples = []
         for (i, line) in enumerate(lines):
-            # flip the signs so that 1 is negated, that way the f1 calculation is automatically
-            # the f1 score for the negated label.
             guid = 'instance-%d' % i
             if line[0] in labels:
                 text_a = '\t'.join(line[1:])
