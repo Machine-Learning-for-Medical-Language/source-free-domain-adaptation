@@ -3,11 +3,13 @@
   The trial data for the practice phase consists of 99 articles from the <em>AQUAINT</em>, <em>TimeBank</em> and <em>te3-platinum</em> subsets of <em>TempEval-2013</em>, i.e. <em>"Newswire"</em> domain.
 </p>
 <p>
-  You can automatically download and prepare the input data for this phase running the <code class="codestyle">prepare_time_dataset.py</code> script available in the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation" target="_blank">task repository</a>:
+  You can automatically download and prepare the input data for this phase running the <code class="codestyle">prepare_time_dataset.py</code> script available in the <a href="https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation" target="_blank">task repository</a>. If you don't already have the task repo checked out and the requirements installed, you need to do so first:
 </p>
 <pre class="prestyle">
 
 $ git clone https://github.com/Machine-Learning-for-Medical-Language/source-free-domain-adaptation.git && cd source-free-domain-adaptation
+
+$ pip3 install -r baselines/time/requirements.txt
 
 $ python3 prepare_time_dataset.py practice_text/
 
@@ -57,11 +59,9 @@ $ python3 prepare_time_dataset.py practice_text/
   The first time you run such code, the model will be automatically downloaded in your computer.
   The scripts also include the basic functionality to read the input data and produce the output <em>Anafora</em> annotations.
   You can use the <code class="codestyle">run_time.py</code> script to parse raw text and obtain time expressions.
-  For example, to install the requirements and process the practice data, run:
+  For example, to process the practice data, run:
 </p>
 <pre class="prestyle">
-
-$ pip3 install -r baselines/time/requirements.txt
   
 $ python3 baselines/time/run_time.py -p practice_text/time/ -o submission/time/
 
