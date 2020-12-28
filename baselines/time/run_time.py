@@ -161,8 +161,7 @@ def write_anafora(output_dir, dataset, predictions, tokenizer, config):
                     previous_label = 0
                     previous_offset = [None, None]
             if previous_label > 0:  # If remaining previous not O we must write it.
-                entity_label = config.id2label[previous_label]
-                add_entity(data, doc_name, entity_label, previous_offset)
+                add_entity(data, doc_name, previous_label, previous_offset)
         doc_path = os.path.join(output_dir, doc_subdir)
         os.makedirs(doc_path, exist_ok=True)
         doc_path = os.path.join(doc_path,
