@@ -59,8 +59,9 @@ def read_tsvs(ref_file, res_file):
 
 
 if __name__ == "__main__":
+    print("SemEval 2021 Task 10 scorer v0.2")
     _, input_dir, output_dir = sys.argv
-
+    
     # check which tasks have been submitted
     has_time = os.path.exists(os.path.join(input_dir, 'res', 'time'))
     has_negation = os.path.exists(os.path.join(input_dir, 'res', 'negation'))
@@ -96,3 +97,5 @@ if __name__ == "__main__":
     with open(os.path.join(output_dir, "scores.txt"), "w") as output_file:
         for key, value in metrics.items():
             output_file.write(f"{key}:{value}\n")
+
+    print("Success!")
