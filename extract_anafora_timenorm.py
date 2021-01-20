@@ -12,7 +12,14 @@ operator_types = ["This", "Last", "Next", "Before", "After", "Between",
 def remove_item(element, item_name):
     item = element.xml.find(item_name)
     element.xml.remove(item)
+
     
+def remove_annotation(data, annotation):
+    if annotation not in data.annotations:
+        print("WARNING!! annotation already removed: %s" % annotation)
+    else:
+        data.annotations.remove(annotation)
+        
 
 def convert_xml(xml_path, output_path, raw_path=None):
     data = anafora.AnaforaData.from_file(xml_path)
@@ -26,15 +33,15 @@ def convert_xml(xml_path, output_path, raw_path=None):
     # Remove Events
     annotations_to_delete = list(data.annotations.select_type("Event"))
     for annotation in annotations_to_delete:
-        data.annotations.remove(annotation)
+        remove_annotation(data, annotation)
     # Remove PreAnnotations
     annotations_to_delete = list(data.annotations.select_type("PreAnnotation"))
     for annotation in annotations_to_delete:
-        data.annotations.remove(annotation)
+        remove_annotation(data, annotation)
     # Remove NotNormalizable
     annotations_to_delete = list(data.annotations.select_type("NotNormalizable"))
     for annotation in annotations_to_delete:
-        data.annotations.remove(annotation)
+        remove_annotation(data, annotation)
 
     # Remove everything but Type
     annotations_by_span = {}
@@ -53,7 +60,7 @@ def convert_xml(xml_path, output_path, raw_path=None):
 
     # Remove duplicate annotations
     for annotation in duplicate_annotations:
-        data.annotations.remove(annotation)
+        remove_annotation(data, annotation)
     
     # Remove implicit operators and unwanted entities
     spans_with_multiple = [span for span in annotations_by_span if len(annotations_by_span[span]) > 1]
@@ -77,7 +84,7 @@ def convert_xml(xml_path, output_path, raw_path=None):
 
         if len(annotations) - len(to_remove) == 1:
             for annotation in to_remove:
-                data.annotations.remove(annotation)
+                remove_annotation(data, annotation)
         else:
             wrong_patterns = True
             print("Wrong annotation pattern: %s" % annotations)
