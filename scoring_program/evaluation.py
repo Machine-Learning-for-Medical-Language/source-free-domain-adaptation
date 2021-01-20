@@ -73,7 +73,7 @@ if __name__ == "__main__":
     elif has_time:
         expected = path_lines(input_dir, 'ref', "time/**", replaces)
     else:  # has_negation
-        expected = path_lines(input_dir, 'ref', "negation/**", to_system)
+        expected = path_lines(input_dir, 'ref', "negation/**", replaces)
     uploaded = path_lines(input_dir, 'res', "**")
     diff = list(difflib.unified_diff(a=expected, b=uploaded, n=0,
                                      fromfile="expected", tofile="uploaded"))
