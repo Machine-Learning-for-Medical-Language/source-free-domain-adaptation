@@ -15,10 +15,9 @@ from spacy.lang.en import English
 import anafora
 
 
-def predict(predict_dir, output_dir):
+def predict(predict_dir, output_dir, model_name):
 
     # load the Huggingface config, tokenizer, and model
-    model_name = "clulab/roberta-timex-semeval"
     config = AutoConfig.from_pretrained(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name,
                                               config=config,
@@ -179,5 +178,7 @@ if __name__ == "__main__":
                         help="The root of the directory tree containing raw text for prediction.")
     parser.add_argument("-o", "--output", metavar="DIR", dest="output_dir",
                         help="The directory to store the prediction in Anafora XML.")
+    parser.add_argument("-m", "--model", dest="model_name", default="clulab/roberta-timex-semeval",
+                        help="Name or path to the model.")
     args = parser.parse_args()
-    predict(args.predict_dir, args.output_dir)
+    predict(args.predict_dir, args.output_dir, args.model_name)

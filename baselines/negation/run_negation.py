@@ -20,10 +20,9 @@ max_length = 128
 logger = logging.getLogger(__name__)
 
 
-def predict(data_file, output_dir):
+def predict(data_file, output_dir, model_name):
 
     # load the Huggingface config, tokenizer, and model
-    model_name = "tmills/roberta_sfda_sharpseed"
     config = AutoConfig.from_pretrained(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name,
                                               config=config)
@@ -98,5 +97,7 @@ if __name__ == "__main__":
                         help="The input data file. Should be a .tsv with one instance per line.")
     parser.add_argument("-o", "--output_dir", metavar="DIR", dest="output_dir",
                         help="The output directory where the model predictions and will be written.")
+    parser.add_argument("-m", "--model", dest="model_name", default="tmills/roberta_sfda_sharpseed",
+                        help="Name or path to the model.")
     args = parser.parse_args()
-    predict(args.data_file, args.output_dir)
+    predict(args.data_file, args.output_dir, args.model_name)
