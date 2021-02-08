@@ -39,37 +39,41 @@ def score_time(ref_domain, res_domain, results):
     results['time_recall'] = all_named_scores["*"].recall()
 
 def score_negation(ref_domain,res_domain,results):
-    ref = read_tsv(ref_domain)
-    res = read_tsv(res_domain)
+    ref, res = read_tsvs(ref_domain, res_domain)
     assert len(ref) == len(res)
     results['negation_f1']=  f1_score(ref,res)
     results['negation_precision'] = precision_score(ref,res)
     results['negation_recall'] = recall_score(ref,res)
 
 
-def read_tsv(file):
-    output = []
-    with open(file, 'r') as f_output:
-        for record in f_output:
-            output.append(int(record))
-    return output
+def read_tsvs(ref_file, res_file):
+    ref_output = []
+    res_output = []
+    with open(ref_file, 'r') as f_ref_output, open(res_file, 'r') as f_res_output:
+        for ref_record, res_record in zip(f_ref_output, f_res_output):
+            ref_record = int(ref_record)
+            if ref_record != 0:
+                ref_output.append(ref_record)
+                res_output.append(int(res_record))
+    return ref_output, res_output
 
 
 if __name__ == "__main__":
+    print("SemEval 2021 Task 10 scorer v0.2")
     _, input_dir, output_dir = sys.argv
-
+    
     # check which tasks have been submitted
     has_time = os.path.exists(os.path.join(input_dir, 'res', 'time'))
     has_negation = os.path.exists(os.path.join(input_dir, 'res', 'negation'))
-    to_system = {'gold': 'system'}
+    replaces = {'gold': 'system', 'fake': 'TimeNorm.system.completed.xml'}
 
     # exit with an error if any of the expected files were not submitted
     if has_time == has_negation:  # has both or has neither
-        expected = path_lines(input_dir, 'ref', "**", to_system)
+        expected = path_lines(input_dir, 'ref', "**", replaces)
     elif has_time:
-        expected = path_lines(input_dir, 'ref', "time/**", to_system)
+        expected = path_lines(input_dir, 'ref', "time/**", replaces)
     else:  # has_negation
-        expected = path_lines(input_dir, 'ref', "negation/**", to_system)
+        expected = path_lines(input_dir, 'ref', "negation/**", replaces)
     uploaded = path_lines(input_dir, 'res', "**")
     diff = list(difflib.unified_diff(a=expected, b=uploaded, n=0,
                                      fromfile="expected", tofile="uploaded"))
@@ -93,3 +97,5 @@ if __name__ == "__main__":
     with open(os.path.join(output_dir, "scores.txt"), "w") as output_file:
         for key, value in metrics.items():
             output_file.write(f"{key}:{value}\n")
+
+    print("Success!")
