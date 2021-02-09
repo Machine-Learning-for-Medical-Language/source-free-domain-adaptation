@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>19:28:54 30-10-2020</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>86@e@Doc1@gold</id>
+		<span>191,195</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>87@e@Doc1@gold</id>
+		<span>349,352</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>88@e@Doc1@gold</id>
+		<span>565,569</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>89@e@Doc1@gold</id>
+		<span>627,631</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>90@e@Doc1@gold</id>
+		<span>640,644</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>91@e@Doc1@gold</id>
+		<span>857,860</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>92@e@Doc1@gold</id>
+		<span>1012,1021</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>93@e@Doc1@gold</id>
+		<span>1056,1060</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>94@e@Doc1@gold</id>
+		<span>1264,1268</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>95@e@Doc1@gold</id>
+		<span>1485,1489</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>96@e@Doc1@gold</id>
+		<span>1556,1560</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>97@e@Doc1@gold</id>
+		<span>1773,1785</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>98@e@Doc1@gold</id>
+		<span>1843,1847</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>99@e@Doc1@gold</id>
+		<span>2007,2013</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>100@e@Doc1@gold</id>
+		<span>2055,2059</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>101@e@Doc1@gold</id>
+		<span>2219,2223</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>102@e@Doc1@gold</id>
+		<span>2289,2293</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>103@e@Doc1@gold</id>
+		<span>2722,2726</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>104@e@Doc1@gold</id>
+		<span>2982,2986</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>105@e@Doc1@gold</id>
+		<span>3374,3381</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>106@e@Doc1@gold</id>
+		<span>3592,3604</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>107@e@Doc1@gold</id>
+		<span>3617,3621</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>108@e@Doc1@gold</id>
+		<span>3641,3645</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>109@e@Doc1@gold</id>
+		<span>4047,4051</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>110@e@Doc1@gold</id>
+		<span>4086,4090</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>111@e@Doc1@gold</id>
+		<span>4270,4274</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>112@e@Doc1@gold</id>
+		<span>433,439</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>113@e@Doc1@gold</id>
+		<span>634,639</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>114@e@Doc1@gold</id>
+		<span>3367,3373</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>117@e@Doc1@gold</id>
+		<span>1543,1548</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>118@e@Doc1@gold</id>
+		<span>1537,1539</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>120@e@Doc1@gold</id>
+		<span>297,302</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>121@e@Doc1@gold</id>
+		<span>1136,1145</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>122@e@Doc1@gold</id>
+		<span>1549,1551</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>123@e@Doc1@gold</id>
+		<span>1533,1536</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>124@e@Doc1@gold</id>
+		<span>1825,1835</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>125@e@Doc1@gold</id>
+		<span>1836,1838</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>126@e@Doc1@gold</id>
+		<span>2035,2047</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>127@e@Doc1@gold</id>
+		<span>2048,2050</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>128@e@Doc1@gold</id>
+		<span>2201,2211</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>129@e@Doc1@gold</id>
+		<span>2212,2214</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>130@e@Doc1@gold</id>
+		<span>2698,2707</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>131@e@Doc1@gold</id>
+		<span>2708,2717</span>
+		<type>Frequency</type>
+		</entity>
+
+</annotations>
+
+</data>

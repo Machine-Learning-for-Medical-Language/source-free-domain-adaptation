@@ -1,0 +1,925 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>11:27:39 12-00-2021</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>335@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>61,64</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>336@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>68,72</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>337@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>106,111</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>338@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>115,118</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>339@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>119,127</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>340@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>402,408</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>341@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>425,433</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>342@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>584,589</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>343@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>591,599</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>344@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>618,623</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>345@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>628,631</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>346@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>756,759</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>347@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>767,775</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>348@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>954,962</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>349@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1090,1093</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>350@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1094,1097</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>351@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1099,1107</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>352@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1286,1291</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>353@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1295,1298</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>354@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1299,1307</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>355@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1359,1362</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>356@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1587,1595</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>357@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2145,2153</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>358@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2165,2170</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>359@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2225,2231</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>360@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2618,2621</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>361@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2636,2639</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>362@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2860,2865</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>363@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2870,2873</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>364@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2974,2980</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>365@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3273,3278</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>366@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3282,3285</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>367@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3306,3311</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>368@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3491,3499</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>369@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3525,3542</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>370@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3727,3730</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>371@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3744,3749</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>372@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3967,3970</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>373@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4056,4061</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>374@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4613,4618</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>375@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4623,4626</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>376@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4642,4647</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>377@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4748,4756</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>378@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4833,4844</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>379@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4911,4919</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>380@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5080,5088</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>381@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5105,5108</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>382@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5256,5261</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>383@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5267,5270</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>384@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5377,5382</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>385@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5547,5552</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>386@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5738,5747</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>387@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5772,5777</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>388@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5781,5784</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>389@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6105,6111</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>390@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6127,6130</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>391@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6211,6219</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>392@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6416,6419</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>393@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6424,6428</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>394@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6445,6453</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>395@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6563,6567</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>396@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6606,6612</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>397@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6826,6834</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>398@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7156,7164</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>399@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7196,7201</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>400@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7205,7209</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>401@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7216,7222</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>402@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7305,7313</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>403@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7346,7351</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>404@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7596,7604</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>405@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7606,7614</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>406@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7617,7620</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>407@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8063,8066</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>408@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8071,8075</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>409@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8131,8136</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>410@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8140,8143</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>411@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8144,8150</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>412@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8381,8389</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>413@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8391,8399</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>414@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8402,8405</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>415@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8554,8562</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>416@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8627,8632</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>417@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8636,8639</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>418@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8965,8968</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>419@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>9348,9352</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>420@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>9426,9436</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>421@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>9455,9461</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>422@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>73,76</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>423@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>112,114</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>424@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>513,522</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>425@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>751,755</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>426@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>760,765</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>427@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1042,1048</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>428@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1084,1089</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>429@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1292,1294</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>430@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1363,1368</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>431@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2160,2164</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>432@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2518,2527</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>433@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2622,2627</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>434@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2628,2635</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>435@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3238,3247</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>436@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3279,3281</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>437@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3299,3305</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>438@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3694,3698</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>439@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3699,3705</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>440@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3715,3722</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>441@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3734,3739</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>442@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3750,3753</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>443@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3961,3966</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>444@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>3971,3974</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>445@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4062,4066</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>446@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4648,4654</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>447@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5207,5216</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>448@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5229,5233</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>449@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5234,5240</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>450@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5262,5265</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>451@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5271,5274</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>452@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5345,5349</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>453@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5350,5353</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>454@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5553,5559</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>455@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5728,5733</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>456@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5751,5754</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>457@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6131,6134</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>458@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6429,6434</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>459@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7202,7204</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>460@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7210,7215</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>461@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7339,7345</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>462@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7615,7616</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>463@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8076,8079</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>464@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8137,8139</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>465@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8400,8401</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>466@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8640,8644</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>467@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8969,8973</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>468@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>9341,9347</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>469@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>9448,9454</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>475@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>526,533</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>482@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1033,1038</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>483@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1013,1020</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>489@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2531,2538</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>501@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4285,4300</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>527@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>8582,8604</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>531@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>1793,1801</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>532@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>2138,2141</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>533@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4496,4500</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>534@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4423,4427</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>535@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4719,4724</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>536@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>4742,4747</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>537@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>5778,5780</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>538@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6821,6825</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>539@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6910,6915</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>540@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>6920,6934</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>541@e@EAST_AFRICA_Seasonal_Monitor_5-Jun-17@gold</id>
+		<span>7431,7438</span>
+		<type>This</type>
+		</entity>
+
+</annotations>
+
+</data>

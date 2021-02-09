@@ -1,0 +1,667 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>16:55:49 02-11-2020</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>272@e@Doc3@gold</id>
+		<span>12,16</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>273@e@Doc3@gold</id>
+		<span>335,337</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>274@e@Doc3@gold</id>
+		<span>422,428</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>275@e@Doc3@gold</id>
+		<span>551,554</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>276@e@Doc3@gold</id>
+		<span>580,588</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>277@e@Doc3@gold</id>
+		<span>817,823</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>278@e@Doc3@gold</id>
+		<span>860,865</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>279@e@Doc3@gold</id>
+		<span>1050,1056</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>280@e@Doc3@gold</id>
+		<span>1541,1551</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>281@e@Doc3@gold</id>
+		<span>2258,2265</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>282@e@Doc3@gold</id>
+		<span>2365,2395</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>283@e@Doc3@gold</id>
+		<span>2422,2429</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>284@e@Doc3@gold</id>
+		<span>2480,2486</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>285@e@Doc3@gold</id>
+		<span>2487,2495</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>286@e@Doc3@gold</id>
+		<span>2533,2537</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>287@e@Doc3@gold</id>
+		<span>2540,2549</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>288@e@Doc3@gold</id>
+		<span>2551,2559</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>289@e@Doc3@gold</id>
+		<span>2570,2579</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>290@e@Doc3@gold</id>
+		<span>2632,2637</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>291@e@Doc3@gold</id>
+		<span>2641,2645</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>292@e@Doc3@gold</id>
+		<span>2646,2654</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>293@e@Doc3@gold</id>
+		<span>2838,2846</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>294@e@Doc3@gold</id>
+		<span>2856,2861</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>295@e@Doc3@gold</id>
+		<span>2866,2871</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>296@e@Doc3@gold</id>
+		<span>3015,3020</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>297@e@Doc3@gold</id>
+		<span>3213,3219</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>298@e@Doc3@gold</id>
+		<span>3220,3225</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>299@e@Doc3@gold</id>
+		<span>3361,3371</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>300@e@Doc3@gold</id>
+		<span>3475,3495</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>301@e@Doc3@gold</id>
+		<span>3731,3736</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>302@e@Doc3@gold</id>
+		<span>3782,3796</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>303@e@Doc3@gold</id>
+		<span>3832,3840</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>304@e@Doc3@gold</id>
+		<span>4134,4138</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>305@e@Doc3@gold</id>
+		<span>4316,4321</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>306@e@Doc3@gold</id>
+		<span>4409,4414</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>307@e@Doc3@gold</id>
+		<span>4519,4524</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>308@e@Doc3@gold</id>
+		<span>4711,4716</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>309@e@Doc3@gold</id>
+		<span>4741,4750</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>310@e@Doc3@gold</id>
+		<span>4841,4847</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>311@e@Doc3@gold</id>
+		<span>5007,5010</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>312@e@Doc3@gold</id>
+		<span>5072,5080</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>313@e@Doc3@gold</id>
+		<span>5140,5143</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>314@e@Doc3@gold</id>
+		<span>5219,5225</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>315@e@Doc3@gold</id>
+		<span>5274,5282</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>316@e@Doc3@gold</id>
+		<span>5430,5434</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>317@e@Doc3@gold</id>
+		<span>5529,5534</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>318@e@Doc3@gold</id>
+		<span>5540,5548</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>319@e@Doc3@gold</id>
+		<span>5603,5610</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>320@e@Doc3@gold</id>
+		<span>5683,5687</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>321@e@Doc3@gold</id>
+		<span>5950,5954</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>322@e@Doc3@gold</id>
+		<span>5980,5985</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>323@e@Doc3@gold</id>
+		<span>6284,6289</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>324@e@Doc3@gold</id>
+		<span>6661,6667</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>325@e@Doc3@gold</id>
+		<span>6669,6673</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>326@e@Doc3@gold</id>
+		<span>6677,6686</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>327@e@Doc3@gold</id>
+		<span>6688,6703</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>328@e@Doc3@gold</id>
+		<span>6723,6727</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>329@e@Doc3@gold</id>
+		<span>6834,6843</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>330@e@Doc3@gold</id>
+		<span>7340,7343</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>331@e@Doc3@gold</id>
+		<span>7644,7650</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>332@e@Doc3@gold</id>
+		<span>7685,7693</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>333@e@Doc3@gold</id>
+		<span>7804,7810</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>334@e@Doc3@gold</id>
+		<span>8041,8045</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>335@e@Doc3@gold</id>
+		<span>8056,8061</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>336@e@Doc3@gold</id>
+		<span>8135,8144</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>337@e@Doc3@gold</id>
+		<span>8334,8344</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>338@e@Doc3@gold</id>
+		<span>330,334</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>339@e@Doc3@gold</id>
+		<span>546,550</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>340@e@Doc3@gold</id>
+		<span>555,560</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>341@e@Doc3@gold</id>
+		<span>855,859</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>342@e@Doc3@gold</id>
+		<span>1045,1049</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>343@e@Doc3@gold</id>
+		<span>2355,2360</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>345@e@Doc3@gold</id>
+		<span>2879,2885</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>346@e@Doc3@gold</id>
+		<span>3008,3014</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>347@e@Doc3@gold</id>
+		<span>3726,3730</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>348@e@Doc3@gold</id>
+		<span>4311,4315</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>349@e@Doc3@gold</id>
+		<span>4422,4434</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>350@e@Doc3@gold</id>
+		<span>4512,4518</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>351@e@Doc3@gold</id>
+		<span>4835,4840</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>352@e@Doc3@gold</id>
+		<span>5002,5006</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>353@e@Doc3@gold</id>
+		<span>5011,5016</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>354@e@Doc3@gold</id>
+		<span>5135,5139</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>355@e@Doc3@gold</id>
+		<span>5144,5149</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>356@e@Doc3@gold</id>
+		<span>5522,5528</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>357@e@Doc3@gold</id>
+		<span>5971,5979</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>358@e@Doc3@gold</id>
+		<span>6274,6279</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>359@e@Doc3@gold</id>
+		<span>6293,6297</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>360@e@Doc3@gold</id>
+		<span>6654,6660</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>361@e@Doc3@gold</id>
+		<span>7335,7339</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>362@e@Doc3@gold</id>
+		<span>7344,7349</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>363@e@Doc3@gold</id>
+		<span>7789,7796</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>364@e@Doc3@gold</id>
+		<span>7969,7973</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>365@e@Doc3@gold</id>
+		<span>8049,8055</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>373@e@Doc3@gold</id>
+		<span>338,342</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>375@e@Doc3@gold</id>
+		<span>1709,1716</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>376@e@Doc3@gold</id>
+		<span>2361,2364</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>377@e@Doc3@gold</id>
+		<span>2505,2512</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>379@e@Doc3@gold</id>
+		<span>418,421</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>380@e@Doc3@gold</id>
+		<span>2628,2631</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>384@e@Doc3@gold</id>
+		<span>4418,4421</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>390@e@Doc3@gold</id>
+		<span>7022,7031</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>392@e@Doc3@gold</id>
+		<span>7800,7803</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>396@e@Doc3@gold</id>
+		<span>2875,2878</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>398@e@Doc3@gold</id>
+		<span>2538,2539</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>399@e@Doc3@gold</id>
+		<span>4709,4710</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>400@e@Doc3@gold</id>
+		<span>5215,5218</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>401@e@Doc3@gold</id>
+		<span>6674,6676</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>402@e@Doc3@gold</id>
+		<span>7254,7261</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>403@e@Doc3@gold</id>
+		<span>7902,7909</span>
+		<type>This</type>
+		</entity>
+
+</annotations>
+
+</data>

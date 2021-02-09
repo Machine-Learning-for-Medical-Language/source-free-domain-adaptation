@@ -1,0 +1,4387 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>16:47:36 13-00-2021</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>1346@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>133,141</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1347@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>146,155</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1348@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>244,251</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1349@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>255,263</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1350@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>269,287</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1351@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>610,614</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1352@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>619,628</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1353@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>637,642</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1354@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>836,841</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1355@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>963,971</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1356@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>976,985</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1357@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>998,1002</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1358@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1153,1157</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1359@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1384,1392</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1360@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1442,1449</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1361@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1453,1461</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1362@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1462,1473</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1363@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1495,1507</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1364@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1845,1856</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1365@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1911,1916</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1366@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1920,1923</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1367@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1929,1937</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1368@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1980,1984</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1369@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1989,1997</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1370@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2030,2034</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1371@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2347,2353</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1372@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2502,2515</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1373@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2532,2542</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1374@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2647,2654</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1376@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3424,3430</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1377@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3443,3451</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1378@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3650,3658</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1379@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3676,3681</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1380@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3686,3689</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1381@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3813,3817</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1382@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4058,4062</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1383@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4066,4075</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1384@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4265,4270</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1385@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4344,4348</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1386@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4385,4389</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1387@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4422,4427</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1388@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4489,4493</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1389@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4527,4531</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1390@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4809,4814</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1392@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5030,5038</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1393@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5043,5050</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1394@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5092,5097</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1395@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5098,5104</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1396@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5243,5249</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1397@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5720,5728</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1398@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5738,5745</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1399@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5765,5773</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1400@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5855,5865</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1401@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5965,5972</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1402@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5998,6004</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1403@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6005,6009</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1404@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6128,6135</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1405@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6149,6155</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1406@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6156,6160</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1407@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6307,6312</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1408@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6441,6448</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1409@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6547,6555</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1410@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6618,6624</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1411@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6625,6629</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1412@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7421,7423</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>1413@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7443,7444</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>1414@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7651,7659</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1415@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7669,7676</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1416@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7686,7693</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1417@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7929,7938</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1418@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7992,7996</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1419@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8117,8124</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1420@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8129,8133</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1421@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8222,8226</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1422@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8330,8336</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1423@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8351,8355</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1424@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8360,8369</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1425@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8561,8569</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1426@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8582,8587</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1427@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8689,8697</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1428@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8715,8720</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1429@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8725,8728</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1431@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8862,8872</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1432@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8881,8885</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1433@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8890,8899</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1434@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9117,9122</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1435@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9127,9136</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1436@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9249,9254</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1437@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9258,9261</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1439@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9568,9577</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1440@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9748,9753</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1441@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9757,9760</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1442@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10320,10327</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1444@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10474,10478</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1445@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10577,10581</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1446@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10637,10645</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1447@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10650,10654</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1448@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10959,10967</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1449@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10985,10989</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1450@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10993,11001</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1451@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11193,11201</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1452@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11306,11311</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1453@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11315,11318</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1454@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11478,11488</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1455@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11574,11578</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1456@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11674,11684</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1457@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11697,11701</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1458@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11705,11714</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1459@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11788,11795</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1460@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12092,12096</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1461@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12222,12230</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1462@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12384,12387</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1463@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12388,12392</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1464@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12432,12442</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1465@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12488,12496</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1466@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12497,12505</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1467@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12666,12669</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1468@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12685,12692</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1469@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12697,12701</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1470@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12809,12816</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1471@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12821,12825</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1472@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12897,12906</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1473@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12951,12960</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1474@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13137,13141</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1475@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13207,13211</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1476@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13443,13447</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1477@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13584,13592</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1478@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13597,13606</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1479@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13703,13707</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1480@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13796,13800</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1481@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13801,13805</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1482@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14085,14089</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1483@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14194,14202</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1484@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14434,14443</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1485@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14581,14589</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1486@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14593,14597</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1487@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14725,14730</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1488@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14735,14740</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1489@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14755,14759</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1490@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14760,14768</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1491@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14790,14794</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1492@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14798,14807</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1493@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14995,15003</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1494@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15051,15057</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1495@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15129,15133</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1496@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15138,15144</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1497@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15207,15220</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1498@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15236,15244</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1499@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15299,15303</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1500@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15324,15329</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1501@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15407,15413</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1502@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15488,15492</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1503@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15497,15503</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1504@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15835,15841</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1505@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15842,15846</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1506@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15896,15904</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1507@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15996,16005</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1508@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16455,16464</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1509@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16587,16596</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1510@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16656,16661</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1511@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16909,16917</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1512@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16965,16973</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1513@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16987,16993</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1514@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16994,16998</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1515@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17125,17133</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1516@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17175,17181</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1517@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17182,17186</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1518@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17305,17309</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1519@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17324,17330</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1520@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17410,17418</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1521@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17447,17451</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1522@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17487,17491</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1523@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17492,17496</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1524@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17509,17517</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1525@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17603,17612</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1526@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17687,17690</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1527@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17694,17701</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1528@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18279,18280</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1529@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18296,18303</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1530@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18308,18312</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1531@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18633,18639</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1532@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18961,18967</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1533@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19001,19006</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1534@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19010,19013</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1535@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19014,19018</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1536@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19117,19121</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1537@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19125,19134</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1538@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19140,19146</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1539@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19214,19218</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1540@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19257,19268</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1541@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19312,19317</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1542@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19399,19409</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1543@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19675,19683</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1544@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19726,19730</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1545@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19856,19864</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1546@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19929,19940</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1547@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19944,19953</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1548@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20014,20024</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1549@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20051,20061</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1550@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20260,20265</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1551@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20764,20773</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1552@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20830,20839</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1553@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20894,20902</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1554@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20907,20910</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1555@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20927,20931</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1556@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20936,20945</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1557@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21006,21014</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1558@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21543,21548</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1559@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21552,21555</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1560@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21561,21576</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1561@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21582,21589</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1562@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21593,21601</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1563@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21607,21618</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1564@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21691,21703</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1565@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21728,21731</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1566@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21749,21754</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1567@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21755,21760</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1568@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21811,21819</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1569@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21861,21865</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1570@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21866,21870</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1571@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21899,21906</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1572@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21907,21915</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1573@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21941,21945</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1574@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22005,22009</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1575@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22013,22022</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1576@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22028,22041</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1577@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22062,22069</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1578@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22073,22081</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1579@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22563,22571</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1580@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22583,22590</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1581@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22595,22603</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1583@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23484,23491</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1584@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23496,23500</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1585@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23553,23560</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1586@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23564,23569</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1587@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23575,23585</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1588@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23943,23946</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1589@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24188,24191</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1590@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24254,24262</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1591@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24274,24282</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1592@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24309,24312</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1593@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24353,24360</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1594@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24364,24372</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1595@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24423,24440</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1597@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24815,24822</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1598@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25081,25088</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1599@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25206,25212</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1600@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25213,25217</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1601@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25246,25253</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1602@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25504,25512</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1603@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25517,25522</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1604@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25562,25564</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1605@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25644,25648</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1607@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25717,25721</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1608@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25725,25734</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1609@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25836,25838</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1610@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25921,25926</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>1611@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25953,25960</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1612@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26255,26264</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1613@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26674,26681</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1614@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26685,26693</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1615@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26699,26715</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1616@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26743,26748</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1617@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26752,26755</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1618@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26761,26775</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1619@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26799,26812</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1620@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27348,27356</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1621@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27360,27369</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1622@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27578,27582</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1623@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27587,27596</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1624@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27605,27613</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1625@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27644,27651</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1626@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27655,27663</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1627@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27669,27680</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1628@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27819,27827</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1629@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27836,27841</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1630@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28292,28296</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1631@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28375,28382</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1632@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28399,28406</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1633@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28411,28416</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1634@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28421,28425</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1635@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28430,28439</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1636@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28455,28459</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1637@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28572,28576</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1638@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28837,28844</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1639@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28865,28872</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1640@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28917,28923</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1641@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28924,28928</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1642@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28989,28996</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1643@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29033,29039</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1644@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29040,29044</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1645@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29367,29370</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1646@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29371,29378</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1647@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29396,29399</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1648@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29400,29407</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1649@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29514,29519</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1650@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29523,29526</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1651@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29527,29529</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1653@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29663,29667</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1654@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29671,29680</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1655@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29686,29696</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1656@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29793,29801</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1657@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29806,29815</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1658@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29862,29869</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1659@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29920,29926</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1660@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30319,30324</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1661@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30328,30331</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1662@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30332,30334</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1663@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30512,30516</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1664@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30520,30529</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1665@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30530,30540</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1666@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30658,30660</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1667@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31145,31151</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1668@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31245,31253</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1669@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31258,31267</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1670@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31319,31327</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1671@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31357,31364</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1672@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31368,31376</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1673@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31382,31393</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1674@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31474,31482</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1675@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31540,31544</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1676@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31545,31549</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1677@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31603,31610</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1678@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31614,31622</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1679@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31623,31629</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1680@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31636,31640</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1681@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31656,31664</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1682@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31748,31756</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1683@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31848,31872</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1684@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31909,31914</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1685@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31918,31921</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1686@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31927,31936</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1687@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32087,32098</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1688@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32114,32122</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1689@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32390,32397</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1691@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32579,32584</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1692@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32590,32594</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1693@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32603,32609</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1694@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32610,32614</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1695@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32730,32737</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1697@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32863,32868</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1698@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32874,32878</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1699@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32883,32889</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1700@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32890,32894</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1701@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33089,33095</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1702@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33121,33129</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1703@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33562,33569</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1704@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33573,33577</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1705@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33594,33599</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1706@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33603,33606</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1707@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33796,33801</span>
+		<type>Part-Of-Day</type>
+		</entity>
+
+	<entity>
+		<id>1708@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33860,33866</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1709@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34017,34022</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1710@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34085,34088</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1711@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34173,34178</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>1712@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34369,34378</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1713@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34397,34407</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1714@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34608,34616</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1715@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34650,34654</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1716@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34792,34798</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1717@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34812,34819</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1718@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35064,35068</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1719@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35165,35169</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1720@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35228,35231</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1721@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35244,35249</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1722@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35254,35257</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1723@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35272,35276</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1724@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35404,35413</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1725@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35556,35560</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1726@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35691,35694</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>1727@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>36406,36411</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1728@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>36415,36418</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1729@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>36424,36435</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1730@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>36661,36670</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1731@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>125,132</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1732@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>156,160</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1733@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>252,254</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1734@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>264,268</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1735@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>602,609</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1736@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>629,633</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1737@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>643,647</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1738@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>648,650</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>1739@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>955,962</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1740@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>986,990</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1741@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1145,1152</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1742@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1158,1162</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1743@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1450,1452</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1744@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1508,1513</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1745@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1857,1861</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1746@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1917,1919</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1747@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1924,1928</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1748@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1972,1979</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1749@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>1998,2002</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1750@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2024,2029</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1752@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2181,2189</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1753@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2190,2194</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1754@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2519,2523</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1755@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2655,2661</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1756@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2662,2669</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1757@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2731,2736</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1758@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2737,2741</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>1759@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2742,2746</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1760@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3668,3675</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1761@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3818,3820</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>1762@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4063,4065</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1763@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4076,4082;4088,4100</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1764@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4083,4087</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1765@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4237,4251</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1766@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4271,4275</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1767@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4378,4384</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1768@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4390,4394</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1769@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4428,4432</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1770@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4520,4526</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1771@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4532,4536</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1772@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4815,4819</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1773@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4947,4954</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1774@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5022,5029</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1775@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5712,5719</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1776@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5729,5733</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1777@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5746,5750</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1778@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>5973,5977</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1779@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6011,6015</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1780@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6136,6140</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1781@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6161,6165</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1782@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6449,6453</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1783@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6541,6546</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1784@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6556,6560</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1785@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>6630,6634</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1786@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7404,7411</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1787@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7412,7420</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1788@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7425,7429</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1789@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7434,7442</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1790@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7446,7450</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1791@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7645,7650</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1792@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7660,7664</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1793@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7677,7681</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1794@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>7694,7698</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1795@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8109,8116</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1796@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8134,8138</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1797@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8370,8374</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1798@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8707,8714</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1799@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8831,8838</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1800@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8873,8880</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1801@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9109,9116</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1802@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9255,9257</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1803@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9332,9339</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1804@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9560,9567</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1805@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9578,9582</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1806@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9754,9756</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1807@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10328,10334</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1808@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10335,10342</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1809@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10629,10636</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1810@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10655,10659</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1811@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10990,10992</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1812@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11002,11006</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1813@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11298,11305</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1814@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11319,11323</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1815@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11702,11704</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1816@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11715,11719</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1817@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11796,11800</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1818@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12393,12397</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1819@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12496,12497</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1820@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12670,12676</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1821@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12677,12684</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1822@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12702,12706</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1823@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12801,12808</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1824@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12826,12830</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1825@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12943,12950</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1826@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12961,12965</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1827@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13452,13464</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1828@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13576,13583</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1829@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13607,13611</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1830@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14444,14448</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1831@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14573,14580</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1832@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14598,14602</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1833@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14741,14745</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1834@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14782,14788;14814,14822</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1835@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14795,14797</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1836@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14809,14813</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1837@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15058,15062</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1838@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15330,15334</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1839@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15847,15851</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1840@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16828,16834</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1841@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16918,16922</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1842@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16974,16978</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1843@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16999,17003</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1844@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17134,17138</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1845@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17187,17191</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1846@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17300,17304</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1847@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17314,17323</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1848@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17613,17619</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1849@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17679,17686</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1850@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17702,17706</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1851@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18281,18287</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>1852@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18288,18295</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1853@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18313,18317</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1854@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>18686,18711</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1855@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19007,19009</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1856@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19019,19023</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1857@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19135,19139</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1858@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19269,19275</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1859@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19318,19322</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1860@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19410,19416</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1861@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19644,19653</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>1862@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19735,19741;19747,19754</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1863@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19742,19746</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1864@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19954,19958</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1865@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20219,20226</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1866@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20240,20249</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>1867@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20266,20270</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1868@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20368,20389</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1869@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20756,20763</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1870@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20774,20778</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1871@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20886,20893</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1872@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20911,20915</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1873@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20919,20926</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1874@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>20946,20950</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1875@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21044,21061</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1876@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21516,21525</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>1877@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21549,21551</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1878@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21556,21560</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1879@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21590,21592</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1880@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21602,21606</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1881@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21732,21737</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1882@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21761,21768</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1883@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21865,21866</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1884@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21935,21940</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1885@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21991,22000</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>1886@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22010,22012</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1887@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22023,22027</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1888@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22070,22072</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1889@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22082,22086</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1890@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22604,22608</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1891@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22633,22640</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1892@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>22755,22762</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1893@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23476,23483</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1894@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23501,23505</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1895@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23561,23563</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1896@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23570,23574</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1897@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23922,23936</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>1898@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24192,24197</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1899@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24263,24267</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1900@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24283,24288</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>1901@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24373,24377;24383,24395</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1902@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24378,24382</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1903@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24591,24598</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1904@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24823,24827</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1905@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25089,25093</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1906@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25218,25222</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1907@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25254,25258</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1908@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25496,25503</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1909@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25523,25527</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1910@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25565,25569</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1911@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25636,25643</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1912@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25670,25677</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1913@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25911,25916</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1914@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25934,25938</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1915@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25939,25943</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1916@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25961,25965</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1917@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26068,26082</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1918@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26247,26254</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1919@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26265,26269</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1920@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26682,26684</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1921@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26694,26698</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1922@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26749,26751</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1923@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26756,26760</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1924@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26781,26789</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>1925@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27340,27347</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1926@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27370,27374</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1927@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27570,27577</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1928@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27597,27601</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1929@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27652,27654</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1930@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27664,27668</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1931@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27812,27818;27847,27857</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1932@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27828,27832</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1933@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27842,27846</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1934@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28450,28454</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1935@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28845,28849</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1936@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28873,28877</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1937@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28929,28933</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1938@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28997,29001</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1939@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29045,29049</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1940@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29259,29263;29269,29277</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1941@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29264,29268</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1942@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29359,29366</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1943@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29379,29383</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1944@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29399,29400</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1945@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29408,29412</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1946@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29520,29522</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1947@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29530,29534</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1948@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29632,29639</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1949@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29668,29670</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1950@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29681,29685</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1951@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29785,29792</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1952@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29816,29820</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1953@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29853,29858</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>1954@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29870,29874</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1955@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30205,30210</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1956@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30309,30318</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>1957@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30325,30327</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1958@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30335,30339</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1959@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30517,30519</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1960@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30614,30620</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>1961@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30661,30665</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1962@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31237,31244</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1963@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31268,31272</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1964@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31365,31367</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1965@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31377,31381</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1966@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31544,31545</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1967@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31630,31635</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1968@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31915,31917</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1969@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31922,31926</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1970@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32021,32046</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1971@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32099,32103</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1972@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32123,32127</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1973@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32398,32402</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1974@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32585,32589</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1975@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32615,32619</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1976@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32738,32742</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1977@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32869,32873</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1979@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33130,33134</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1980@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33554,33561</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1981@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33600,33602</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1982@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33607,33612;33618,33630</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1983@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33613,33617</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1984@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33851,33859</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>1985@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34130,34135</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1986@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34140,34144</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>1987@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34145,34157</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1988@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34186,34190</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>1989@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34191,34203</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>1990@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34361,34368</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1991@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34379,34383</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1993@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34594,34598</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1994@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35170,35174</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>1995@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35232,35243</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>1996@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35268,35271</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>1997@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35396,35403</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>1998@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35414,35418</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>1999@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35707,35714</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2000@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35718,35722</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>2001@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>36419,36423</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>2002@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>36671,36675</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>2005@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17257,17262</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>2006@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17263,17267</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>2007@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33199,33204</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>2008@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33205,33209</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>2009@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19941,19943</span>
+		<type>Intersection</type>
+		</entity>
+
+	<entity>
+		<id>2012@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>205,214</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2021@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2169,2172</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>2023@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>2176,2180</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>2029@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>4012,4021</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2047@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9235,9244</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2051@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9685,9694</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2054@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9925,9963</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>2059@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11367,11372;11378,11384</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2060@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11373,11377</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>2061@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11547,11556</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2064@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11748,11753</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>2066@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12387,12388</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2068@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12455,12460</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2074@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13109,13118</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2075@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13185,13193</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>2078@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13692,13699</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2079@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13775,13778</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2080@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14426,14433</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2084@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14702,14711</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2087@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14963,14969</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2088@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>14959,14962</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2092@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>15258,15267</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2096@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16190,16196</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>2097@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16200,16206</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>2098@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16185,16189</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>2099@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>16835,16841</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>2103@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>17987,17996</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2116@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21497,21505</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2132@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24131,24140</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2138@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19905,19912</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2139@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25701,25711</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2142@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25722,25724</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2144@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>25822,25831</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2146@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26603,26608</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2148@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>26626,26635</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2154@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27187,27192</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2168@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>29907,29910</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2176@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>30621,30627</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>2177@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31133,31136</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2183@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>31873,31880</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2186@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32002,32010</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2187@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32159,32167</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2188@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32570,32573</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2189@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32854,32857</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2194@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34003,34006</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2195@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34158,34164</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>2196@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34589,34593</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2198@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34779,34782</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2199@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35050,35053</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>2201@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>35258,35264</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>2204@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3872,3877</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2205@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8343,8350</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2206@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10441,10445</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2207@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10572,10576</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2208@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>10795,10799</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2209@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11102,11114</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2210@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11568,11573</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2211@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11761,11766</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>2212@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>11770,11775</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2213@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12351,12355</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2214@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13131,13136</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2215@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13149,13154</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2216@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>13814,13820</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>2218@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>19122,19124</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2219@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>21722,21727</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>2220@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>23920,23921</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>2221@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>24361,24363</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2222@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>8425,8430</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2223@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>9091,9099</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2224@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12473,12478</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2225@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>12506,12511</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>2226@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>27833,27835</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2227@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28283,28284</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>2228@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>28562,28563</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>2230@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>33585,33590</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>2231@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>34080,34084</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>2232@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>36412,36414</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2233@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>36653,36660</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2234@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>647,648</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2235@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>3817,3818</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>2236@e@Ethiopia_Food_Security_Outlook_1-Feb-17@gold</id>
+		<span>32895,32899</span>
+		<type>Period</type>
+		</entity>
+
+</annotations>
+
+</data>

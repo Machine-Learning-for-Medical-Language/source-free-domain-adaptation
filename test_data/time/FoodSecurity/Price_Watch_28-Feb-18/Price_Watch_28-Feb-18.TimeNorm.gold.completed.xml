@@ -1,0 +1,1411 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>13:34:45 15-00-2021</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>446@e@Price_Watch_28-Feb-18@gold</id>
+		<span>56,60</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>447@e@Price_Watch_28-Feb-18@gold</id>
+		<span>151,155</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>448@e@Price_Watch_28-Feb-18@gold</id>
+		<span>202,212</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>449@e@Price_Watch_28-Feb-18@gold</id>
+		<span>1206,1217</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>450@e@Price_Watch_28-Feb-18@gold</id>
+		<span>1931,1936</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>451@e@Price_Watch_28-Feb-18@gold</id>
+		<span>2163,2170</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>452@e@Price_Watch_28-Feb-18@gold</id>
+		<span>2344,2349</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>453@e@Price_Watch_28-Feb-18@gold</id>
+		<span>2384,2392</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>454@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3066,3073</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>455@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3184,3188</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>456@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3209,3215</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>457@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3483,3487</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>458@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3666,3670</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>459@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3738,3742</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>460@e@Price_Watch_28-Feb-18@gold</id>
+		<span>4372,4378</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>461@e@Price_Watch_28-Feb-18@gold</id>
+		<span>5021,5028</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>462@e@Price_Watch_28-Feb-18@gold</id>
+		<span>5390,5395</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>463@e@Price_Watch_28-Feb-18@gold</id>
+		<span>5475,5479</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>465@e@Price_Watch_28-Feb-18@gold</id>
+		<span>5993,6001</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>466@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6312,6315</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>467@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6346,6351</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>468@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6352,6357</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>469@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6531,6539</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>471@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6835,6845</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>472@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6954,6958</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>473@e@Price_Watch_28-Feb-18@gold</id>
+		<span>7039,7042</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>474@e@Price_Watch_28-Feb-18@gold</id>
+		<span>7690,7698</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>475@e@Price_Watch_28-Feb-18@gold</id>
+		<span>7702,7709</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>476@e@Price_Watch_28-Feb-18@gold</id>
+		<span>7949,7955</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>478@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8125,8132</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>479@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8136,8143</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>480@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8358,8363</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>481@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8912,8919</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>482@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8923,8930</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>483@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9138,9141</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>484@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9145,9151</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>485@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9153,9158</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>486@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9293,9301</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>487@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9952,9963</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>488@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10119,10123</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>489@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10274,10281</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>490@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10380,10386</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>491@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10399,10403</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>492@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10417,10421</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>493@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10627,10631</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>494@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10838,10846</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>495@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10881,10885</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>496@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11066,11073</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>497@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11544,11549</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>498@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11885,11889</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>499@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11962,11966</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>500@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11980,11984</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>501@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12113,12118</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>502@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12136,12146</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>503@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12177,12182</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>504@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12207,12211</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>505@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12281,12286</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>506@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12381,12386</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>507@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12688,12695</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>508@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12767,12777</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>509@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13193,13200</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>510@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13354,13361</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>511@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13426,13433</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>512@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13446,13454</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>513@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13480,13485</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>514@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13486,13492</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>515@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13683,13690</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>516@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13722,13726</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>517@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13731,13735</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>518@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14414,14421</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>519@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14482,14486</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>520@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14576,14584</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>521@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14639,14644</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>522@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14715,14721</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>523@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14734,14739</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>524@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14923,14926</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>525@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15128,15132</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>526@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15146,15150</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>527@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15206,15210</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>528@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15224,15228</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>529@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15278,15286</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>530@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15850,15854</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>531@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15868,15872</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>532@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16110,16118</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>533@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16150,16154</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>534@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16205,16208</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>535@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16237,16241</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>536@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16246,16250</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>537@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16338,16346</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>538@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16356,16363</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>539@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16438,16446</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>540@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16451,16458</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>541@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16502,16506</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>542@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16522,16526</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>543@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16682,16690</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>544@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16695,16702</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>545@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16780,16784</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>546@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16790,16797</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>547@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16854,16858</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>548@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16867,16871</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>549@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16886,16895</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>550@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16955,16962</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>551@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16973,16980</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>552@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17049,17056</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>553@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17094,17098</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>554@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17170,17174</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>555@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17188,17192</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>556@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17327,17334</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>557@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17515,17519</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>558@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17540,17544</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>559@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17582,17586</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>560@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17591,17595</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>561@e@Price_Watch_28-Feb-18@gold</id>
+		<span>60,61</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>562@e@Price_Watch_28-Feb-18@gold</id>
+		<span>132,138</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>563@e@Price_Watch_28-Feb-18@gold</id>
+		<span>1671,1677</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>564@e@Price_Watch_28-Feb-18@gold</id>
+		<span>1703,1710</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>565@e@Price_Watch_28-Feb-18@gold</id>
+		<span>1723,1731</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>566@e@Price_Watch_28-Feb-18@gold</id>
+		<span>1912,1918</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>567@e@Price_Watch_28-Feb-18@gold</id>
+		<span>2326,2331</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>568@e@Price_Watch_28-Feb-18@gold</id>
+		<span>2378,2383</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>569@e@Price_Watch_28-Feb-18@gold</id>
+		<span>2393,2397</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>570@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3175,3183</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>571@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3474,3482</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>572@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3742,3743</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>573@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3896,3902</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>574@e@Price_Watch_28-Feb-18@gold</id>
+		<span>5381,5389</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>575@e@Price_Watch_28-Feb-18@gold</id>
+		<span>5974,5981</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>576@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6351,6352</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>577@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6626,6633</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>578@e@Price_Watch_28-Feb-18@gold</id>
+		<span>7699,7701</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>579@e@Price_Watch_28-Feb-18@gold</id>
+		<span>7939,7948</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>580@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8133,8135</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>581@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8340,8345</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>582@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8531,8537</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>583@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8601,8610</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>584@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8796,8805</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>585@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8920,8922</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>586@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9142,9144</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>587@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9524,9533</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>588@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9823,9831</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>589@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10348,10353</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>590@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10403,10404</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>591@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10795,10804</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>592@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10847,10851</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>593@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10875,10880</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>594@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10898,10904</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>595@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11536,11543</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>596@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11550,11554</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>597@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11727,11733</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>598@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11966,11967</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>599@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12105,12112</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>600@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12119,12125</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>601@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12170,12176</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>602@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12272,12280</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>603@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12655,12661</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>604@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12729,12736</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>605@e@Price_Watch_28-Feb-18@gold</id>
+		<span>12737,12745</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>606@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13419,13425</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>607@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13438,13445</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>608@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13474,13479</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>609@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14263,14272</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>610@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14631,14638</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>611@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14915,14922</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>612@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14927,14931</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>613@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15132,15133</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>614@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15210,15211</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>615@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15420,15424</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>616@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15425,15441</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>617@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15854,15855</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>618@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16193,16200</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>619@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16212,16216</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>620@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16330,16337</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>621@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16347,16351</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>622@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16364,16368</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>623@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16430,16437</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>624@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16674,16681</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>625@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16737,16746</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>626@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16849,16853</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>627@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16963,16967</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>628@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17057,17061</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>629@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17174,17175</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>630@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17418,17422</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>631@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17423,17429</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>632@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17433,17438</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>633@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17577,17581</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>634@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6400,6407</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>640@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6319,6322</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>641@e@Price_Watch_28-Feb-18@gold</id>
+		<span>61,63</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>642@e@Price_Watch_28-Feb-18@gold</id>
+		<span>74,78</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>643@e@Price_Watch_28-Feb-18@gold</id>
+		<span>52,55</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>648@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3200,3203</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>649@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3743,3745</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>650@e@Price_Watch_28-Feb-18@gold</id>
+		<span>3903,3909</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>652@e@Price_Watch_28-Feb-18@gold</id>
+		<span>4353,4356</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>654@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6323,6342</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>657@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6792,6798</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>658@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6802,6805</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>659@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6816,6820</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>660@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6786,6791</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>668@e@Price_Watch_28-Feb-18@gold</id>
+		<span>8538,8544</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>676@e@Price_Watch_28-Feb-18@gold</id>
+		<span>9832,9836</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>681@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10404,10406</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>682@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10395,10398</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>685@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11734,11740</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>686@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11967,11969</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>688@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11958,11961</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>702@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15133,15135</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>704@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15124,15127</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>705@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15211,15213</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>707@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15202,15205</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>709@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15855,15857</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>711@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15846,15849</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>713@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16155,16159</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>714@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14487,14491</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>715@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13736,13740</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>716@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16251,16255</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>719@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16527,16531</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>723@e@Price_Watch_28-Feb-18@gold</id>
+		<span>16872,16876</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>724@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17099,17103</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>725@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17175,17177</span>
+		<type>Two-Digit-Year</type>
+		</entity>
+
+	<entity>
+		<id>726@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17166,17169</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>729@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17520,17524</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>730@e@Price_Watch_28-Feb-18@gold</id>
+		<span>17596,17600</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>731@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6302,6307</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>732@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6415,6426</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>733@e@Price_Watch_28-Feb-18@gold</id>
+		<span>6966,6977</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>734@e@Price_Watch_28-Feb-18@gold</id>
+		<span>7077,7084</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>735@e@Price_Watch_28-Feb-18@gold</id>
+		<span>7287,7294</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>736@e@Price_Watch_28-Feb-18@gold</id>
+		<span>10763,10768</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>737@e@Price_Watch_28-Feb-18@gold</id>
+		<span>11949,11954</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>738@e@Price_Watch_28-Feb-18@gold</id>
+		<span>13099,13109</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>739@e@Price_Watch_28-Feb-18@gold</id>
+		<span>14128,14141</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>740@e@Price_Watch_28-Feb-18@gold</id>
+		<span>15312,15319</span>
+		<type>This</type>
+		</entity>
+
+</annotations>
+
+</data>

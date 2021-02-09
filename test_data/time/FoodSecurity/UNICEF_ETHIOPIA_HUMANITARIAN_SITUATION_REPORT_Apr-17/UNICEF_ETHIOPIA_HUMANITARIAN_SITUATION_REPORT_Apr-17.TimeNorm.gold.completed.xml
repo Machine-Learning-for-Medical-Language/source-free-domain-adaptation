@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>12:41:09 18-00-2021</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>191@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>3,7</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>192@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>158,165</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>193@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>178,186</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>194@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>766,771</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>195@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>880,888</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>196@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>997,1000</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>197@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1010,1013</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>198@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1088,1092</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>199@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1319,1323</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>200@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1337,1349</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>201@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1412,1421</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>202@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1631,1635</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>203@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1728,1732</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>204@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1885,1890</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>205@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2119,2123</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>206@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2320,2321</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>207@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2334,2336</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>208@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2607,2608</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>209@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2613,2615</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>210@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2709,2718</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>211@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2738,2743</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>212@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2861,2869</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>213@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2913,2922</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>214@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>3013,3020</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>215@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>3148,3157</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>216@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>3373,3382</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>217@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>3888,3895</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>218@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5417,5424</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>219@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5429,5437</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>220@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5532,5539</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>221@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5552,5560</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>222@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5612,5620</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>223@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5810,5818</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>224@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5836,5843</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>225@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5871,5879</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>226@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>6891,6898</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>227@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>7160,7166</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>228@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>7167,7171</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>229@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>7399,7408</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>230@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>7583,7595</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>231@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>7894,7903</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>232@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>7995,7999</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>233@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>8569,8573</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>234@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9719,9726</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>235@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9846,9848</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>236@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9899,9900</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>237@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9911,9913</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>238@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10210,10213</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>239@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10223,10228</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>240@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10336,10344</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>241@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10680,10689</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>242@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>14020,14023</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>243@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>16158,16167</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>244@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>16892,16900</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>245@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>17054,17058</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>246@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>17062,17067</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>247@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>407,413</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>248@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>772,776</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>249@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1001,1006</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>250@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2312,2319</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>251@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2322,2329</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>252@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2337,2342</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>253@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2343,2347</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>254@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2599,2606</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>255@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2616,2621</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>256@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2703,2708</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>257@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2719,2723</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>258@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2744,2748</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>259@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2870,2874</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>260@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2907,2912</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>261@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>2923,2927</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>262@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>3021,3025</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>263@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5409,5416</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>264@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5438,5442</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>265@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5819,5823</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>266@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5844,5848</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>267@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5880,5884</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>268@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>6047,6053</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>269@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>7578,7582</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>270@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>8563,8568</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>271@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>8574,8578</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>272@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>8692,8697</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>273@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>8702,8706</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>274@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>8707,8723</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>275@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9713,9718</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>276@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9727,9731</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>277@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9849,9854</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>278@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9901,9907</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>279@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9914,9919</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>280@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10204,10209</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>281@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10214,10219</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>282@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10229,10233</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>283@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>11566,11572</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>284@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>16901,16905</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>285@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>17048,17053</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>286@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10322,10326</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>289@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>414,420</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>290@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>910,917</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>300@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>6054,6060</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>301@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>16996,17000</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>303@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>175,177</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>304@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>1007,1009</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>305@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>5549,5551</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>306@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>9840,9845</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>308@e@UNICEF_ETHIOPIA_HUMANITARIAN_SITUATION_REPORT_Apr-17@gold</id>
+		<span>10316,10321</span>
+		<type>Modifier</type>
+		</entity>
+
+</annotations>
+
+</data>

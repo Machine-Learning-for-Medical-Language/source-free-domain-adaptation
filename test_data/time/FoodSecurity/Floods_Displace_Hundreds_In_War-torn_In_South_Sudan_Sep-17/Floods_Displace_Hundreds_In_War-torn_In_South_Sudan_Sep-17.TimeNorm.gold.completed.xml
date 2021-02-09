@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>16:30:22 30-10-2020</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>17@e@DocA@gold</id>
+		<span>506,513</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>18@e@DocA@gold</id>
+		<span>816,820</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>19@e@DocA@gold</id>
+		<span>1031,1040</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>20@e@DocA@gold</id>
+		<span>1189,1195</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>21@e@DocA@gold</id>
+		<span>1536,1541</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>22@e@DocA@gold</id>
+		<span>811,815</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>23@e@DocA@gold</id>
+		<span>1542,1546</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>24@e@DocA@gold</id>
+		<span>1547,1551</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	</annotations>
+
+</data>

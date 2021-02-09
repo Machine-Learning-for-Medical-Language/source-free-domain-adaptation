@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>16:34:49 30-10-2020</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>25@e@Doc9@gold</id>
+		<span>208,219</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>26@e@Doc9@gold</id>
+		<span>237,242</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>27@e@Doc9@gold</id>
+		<span>958,966</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>28@e@Doc9@gold</id>
+		<span>1244,1252</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>29@e@Doc9@gold</id>
+		<span>1486,1490</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>30@e@Doc9@gold</id>
+		<span>186,195</span>
+		<type>Day-Of-Week</type>
+		</entity>
+
+	<entity>
+		<id>31@e@Doc9@gold</id>
+		<span>203,207</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>32@e@Doc9@gold</id>
+		<span>967,971</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>33@e@Doc9@gold</id>
+		<span>1201,1206</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>34@e@Doc9@gold</id>
+		<span>1253,1257</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>35@e@Doc9@gold</id>
+		<span>1481,1485</span>
+		<type>Last</type>
+		</entity>
+
+	</annotations>
+
+</data>

@@ -1,0 +1,721 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>12:45:50 13-00-2021</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>286@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>630,636</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>287@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>695,699</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>288@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>870,874</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>289@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>879,883</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>290@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2189,2193</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>291@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2320,2324</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>292@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2341,2345</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>293@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2617,2622</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>294@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2678,2683</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>295@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2720,2724</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>296@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2769,2773</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>297@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2782,2786</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>298@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>4504,4515</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>299@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>4579,4583</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>300@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>4619,4632</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>301@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>5107,5111</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>302@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>6339,6343</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>303@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>6794,6798</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>304@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>8251,8255</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>305@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>8271,8275</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>306@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>8284,8288</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>307@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>8298,8302</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>308@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>9620,9624</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>309@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>9642,9646</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>310@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>9690,9694</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>311@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>9784,9788</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>312@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>10259,10263</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>313@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>10280,10284</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>314@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>10303,10307</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>315@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>10432,10436</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>316@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>10502,10506</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>317@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>10780,10784</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>318@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>10796,10800</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>319@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11176,11180</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>320@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11182,11186</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>321@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11198,11202</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>322@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11323,11327</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>323@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11448,11453</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>324@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11472,11477</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>325@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11479,11483</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>326@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11484,11488</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>327@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11629,11640</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>328@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11641,11645</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>329@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11646,11650</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>330@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11853,11857</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>331@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11965,11969</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>332@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11970,11974</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>333@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12065,12069</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>334@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12071,12075</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>335@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12181,12185</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>336@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12186,12190</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>337@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12211,12215</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>338@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12243,12247</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>339@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12348,12352</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>340@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12353,12357</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>341@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12561,12565</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>342@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12566,12570</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>343@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12584,12591</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>344@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12975,12980</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>345@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>13159,13163</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>346@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>13280,13284</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>347@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>13285,13289</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>348@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15252,15260</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>349@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15381,15385</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>350@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15560,15564</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>351@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15630,15634</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>352@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15934,15938</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>353@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15939,15943</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>354@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>16496,16498</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>355@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>16511,16515</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>356@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>17546,17551</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>357@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>18023,18034</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>358@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>18329,18333</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>359@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>18361,18367</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>360@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>18659,18663</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>361@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>18728,18732</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>362@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>20009,20013</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>363@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>20082,20086</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>364@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>20376,20380</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>365@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>862,869</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>366@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>1368,1373</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>367@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2325,2330</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>368@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2623,2628</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>369@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2774,2779</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>370@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>3057,3062</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>371@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>4640,4646</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>372@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>6330,6338</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>373@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>6785,6793</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>374@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>7254,7259</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>375@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11454,11459</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>376@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11466,11471</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>377@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11483,11484</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>378@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11645,11646</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>379@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11969,11970</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>380@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12069,12070</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>381@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12185,12186</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>382@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12352,12353</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>383@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12565,12566</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>384@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12592,12597</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>385@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>13284,13285</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>386@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15938,15939</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>387@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>16120,16126</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>388@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>16499,16506</span>
+		<type>Frequency</type>
+		</entity>
+
+	<entity>
+		<id>391@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>1441,1445</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>392@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2331,2334</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>394@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2710,2713</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>395@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2780,2781</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>397@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>4584,4589</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>398@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>4636,4639</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>400@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>10208,10212</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>401@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>11618,11621</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>402@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>12198,12201</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>404@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15565,15570</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>406@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>15635,15637</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>407@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>18019,18022</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>412@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>2668,2674</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>414@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>13683,13690</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>416@e@TECHNICAL_BRIEF_(RE)ASSESSING_THE_RELATIONSHIP_BETWEEN_FOOD_AID_AND_ARMED_CONFLICT_Oct-14@gold</id>
+		<span>16490,16495</span>
+		<type>Modifier</type>
+		</entity>
+
+</annotations>
+
+</data>

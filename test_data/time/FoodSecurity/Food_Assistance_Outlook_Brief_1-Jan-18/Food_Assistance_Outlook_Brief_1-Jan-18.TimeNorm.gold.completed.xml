@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>12:41:03 13-00-2021</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>138@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>221,225</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>139@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>232,240</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>140@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>291,295</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>141@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>296,300</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>142@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>369,373</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>143@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>393,404</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>144@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>598,607</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>145@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>638,642</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>146@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>822,831</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>147@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>919,930</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>148@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>938,946</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>149@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1151,1155</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>150@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1263,1269</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>151@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1284,1287</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>152@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1290,1295</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>153@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1518,1522</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>154@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1794,1801</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>155@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1804,1809</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>156@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1819,1823</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>157@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1879,1886</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>158@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1896,1898</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>159@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1946,1950</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>160@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1982,1994</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>161@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2316,2323</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>162@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2326,2331</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>163@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2417,2425</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>164@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2430,2438</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>165@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2494,2502</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>166@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2534,2542</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>167@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2640,2645</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>168@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2721,2726</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>169@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2729,2733</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>170@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2951,2958</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>171@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2997,3002</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>172@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3043,3048</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>173@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3263,3274</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>174@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3325,3332</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>175@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3337,3340</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>176@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3361,3365</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>177@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3605,3615;3633,3639</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>178@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3617,3622</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>179@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3623,3626</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>180@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>4059,4067</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>181@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>4072,4080</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>182@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>4083,4092</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>183@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>226,230</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>184@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>914,918</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>185@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1288,1289</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>186@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1296,1300</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>187@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1713,1717</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>188@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1718,1722</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>189@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1802,1803</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>190@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1810,1814</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>191@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2324,2325</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>192@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2332,2336</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>193@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2614,2617</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>194@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2625,2636</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>195@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2646,2650</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>196@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2727,2728</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>197@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2734,2738</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>198@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2878,2886</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>199@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3037,3042</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>200@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3627,3631</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>201@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>4081,4082</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>202@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>4093,4097</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>204@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>630,637</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>205@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1259,1262</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>207@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>1510,1517</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>217@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2637,2639</span>
+		<type>Intersection</type>
+		</entity>
+
+	<entity>
+		<id>220@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>2989,2996</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>229@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3257,3262</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>230@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>3622,3623</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>232@e@Food_Assistance_Outlook_Brief_1-Jan-18@gold</id>
+		<span>295,296</span>
+		<type>Between</type>
+		</entity>
+
+</annotations>
+
+</data>

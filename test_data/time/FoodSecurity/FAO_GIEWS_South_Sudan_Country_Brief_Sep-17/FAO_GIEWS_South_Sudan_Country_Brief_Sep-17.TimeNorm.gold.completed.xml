@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>18:43:06 01-11-2020</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>118@e@Doc4@gold</id>
+		<span>57,67</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>119@e@Doc4@gold</id>
+		<span>80,88</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>120@e@Doc4@gold</id>
+		<span>182,186</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>121@e@Doc4@gold</id>
+		<span>316,324</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>122@e@Doc4@gold</id>
+		<span>344,348</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>123@e@Doc4@gold</id>
+		<span>441,450</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>124@e@Doc4@gold</id>
+		<span>598,606</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>125@e@Doc4@gold</id>
+		<span>640,644</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>126@e@Doc4@gold</id>
+		<span>1240,1243</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>127@e@Doc4@gold</id>
+		<span>1564,1570</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>128@e@Doc4@gold</id>
+		<span>1594,1600</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>129@e@Doc4@gold</id>
+		<span>1602,1610</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>130@e@Doc4@gold</id>
+		<span>1800,1803</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>131@e@Doc4@gold</id>
+		<span>1921,1929</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>132@e@Doc4@gold</id>
+		<span>1992,2000</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>133@e@Doc4@gold</id>
+		<span>2004,2011</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>134@e@Doc4@gold</id>
+		<span>2073,2081</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>135@e@Doc4@gold</id>
+		<span>2657,2661</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>136@e@Doc4@gold</id>
+		<span>2676,2682</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>137@e@Doc4@gold</id>
+		<span>3202,3206</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>138@e@Doc4@gold</id>
+		<span>3234,3238</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>139@e@Doc4@gold</id>
+		<span>3421,3425</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>140@e@Doc4@gold</id>
+		<span>3430,3436</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>141@e@Doc4@gold</id>
+		<span>3458,3464</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>142@e@Doc4@gold</id>
+		<span>3748,3754</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>143@e@Doc4@gold</id>
+		<span>3785,3791</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>144@e@Doc4@gold</id>
+		<span>3834,3840</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>145@e@Doc4@gold</id>
+		<span>3881,3887</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>146@e@Doc4@gold</id>
+		<span>3893,3897</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>147@e@Doc4@gold</id>
+		<span>3957,3960</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>148@e@Doc4@gold</id>
+		<span>89,93</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>149@e@Doc4@gold</id>
+		<span>187,191</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>150@e@Doc4@gold</id>
+		<span>192,196</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>151@e@Doc4@gold</id>
+		<span>1205,1210</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>152@e@Doc4@gold</id>
+		<span>1244,1252</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>153@e@Doc4@gold</id>
+		<span>1253,1257</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>154@e@Doc4@gold</id>
+		<span>1558,1563</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>155@e@Doc4@gold</id>
+		<span>1776,1780</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>156@e@Doc4@gold</id>
+		<span>1781,1786</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>157@e@Doc4@gold</id>
+		<span>1804,1809</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>158@e@Doc4@gold</id>
+		<span>2187,2191</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>159@e@Doc4@gold</id>
+		<span>3184,3189</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>160@e@Doc4@gold</id>
+		<span>3413,3420</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>161@e@Doc4@gold</id>
+		<span>3438,3447</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>162@e@Doc4@gold</id>
+		<span>3452,3457</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>163@e@Doc4@gold</id>
+		<span>3741,3747</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>164@e@Doc4@gold</id>
+		<span>3888,3892</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>166@e@Doc4@gold</id>
+		<span>3961,3966</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>167@e@Doc4@gold</id>
+		<span>3967,3974</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>177@e@Doc4@gold</id>
+		<span>3190,3198</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>182@e@Doc4@gold</id>
+		<span>3684,3690</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>183@e@Doc4@gold</id>
+		<span>3675,3678</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>188@e@Doc4@gold</id>
+		<span>3950,3956</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>189@e@Doc4@gold</id>
+		<span>3932,3935</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>190@e@Doc4@gold</id>
+		<span>1792,1797</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>191@e@Doc4@gold</id>
+		<span>2001,2003</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>192@e@Doc4@gold</id>
+		<span>1215,1220</span>
+		<type>Modifier</type>
+		</entity>
+
+</annotations>
+
+</data>

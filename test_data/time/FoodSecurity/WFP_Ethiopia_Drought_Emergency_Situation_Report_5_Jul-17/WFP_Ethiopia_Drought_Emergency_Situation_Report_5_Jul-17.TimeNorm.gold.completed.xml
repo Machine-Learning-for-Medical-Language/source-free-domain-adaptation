@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data>
+<info>
+  <savetime>16:25:41 13-00-2021</savetime>
+  <progress>completed</progress>
+</info>
+
+<schema path="./" protocol="file">temporal.schema.xml</schema>
+
+<annotations>
+	<entity>
+		<id>127@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>29,32</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>128@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>419,426</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>129@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>442,448</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>130@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>449,454</span>
+		<type>Season-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>131@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>526,529</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>132@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>582,586</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>133@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>644,650</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>134@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>936,939</span>
+		<type>Modifier</type>
+		</entity>
+
+	<entity>
+		<id>135@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>965,969</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>136@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>1187,1190</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>137@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>1542,1549</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>138@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>1559,1564</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>139@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>1777,1781</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>140@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2174,2178</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>141@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2263,2264</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>142@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2507,2513</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>143@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2519,2527</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>144@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2810,2814</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>145@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2937,2942</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>147@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3187,3191</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>148@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3255,3258</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>149@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3261,3264</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>150@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3268,3271</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>151@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3275,3278</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>152@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3281,3284</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>153@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3288,3292</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>154@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3619,3623</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>155@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3749,3752</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>156@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>4132,4139</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>157@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>4162,4169</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>158@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>4299,4301</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>159@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>4302,4304</span>
+		<type>Day-Of-Month</type>
+		</entity>
+
+	<entity>
+		<id>160@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>4570,4576</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>161@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>66,75</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>162@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>515,521</span>
+		<type>Before</type>
+		</entity>
+
+	<entity>
+		<id>163@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>533,537</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>164@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>943,947</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>165@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>961,964</span>
+		<type>Next</type>
+		</entity>
+
+	<entity>
+		<id>166@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>1224,1233</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>167@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>1553,1558</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>168@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2179,2183</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>169@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2265,2269</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>170@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2300,2305</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>171@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2514,2518</span>
+		<type>Between</type>
+		</entity>
+
+	<entity>
+		<id>172@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2764,2768</span>
+		<type>Number</type>
+		</entity>
+
+	<entity>
+		<id>173@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2943,2949</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>174@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3305,3321</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>175@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3753,3758</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>176@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>4305,4311</span>
+		<type>Month-Of-Year</type>
+		</entity>
+
+	<entity>
+		<id>177@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>4313,4317</span>
+		<type>Year</type>
+		</entity>
+
+	<entity>
+		<id>182@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>798,804</span>
+		<type>Last</type>
+		</entity>
+
+	<entity>
+		<id>183@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>833,836</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>186@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>1751,1760</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>191@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2769,2775</span>
+		<type>Calendar-Interval</type>
+		</entity>
+
+	<entity>
+		<id>204@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>1537,1541</span>
+		<type>After</type>
+		</entity>
+
+	<entity>
+		<id>205@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2971,2976</span>
+		<type>Modifier</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+	<entity>
+		<id>206@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3474,3479</span>
+		<type>NthFromStart</type>
+		</entity>
+
+	<entity>
+		<id>207@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>3480,3484</span>
+		<type>Period</type>
+		</entity>
+
+	<entity>
+		<id>208@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>4186,4193</span>
+		<type>This</type>
+		</entity>
+
+	<entity>
+		<id>209@e@WFP_Ethiopia_Drought_Emergency_Situation_Report_5_Jul-17@gold</id>
+		<span>2977,2981</span>
+		<type>Period</type>
+		<addition>
+			<adjudication>gold</adjudication>
+		</addition>
+	</entity>
+
+</annotations>
+
+</data>
