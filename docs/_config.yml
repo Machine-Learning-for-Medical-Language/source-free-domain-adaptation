@@ -2,6 +2,6 @@ title: "SemEval-2021 Task 10: Source-Free Domain Adaptation for Semantic Process
 email: source-free-domain-adaptation-participants@googlegroups.com
 baseurl: ""
 url: source-free-domain-adaptation.github.io
-leaderboard_url: /source-free-domain-adaptation/leaderboard.html
+leaderboard_url: /leaderboard
 codalab_url: https://competitions.codalab.org/competitions/26152
 group_url: https://groups.google.com/forum/#!forum/source-free-domain-adaptation-participants/
